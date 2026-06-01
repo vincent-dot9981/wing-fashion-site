@@ -1,4 +1,4 @@
-// Auto-generated 2026-06-01 12:32:53
+// Auto-generated 2026-06-01 12:33:50
 // Do not edit directly - use campaign_product_map.json
 window.__PRODUCT_DATA = [
   {
@@ -755,7 +755,7 @@ window.__PRODUCT_DATA = [
         "pdp_url": "https://hk.iteshop.com/sit/item/B1XTEF0003920GYD?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": "HK$99.00"
+        "original_price": "HK$359.00"
       },
       {
         "code": "CHXSP033345AQBLD",
@@ -848,7 +848,7 @@ window.__PRODUCT_DATA = [
         "pdp_url": "https://hk.iteshop.com/sit/item/B1XTEF0003920GYD?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": "HK$99.00"
+        "original_price": "HK$359.00"
       },
       {
         "code": "KGLTEMST2837QBKX",
@@ -1559,7 +1559,7 @@ window.__PRODUCT_DATA = [
         "pdp_url": "https://hk.iteshop.com/bit/item/MRRJNPA174DXQBLL?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": "HK$3,920.00"
+        "original_price": "HK$5,599.00"
       },
       {
         "code": "MRRSKWSK135XQBLL",
@@ -1569,7 +1569,7 @@ window.__PRODUCT_DATA = [
         "pdp_url": "https://hk.iteshop.com/bit/item/MRRSKWSK135XQBLL?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": "HK$2,590.00"
+        "original_price": "HK$3,699.00"
       },
       {
         "code": "MRRSPWSH18DXQBLX",
@@ -1579,7 +1579,7 @@ window.__PRODUCT_DATA = [
         "pdp_url": "https://hk.iteshop.com/bit/item/MRRSPWSH18DXQBLX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": "HK$2,800.00"
+        "original_price": "HK$3,999.00"
       }
     ]
   },
@@ -1974,7 +1974,7 @@ window.__PRODUCT_DATA = [
         "pdp_url": "https://hk.iteshop.com/bit/item/NEDSTSX4836MQMLX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": "HK$1,190.00"
+        "original_price": "HK$1,699.00"
       },
       {
         "code": "ZNXSN2889LVMQGYX",
