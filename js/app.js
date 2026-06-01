@@ -55,38 +55,21 @@ function renderProducts(products) {
         const discount = p.discount_clean;
         const selling = p.selling;
         const imgSrc = p.image || '';
-        // Display name (user-friendly) + original name as subtitle
         const displayName = p.displayName || p.name;
         const originalName = p.originalName || p.name;
         const imgAlt = displayName || 'Product';
 
-        // Determine badges
-        let badges = '';
-        if (discount) {
-            badges += `<span class="card-badge discount-badge">${escHtml(discount)}</span>`;
-        }
-        if (brand) {
-            badges += `<span class="card-badge brand-badge">${escHtml(brand)}</span>`;
-        }
-
-        // Tags to show
-        const tagNames = (p.tags || []).filter(t =>
-            !['sale', 'vip', '新品', '期間限定'].includes(t)
-        ).slice(0, 2);
-
         return `
         <div class="product-card">
             <div class="card-image">
-                ${imgSrc ? `<img src="${escHtml(imgSrc)}" alt="${escHtml(imgAlt)}" loading="lazy" onerror="this.parentElement.innerHTML='<div class=\\'card-image\\' style=\\'display:flex;align-items:center;justify-content:center;height:100%;color:#ccc;font-size:40px\\'>👕</div>'">` : '<div style="display:flex;align-items:center;justify-content:center;height:100%;color:#ccc;font-size:40px">👕</div>'}
-                ${badges}
+                ${imgSrc ? `<img src="${escHtml(imgSrc)}" alt="${escHtml(imgAlt)}" loading="lazy" onerror="this.parentElement.innerHTML='<div style=\\'display:flex;align-items:center;justify-content:center;height:100%;color:#ccc;font-size:24px\\'>W</div>'">` : '<div style="display:flex;align-items:center;justify-content:center;height:100%;color:#ccc;font-size:24px">W</div>'}
             </div>
             <div class="card-body">
                 <div class="card-title">${escHtml(displayName)}</div>
-                <div class="card-subtitle">${escHtml(originalName)}</div>
+                ${brand ? `<div class="card-subtitle">${escHtml(brand)}</div>` : `<div class="card-subtitle">${escHtml(originalName)}</div>`}
                 ${selling ? `<div class="card-selling">${escHtml(selling)}</div>` : ''}
-                ${discount ? `<div class="card-discount">🔥 ${escHtml(discount)}</div>` : ''}
+                ${discount ? `<div class="card-discount">${escHtml(discount)}</div>` : ''}
                 <div class="card-meta">
-                    ${tagNames.map(t => `<span class="card-tag">${escHtml(t)}</span>`).join('')}
                     <span class="card-tag">${genderLabel(p.gender)}</span>
                 </div>
                 <div class="card-actions">
@@ -100,8 +83,8 @@ function renderProducts(products) {
 }
 
 function genderLabel(g) {
-    const map = { 'men': '👔', 'women': '👗', 'kids': '👶', 'all': '👥' };
-    return map[g] || '👥';
+    const map = { 'men': 'Men', 'women': 'Women', 'kids': 'Kids', 'all': 'Unisex' };
+    return map[g] || 'Unisex';
 }
 
 function escHtml(s) {
@@ -129,7 +112,6 @@ function resetFilters() {
     document.getElementById('filterBrand').value = 'all';
     document.getElementById('filterOccasion').value = 'all';
     document.getElementById('filterDiscount').value = 'all';
-    // Also update gender first option to match current lang
     filterProducts();
 }
 
@@ -147,7 +129,6 @@ function populateBrandSelect() {
 
 // ========== INIT ==========
 async function init() {
-    // Show loading
     const grid = document.getElementById('productGrid');
     grid.innerHTML = `<div class="loading-grid"><div class="spinner"></div></div>`;
 
@@ -158,7 +139,7 @@ async function init() {
         updateProductCount(DATA.products.length);
     } catch (err) {
         console.error('Init error:', err);
-        grid.innerHTML = `<div class="no-results"><p>⚠️ 載入失敗: ${err.message}</p></div>`;
+        grid.innerHTML = `<div class="no-results"><p>載入失敗: ${err.message}</p></div>`;
     }
 }
 

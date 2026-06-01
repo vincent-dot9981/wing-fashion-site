@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
     <title>阿 Wing 服裝站 | Wing's Fashion Hub</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>👗</text></svg>">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='80' fill='%23C9A96E'>W</text></svg>">
 </head>
 <body>
 
@@ -13,7 +13,6 @@
 <nav class="navbar" id="navbar">
     <div class="nav-inner">
         <a href="#" class="nav-logo" onclick="navigate('home')">
-            <span class="logo-emoji">👗</span>
             <span class="logo-text">阿 Wing</span>
         </a>
         <div class="nav-links" id="navLinks">
@@ -21,7 +20,7 @@
             <a href="#" class="nav-link" data-page="about" onclick="navigate('about')" data-i18n="nav_about">關於我</a>
         </div>
         <div class="nav-actions">
-            <button class="lang-toggle" id="langToggle" onclick="toggleLang()" title="Language">中</button>
+            <button class="lang-toggle" id="langToggle" onclick="toggleLang()">中</button>
             <button class="menu-toggle" id="menuToggle" onclick="toggleMenu()" aria-label="Menu">
                 <span></span><span></span><span></span>
             </button>
@@ -37,12 +36,11 @@
 
     <!-- Hero -->
     <header class="hero">
-        <div class="hero-bg"></div>
         <div class="hero-content">
             <h1 data-i18n="hero_title">阿 Wing 服裝站</h1>
-            <p data-i18n="hero_sub">香港本地時尚達人 · ITeSell 服裝銷售顧問</p>
-            <p class="hero-desc" data-i18n="hero_desc">幫你搵最啱嘅衫，襯出最型嘅 look 💫</p>
-            <a href="https://wa.me/85265872179?text=Hi%20阿Wing%20%F0%9F%91%8B" target="_blank" class="hero-cta" data-i18n="hero_cta">即刻 WhatsApp 我搵靚衫</a>
+            <p class="hero-sub" data-i18n="hero_sub">香港本地時尚達人 · ITeSell 服裝銷售顧問</p>
+            <p class="hero-desc" data-i18n="hero_desc">幫你搵最啱嘅衫，襯出最型嘅 look</p>
+            <a href="https://wa.me/85265872179?text=Hi%20%E9%98%BFWing" target="_blank" class="hero-cta" data-i18n="hero_cta">WhatsApp 我搵靚衫</a>
         </div>
     </header>
 
@@ -50,16 +48,15 @@
     <div class="filter-bar" id="filterBar">
         <div class="filter-inner">
             <div class="search-box">
-                <input type="text" id="searchInput" placeholder="🔍 搜尋品牌、產品..." data-i18n="search_placeholder" oninput="filterProducts()">
+                <input type="text" id="searchInput" placeholder="搜尋品牌、產品..." data-i18n="search_placeholder" oninput="filterProducts()">
             </div>
             <div class="filter-row">
                 <div class="filter-group">
                     <select id="filterGender" onchange="filterProducts()">
-                        <option value="all" data-i18n="all_genders">全部性別</option>
-                        <option value="all" data-i18n="gender_all">所有</option>
-                        <option value="men">👔 男裝</option>
-                        <option value="women">👗 女裝</option>
-                        <option value="kids">👶 童裝</option>
+                        <option value="all" data-i18n="gender_all">所有性別</option>
+                        <option value="men" data-i18n="gender_men">男裝</option>
+                        <option value="women" data-i18n="gender_women">女裝</option>
+                        <option value="kids" data-i18n="gender_kids">童裝</option>
                     </select>
                 </div>
                 <div class="filter-group">
@@ -70,17 +67,17 @@
                 <div class="filter-group">
                     <select id="filterOccasion" onchange="filterProducts()">
                         <option value="all" data-i18n="all_occasions">全部場合</option>
-                        <option value="casual">😎 Casual</option>
-                        <option value="返工">💼 返工</option>
-                        <option value="送禮">🎁 送禮</option>
+                        <option value="casual" data-i18n="occasion_casual">休閒</option>
+                        <option value="返工" data-i18n="occasion_work">返工</option>
+                        <option value="送禮" data-i18n="occasion_gift">送禮</option>
                     </select>
                 </div>
                 <div class="filter-group">
                     <select id="filterDiscount" onchange="filterProducts()">
                         <option value="all" data-i18n="all_discounts">全部折扣</option>
-                        <option value="high">🔥 低至2折</option>
-                        <option value="mid">💰 3-6折</option>
-                        <option value="low">✨ 7折以上</option>
+                        <option value="high" data-i18n="discount_high">低至2折</option>
+                        <option value="mid" data-i18n="discount_mid">3-6折</option>
+                        <option value="low" data-i18n="discount_low">7折以上</option>
                     </select>
                 </div>
                 <button class="filter-reset" onclick="resetFilters()" data-i18n="reset">重設</button>
@@ -92,14 +89,14 @@
     <!-- Product Grid -->
     <div class="container">
         <div class="section-header">
-            <h2 data-i18n="featured_title">🔥 限時優惠精選</h2>
+            <h2 data-i18n="featured_title">限時優惠精選</h2>
             <span class="product-count" id="productCount"></span>
         </div>
         <div class="product-grid" id="productGrid">
             <!-- Products will be rendered by JS -->
         </div>
         <div class="no-results" id="noResults" style="display:none;">
-            <p data-i18n="no_results">😅 搵唔到相關產品，試下其他關鍵字啦！</p>
+            <p data-i18n="no_results">搵唔到相關產品，試下其他關鍵字</p>
         </div>
     </div>
 </section>
@@ -108,31 +105,31 @@
 <section class="page" id="page-about">
     <div class="about-hero">
         <div class="about-avatar">
-            <div class="avatar-placeholder">👩‍💼</div>
+            <div class="avatar-placeholder">W</div>
         </div>
         <h1 data-i18n="about_title">關於阿 Wing</h1>
         <p class="about-tagline" data-i18n="about_tagline">你嘅私人時尚顧問 · ITeSell 香港 affiliate</p>
     </div>
 
-    <div class="container about-content">
+    <div class="about-content">
         <div class="about-card">
-            <h2 data-i18n="about_who_title">👋 我係阿 Wing</h2>
+            <h2 data-i18n="about_who_title">我係阿 Wing</h2>
             <p data-i18n="about_who_text1">土生土長香港女仔，對時裝有著一份執著同熱愛。由細到大都鍾意襯衫、研究潮流，慢慢發現 — 著得靚唔係因為件衫貴，而係因為適合自己。</p>
             <p data-i18n="about_who_text2">我係 ITeSell 平台嘅 affiliate（Staff ID: hk10071365），同 ITeSHOP 合作，幫大家搵到最抵嘅名牌服裝優惠。</p>
         </div>
 
         <div class="about-card">
-            <h2 data-i18n="about_offer_title">🤝 我幫你做咩？</h2>
+            <h2 data-i18n="about_offer_title">我幫你做咩？</h2>
             <ul class="about-list">
-                <li data-i18n="about_offer1">✅ 幫你揀最啱你身形、風格嘅衫</li>
-                <li data-i18n="about_offer2">✅ 提供穿搭建議，由 head-to-toe 襯到最靚</li>
-                <li data-i18n="about_offer3">✅ 推介最新、最抵嘅名牌優惠</li>
-                <li data-i18n="about_offer4">✅ 全程透過 WhatsApp 溝通，真正個人化服務</li>
+                <li data-i18n="about_offer1">幫你揀最啱你身形、風格嘅衫</li>
+                <li data-i18n="about_offer2">提供穿搭建議，由 head-to-toe 襯到最靚</li>
+                <li data-i18n="about_offer3">推介最新、最抵嘅名牌優惠</li>
+                <li data-i18n="about_offer4">全程透過 WhatsApp 溝通，真正個人化服務</li>
             </ul>
         </div>
 
         <div class="about-card">
-            <h2 data-i18n="about_brands_title">🏷️ 我推介嘅品牌</h2>
+            <h2 data-i18n="about_brands_title">我推介嘅品牌</h2>
             <div class="brand-tags">
                 <span>AAPE</span><span>ACNE STUDIOS</span><span>Alexander Wang</span>
                 <span>OFF-WHITE</span><span>Palm Angels</span><span>Valentino</span>
@@ -142,14 +139,14 @@
                 <span>Carhartt</span><span>Amiri</span><span>Jacquemus</span>
                 <span>MSGM</span><span>VETEMENTS</span><span>ESSENTIALS</span>
             </div>
-            <p class="brand-note" data-i18n="about_brands_note">仲有其他 brand 優惠，直接 WhatsApp 問我最快！</p>
+            <p class="brand-note" data-i18n="about_brands_note">仲有其他 brand 優惠，直接 WhatsApp 問我最快</p>
         </div>
 
         <div class="about-card cta-card">
-            <h2 data-i18n="about_cta_title">💬 直接搵我</h2>
-            <p data-i18n="about_cta_text">唔使猶豫，有咩想問就 WhatsApp 我啦！</p>
-            <a href="https://wa.me/85265872179?text=Hi%20阿Wing%20%F0%9F%91%8B" target="_blank" class="whatsapp-btn-large">
-                <span class="wa-icon">💬</span>
+            <h2 data-i18n="about_cta_title">直接搵我</h2>
+            <p data-i18n="about_cta_text">有咩想問就 WhatsApp 我</p>
+            <a href="https://wa.me/85265872179?text=Hi%20%E9%98%BFWing" target="_blank" class="whatsapp-btn-large">
+                <span class="wa-icon">W</span>
                 <span data-i18n="about_cta_btn">WhatsApp 阿 Wing</span>
             </a>
         </div>
@@ -159,16 +156,14 @@
 </main>
 
 <!-- ========== WHATSAPP FLOATING BUTTON ========== -->
-<a href="https://wa.me/85265872179?text=Hi%20阿Wing%20%F0%9F%91%8B"
+<a href="https://wa.me/85265872179?text=Hi%20%E9%98%BFWing"
    target="_blank"
    class="whatsapp-float"
    id="whatsappFloat"
-   aria-label="WhatsApp 阿 Wing"
-   title="WhatsApp 阿 Wing">
-    <svg viewBox="0 0 24 24" width="28" height="28" fill="white">
+   aria-label="WhatsApp 阿 Wing">
+    <svg viewBox="0 0 24 24" width="20" height="20" fill="#1a1a1a">
         <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
     </svg>
-    <span class="wa-tooltip">WhatsApp 阿 Wing</span>
 </a>
 
 <!-- ========== FOOTER ========== -->
@@ -181,10 +176,10 @@
         <div class="footer-links">
             <a href="#" onclick="navigate('home')" data-i18n="nav_home">首頁</a>
             <a href="#" onclick="navigate('about')" data-i18n="nav_about">關於我</a>
-            <a href="https://wa.me/85265872179?text=Hi%20阿Wing%20%F0%9F%91%8B" target="_blank">WhatsApp</a>
+            <a href="https://wa.me/85265872179?text=Hi%20%E9%98%BFWing" target="_blank">WhatsApp</a>
         </div>
         <div class="footer-bottom">
-            <p data-i18n="footer_disclaimer">* 使用 affiliate link 購物，我會獲得小額佣金，但唔會影響你嘅價格。多謝支持！</p>
+            <p data-i18n="footer_disclaimer">使用 affiliate link 購物，我會獲得小額佣金，但唔會影響你嘅價格。多謝支持！</p>
         </div>
     </div>
 </footer>
