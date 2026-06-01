@@ -62,7 +62,7 @@ function renderProducts(products) {
         return `
         <div class="product-card">
             <div class="card-image">
-                ${imgSrc ? `<img src="${escHtml(imgSrc)}" alt="${escHtml(imgAlt)}" loading="lazy" onerror="this.parentElement.innerHTML='<div style=\\'display:flex;align-items:center;justify-content:center;height:100%;color:#ccc;font-size:24px\\'>W</div>'">` : '<div style="display:flex;align-items:center;justify-content:center;height:100%;color:#ccc;font-size:24px">W</div>'}
+                ${imgSrc ? `<img src="${escHtml(imgSrc)}" alt="${escHtml(imgAlt)}" loading="lazy" onerror="this.style.display='none';this.parentElement.style.background='#e8e8e8'">` : '<div style="display:flex;align-items:center;justify-content:center;height:100%;background:#e8e8e8"></div>'}
             </div>
             <div class="card-body">
                 <div class="card-title">${escHtml(displayName)}</div>
@@ -83,8 +83,8 @@ function renderProducts(products) {
 }
 
 function genderLabel(g) {
-    const map = { 'men': 'Men', 'women': 'Women', 'kids': 'Kids', 'all': 'Unisex' };
-    return map[g] || 'Unisex';
+    const map = { 'men': '男裝', 'women': '女裝', 'kids': '童裝', 'all': '男女均可' };
+    return map[g] || '男女均可';
 }
 
 function escHtml(s) {

@@ -55,7 +55,7 @@ const DATA = {
             console.error('Data load error:', err);
             // Fallback: show error in UI
             document.getElementById('productGrid').innerHTML =
-                `<div class="no-results"><p>⚠️ 數據載入失敗: ${err.message}</p></div>`;
+                `<div class="no-results"><p>數據載入失敗: ${err.message}</p></div>`;
             return [];
         }
     },
@@ -91,7 +91,7 @@ const DATA = {
         parts.sort((a, b) => a.length - b.length);
         let best = parts[0];
         // Clean up excessive punctuation
-        best = best.replace(/[‼!]{2,}/g, '‼').replace(/\s+/g, ' ').trim();
+        best = best.replace(/‼+/g, '').replace(/!{2,}/g, '').replace(/\s+/g, ' ').trim();
         if (best.length > 40) {
             // Try shorter alternatives
             for (const p of parts) {
