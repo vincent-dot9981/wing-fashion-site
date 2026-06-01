@@ -1,4 +1,4 @@
-// Auto-generated 2026-06-01 11:53:54
+// Auto-generated 2026-06-01 11:54:49
 // Primary data source - do not edit manually
 window.__PRODUCT_DATA = [
   {
@@ -1837,21 +1837,21 @@ window.__PRODUCT_DATA = [
     ],
     "products": [
       {
-        "code": "ITTSKW00711XQBWX",
-        "name": "Layered waist skirt",
+        "code": "ITTTKW00656XQWHZ",
+        "name": "Plaid cami top",
         "brand": "i.TTiTUD",
-        "price": "HK$369.00",
-        "pdp_url": "https://hk.iteshop.com/bit/item/ITTSKW00711XQBWX?tscode=affhr_hk10071365",
-        "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
+        "price": "HK$239.00",
+        "pdp_url": "https://hk.iteshop.com/sit/item/ITTTKW00656XQWHZ?tscode=affhr_hk10071365",
+        "source_url": "https://hk.iteshop.com/sit/item/ITTTKW00656XQWHZ",
         "image": ""
       },
       {
-        "code": "ITTTPW00724XQNYX",
-        "name": "Layered top",
+        "code": "ITTDSW00677XQBKX",
+        "name": "Textured midi dress",
         "brand": "i.TTiTUD",
-        "price": "HK$369.00",
-        "pdp_url": "https://hk.iteshop.com/bit/item/ITTTPW00724XQNYX?tscode=affhr_hk10071365",
-        "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
+        "price": "HK$399.00",
+        "pdp_url": "https://hk.iteshop.com/sit/item/ITTDSW00677XQBKX?tscode=affhr_hk10071365",
+        "source_url": "https://hk.iteshop.com/sit/item/ITTDSW00677XQBKX",
         "image": ""
       },
       {
