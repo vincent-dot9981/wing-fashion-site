@@ -1,5 +1,5 @@
-// Auto-generated 2026-06-01 10:34:51
-// Do not edit directly - use campaign_product_map.json
+// Auto-generated 2026-06-01 11:05:13
+// Primary data source - do not edit manually
 window.__PRODUCT_DATA = [
   {
     "id": "PROD0001",

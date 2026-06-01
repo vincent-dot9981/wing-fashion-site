@@ -24,22 +24,16 @@ const DATA = {
         if (this.loaded) return;
         try {
             let raw;
-            // Try fetching campaign_product_map.json first (primary source for daily updates)
-            try {
+            // Use inline data from products.js (synchronous, no fetch race conditions)
+            if (window.__PRODUCT_DATA && window.__PRODUCT_DATA.length > 0) {
+                raw = window.__PRODUCT_DATA;
+            } else {
+                // Fallback: try fetching from JSON file
                 const resp = await fetch('./campaign_product_map.json');
                 if (resp.ok) {
                     raw = await resp.json();
-                    console.log('Loaded campaign_product_map.json (' + raw.length + ' entries)');
                 } else {
-                    throw new Error('HTTP error');
-                }
-            } catch (fetchErr) {
-                // Fallback: use inline data from products.js
-                if (window.__PRODUCT_DATA) {
-                    raw = window.__PRODUCT_DATA;
-                    console.log('Using inline product data (' + raw.length + ' entries)');
-                } else {
-                    throw fetchErr;
+                    throw new Error('Failed to load data');
                 }
             }
 
