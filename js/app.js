@@ -113,13 +113,10 @@ function flattenProducts(campaignEntries) {
     return items;
 }
 
-function renderProducts(campaignEntries) {
+function renderProducts(products) {
     const grid = document.getElementById('productGrid');
     const countEl = document.getElementById('productCount');
     const noResults = document.getElementById('noResults');
-
-    // Flatten to individual product items
-    const products = flattenProducts(campaignEntries);
 
     if (products.length === 0) {
         grid.innerHTML = '';
@@ -180,21 +177,25 @@ function filterProducts() {
         results = results.filter(p => p.category === selectedCategory);
     }
 
-    // Default 'all' view: show max 20 products (randomly selected)
+    // Default 'all' view: show max 20 PRODUCTs (not campaigns)
+    // We flatten first to count actual products
+    const allFlat = flattenProducts(results);
+    let displayFlat = allFlat;
+
     if (selectedCategory === 'all' && FILTER_STATE.category === 'all'
         && FILTER_STATE.gender === 'all' && FILTER_STATE.brand === 'all'
         && FILTER_STATE.occasion === 'all' && FILTER_STATE.discount === 'all'
         && !FILTER_STATE.search) {
-        // Shuffle and take 20
-        const shuffled = [...results];
+        // Shuffle and take 20 individual products
+        const shuffled = [...allFlat];
         for (let i = shuffled.length - 1; i > 0; i--) {
             const j = Math.floor(Math.random() * (i + 1));
             [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
         }
-        results = shuffled.slice(0, 20);
+        displayFlat = shuffled.slice(0, 20);
     }
 
-    renderProducts(results);
+    renderProducts(displayFlat);
     updateActiveTags();
 }
 
@@ -398,8 +399,7 @@ async function init() {
         populateBrandOptions();
         populateCategoryOptions();
         populateSidebar();
-        // Render flattened products
-        renderProducts(DATA.products);
+        // filterProducts will handle the initial render (flattened, limited to 20)
         updateActiveTags();
         // Apply sidebar filtering (show 20 default)
         filterProducts();
