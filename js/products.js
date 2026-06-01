@@ -1,4 +1,4 @@
-// Auto-generated 2026-06-01 13:56:50
+// Auto-generated 2026-06-01 13:57:36
 // Do not edit directly - use campaign_product_map.json
 window.__PRODUCT_DATA = [
   {
@@ -321,11 +321,11 @@ window.__PRODUCT_DATA = [
         "code": "B1XTEF0001950GY2",
         "name": "Contrast logo tee",
         "brand": ":CHOCOOLATE",
-        "price": "HK9.00",
+        "price": "HK$79.00",
         "pdp_url": "https://hk.iteshop.com/sit/item/B1XTEF0001950GY2?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": "HK99.00"
+        "original_price": "HK$299.00"
       },
       {
         "code": "ZNXJK6701TU3QGYX",
@@ -669,11 +669,11 @@ window.__PRODUCT_DATA = [
         "code": "IZXTEF0000880BKX",
         "name": "Graphic tee",
         "brand": "IZZUE",
-        "price": "HK9.00",
+        "price": "HK$99.00",
         "pdp_url": "https://hk.iteshop.com/sit/item/IZXTEF0000880BKX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": "HK59.00"
+        "original_price": "HK$359.00"
       },
       {
         "code": "KGLPOWPS1733QGYX",
@@ -753,11 +753,11 @@ window.__PRODUCT_DATA = [
         "code": "B1XTEF0003920GYD",
         "name": "Bear graphic tee",
         "brand": ":CHOCOOLATE",
-        "price": "HK9.00",
+        "price": "HK$99.00",
         "pdp_url": "https://hk.iteshop.com/sit/item/B1XTEF0003920GYD?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": "HK59.00"
+        "original_price": "HK$359.00"
       },
       {
         "code": "CHXSP033345AQBLD",
@@ -846,11 +846,11 @@ window.__PRODUCT_DATA = [
         "code": "B1XTEF0003920GYD",
         "name": "Bear graphic tee",
         "brand": ":CHOCOOLATE",
-        "price": "HK9.00",
+        "price": "HK$99.00",
         "pdp_url": "https://hk.iteshop.com/sit/item/B1XTEF0003920GYD?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": "HK59.00"
+        "original_price": "HK$359.00"
       },
       {
         "code": "KGLTEMST2837QBKX",
@@ -987,11 +987,11 @@ window.__PRODUCT_DATA = [
         "code": "IZXTEF0000490GY2",
         "name": "Bear graphic tee",
         "brand": "IZZUE",
-        "price": "HK9.00",
+        "price": "HK$99.00",
         "pdp_url": "https://hk.iteshop.com/sit/item/IZXTEF0000490GY2?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": "HK59.00"
+        "original_price": "HK$359.00"
       }
     ]
   },
@@ -1219,11 +1219,11 @@ window.__PRODUCT_DATA = [
         "code": "IZXTEF0000740GY2",
         "name": "Script logo tee",
         "brand": "IZZUE",
-        "price": "HK9.00",
+        "price": "HK$99.00",
         "pdp_url": "https://hk.iteshop.com/sit/item/IZXTEF0000740GY2?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": "HK59.00"
+        "original_price": "HK$359.00"
       }
     ]
   },
@@ -1299,11 +1299,11 @@ window.__PRODUCT_DATA = [
         "code": "B1XTEF0002340GYD",
         "name": "Graphic logo tee",
         "brand": ":CHOCOOLATE",
-        "price": "HK9.00",
+        "price": "HK$99.00",
         "pdp_url": "https://hk.iteshop.com/sit/item/B1XTEF0002340GYD?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": "HK59.00"
+        "original_price": "HK$359.00"
       }
     ]
   },
@@ -1523,11 +1523,11 @@ window.__PRODUCT_DATA = [
         "code": "IZXTEF0000740GY2",
         "name": "Script logo tee",
         "brand": "IZZUE",
-        "price": "HK9.00",
+        "price": "HK$99.00",
         "pdp_url": "https://hk.iteshop.com/sit/item/IZXTEF0000740GY2?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": "HK59.00"
+        "original_price": "HK$359.00"
       },
       {
         "code": "ZNXJK6744TU0QBKA",
@@ -1561,31 +1561,31 @@ window.__PRODUCT_DATA = [
         "code": "MRRJNPA174DXQBLL",
         "name": "Denim barrel jeans",
         "brand": "MARINE SERRE",
-        "price": "HK,920.00",
+        "price": "HK$3,920.00",
         "pdp_url": "https://hk.iteshop.com/bit/item/MRRJNPA174DXQBLL?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": "HK,599.00"
+        "original_price": "HK$5,599.00"
       },
       {
         "code": "MRRSKWSK135XQBLL",
         "name": "Moon laser panel denim skirt",
         "brand": "MARINE SERRE",
-        "price": "HK,590.00",
+        "price": "HK$2,590.00",
         "pdp_url": "https://hk.iteshop.com/bit/item/MRRSKWSK135XQBLL?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": "HK,699.00"
+        "original_price": "HK$3,699.00"
       },
       {
         "code": "MRRSPWSH18DXQBLX",
         "name": "Denim shorts",
         "brand": "MARINE SERRE",
-        "price": "HK,800.00",
+        "price": "HK$2,800.00",
         "pdp_url": "https://hk.iteshop.com/bit/item/MRRSPWSH18DXQBLX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": "HK,999.00"
+        "original_price": "HK$3,999.00"
       }
     ]
   },
@@ -1728,11 +1728,11 @@ window.__PRODUCT_DATA = [
         "code": "IZXTEF0000740GY2",
         "name": "Script logo tee",
         "brand": "IZZUE",
-        "price": "HK9.00",
+        "price": "HK$99.00",
         "pdp_url": "https://hk.iteshop.com/sit/item/IZXTEF0000740GY2?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": "HK59.00"
+        "original_price": "HK$359.00"
       }
     ]
   },
@@ -1977,11 +1977,11 @@ window.__PRODUCT_DATA = [
         "code": "NEDSTSX4836MQMLX",
         "name": "Patchwork shirt",
         "brand": "NEEDLES",
-        "price": "HK,190.00",
+        "price": "HK$1,190.00",
         "pdp_url": "https://hk.iteshop.com/bit/item/NEDSTSX4836MQMLX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": "HK,699.00"
+        "original_price": "HK$1,699.00"
       },
       {
         "code": "ZNXSN2889LVMQGYX",
@@ -2101,11 +2101,11 @@ window.__PRODUCT_DATA = [
         "code": "IZXTEF0000740GY2",
         "name": "Script logo tee",
         "brand": "IZZUE",
-        "price": "HK9.00",
+        "price": "HK$99.00",
         "pdp_url": "https://hk.iteshop.com/sit/item/IZXTEF0000740GY2?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": "HK59.00"
+        "original_price": "HK$359.00"
       },
       {
         "code": "KGLTEMST2827QWHX",
@@ -2181,11 +2181,11 @@ window.__PRODUCT_DATA = [
         "code": "B1XTEF0002740WHX",
         "name": "Poodle graphic tee",
         "brand": ":CHOCOOLATE",
-        "price": "HK9.00",
+        "price": "HK$99.00",
         "pdp_url": "https://hk.iteshop.com/sit/item/B1XTEF0002740WHX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": "HK59.00"
+        "original_price": "HK$359.00"
       },
       {
         "code": "KGLPOMPS1728QGYX",
