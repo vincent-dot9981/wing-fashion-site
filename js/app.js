@@ -111,11 +111,7 @@ function renderProducts(products) {
         const discount = p.discount_clean;
         const priceText = p.price_display || '';
 
-        // Determine the primary link: first product's PDP URL, or fallback to affiliate_link
         const productsArr = p.products || [];
-        const primaryLink = (productsArr.length > 0 && productsArr[0].pdp_url)
-            ? productsArr[0].pdp_url
-            : p.affiliate_link;
 
         // Build product sub-items HTML
         let subItemsHtml = '';
@@ -143,16 +139,14 @@ function renderProducts(products) {
         return `
         <div class="product-card">
             <div class="card-image-wrapper">
-            <a href="${escHtml(primaryLink)}" target="_blank" rel="noopener" class="card-main-link">
                 <div class="card-image">
                     ${imgSrc ? `<img src="${escHtml(imgSrc)}" alt="${escHtml(imgAlt)}" loading="lazy" onerror="this.style.display='none';this.parentElement.classList.add('card-image-placeholder')">` : '<div class="card-image-placeholder"></div>'}
                 </div>
                 <div class="card-body">
                     <div class="card-title">${escHtml(displayName)}</div>
                     ${discount ? `<div class="card-discount">${escHtml(discount)}</div>` : ''}
-                    <div class="card-price">${priceText ? escHtml(priceText) : 'SHOP NOW'}</div>
+                    ${priceText ? `<div class="card-price">${escHtml(priceText)}</div>` : ''}
                 </div>
-            </a>
             ${p.category ? `<span class="card-category-badge">${escHtml(p.category)}</span>` : ''}
             </div>
             ${subItemsHtml}
