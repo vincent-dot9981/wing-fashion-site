@@ -44,6 +44,10 @@ img { max-width: 100%; height: auto; display: block; }
 button, select, input { font-family: inherit; font-size: inherit; }
 ::selection { background: #1a1a1a; color: #ffffff; }
 
+/* Page visibility - SPA navigation */
+.page:not(.active) { display: none; }
+.page.active { display: block; }
+
 .container {
     max-width: var(--max-width);
     margin: 0 auto;
