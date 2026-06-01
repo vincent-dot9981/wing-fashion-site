@@ -118,7 +118,7 @@ function renderProducts(products) {
         if (productsArr.length > 0) {
             subItemsHtml = `<div class="product-sub-items">` +
                 productsArr.map((prod, idx) => {
-                    const prodUrl = prod.pdp_url || primaryLink;
+                    const prodUrl = prod.pdp_url || p.affiliate_link || '';
                     const prodName = prod.name || 'Product';
                     const prodBrand = prod.brand || '';
                     const prodPrice = prod.price || '';
@@ -137,18 +137,7 @@ function renderProducts(products) {
         }
 
         return `
-        <div class="product-card">
-            <div class="card-image-wrapper">
-                <div class="card-image">
-                    ${imgSrc ? `<img src="${escHtml(imgSrc)}" alt="${escHtml(imgAlt)}" loading="lazy" onerror="this.style.display='none';this.parentElement.classList.add('card-image-placeholder')">` : '<div class="card-image-placeholder"></div>'}
-                </div>
-                <div class="card-body">
-                    <div class="card-title">${escHtml(displayName)}</div>
-                    ${discount ? `<div class="card-discount">${escHtml(discount)}</div>` : ''}
-                    ${priceText ? `<div class="card-price">${escHtml(priceText)}</div>` : ''}
-                </div>
-            ${p.category ? `<span class="card-category-badge">${escHtml(p.category)}</span>` : ''}
-            </div>
+        <div class="product-card product-card-simple">
             ${subItemsHtml}
         </div>`;
     }).join('');
