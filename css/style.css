@@ -199,29 +199,14 @@ button, select, input { font-family: inherit; font-size: inherit; }
 .hero {
     position: relative;
     width: 100%;
-    height: 70vh;
-    min-height: 480px;
+    padding: 100px 0 80px;
     overflow: hidden;
-    background: #e8e8e8;
-    margin-bottom: 40px;
+    margin-bottom: 32px;
 }
 
-.hero-bg {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
 
+/* ---------- HERO OVERLAY ---------- */
 .hero-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.3);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -229,8 +214,6 @@ button, select, input { font-family: inherit; font-size: inherit; }
 }
 
 .hero-content {
-    position: relative;
-    z-index: 1;
     max-width: 620px;
     padding: 0 24px;
 }
@@ -240,14 +223,14 @@ button, select, input { font-family: inherit; font-size: inherit; }
     font-size: 44px;
     font-weight: 400;
     letter-spacing: 2px;
-    color: #ffffff;
+    color: #1a1a1a;
     margin-bottom: 12px;
     line-height: 1.15;
 }
 
 .hero-sub {
     font-size: 13px;
-    color: rgba(255, 255, 255, 0.85);
+    color: #6b6b6b;
     font-weight: 300;
     letter-spacing: 1.5px;
     text-transform: uppercase;
@@ -257,8 +240,8 @@ button, select, input { font-family: inherit; font-size: inherit; }
 .hero-cta {
     display: inline-block;
     padding: 14px 40px;
-    border: 1px solid #ffffff;
-    color: #ffffff;
+    border: 1px solid #1a1a1a;
+    color: #1a1a1a;
     font-size: 11px;
     font-weight: 500;
     letter-spacing: 2px;
@@ -269,7 +252,6 @@ button, select, input { font-family: inherit; font-size: inherit; }
 
 .hero-cta:hover {
     background: #1a1a1a;
-    border-color: #1a1a1a;
     color: #ffffff;
 }
 

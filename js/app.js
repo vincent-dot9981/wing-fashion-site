@@ -367,36 +367,6 @@ function populateSidebar() {
     sidebar.innerHTML = html;
 }
 
-// ========== HERO BANNER ==========
-function setupCampaignHero() {
-    // Use a campaign image as hero background
-    const products = DATA.products;
-    if (!products || products.length === 0) return;
-
-    // Use campaign images from data (original_image URLs or images array)
-    const campaignImages = products
-        .map(p => p.image)
-        .filter(img => img && img.length > 0);
-
-    if (campaignImages.length > 0) {
-        let heroImg = campaignImages[0];
-        // Try to find an outlet/mega sale image as it's typically more hero-like
-        const preferred = campaignImages.filter(img =>
-            img.includes('OUTLET') || img.includes('MEGA') || img.includes('outlet'));
-        if (preferred.length > 0) {
-            heroImg = preferred[Math.floor(Math.random() * preferred.length)];
-        } else {
-            heroImg = campaignImages[Math.floor(Math.random() * campaignImages.length)];
-        }
-
-        const heroBg = document.getElementById('heroBg');
-        if (heroBg) {
-            heroBg.src = heroImg;
-            heroBg.alt = 'Campaign';
-        }
-    }
-}
-
 // ========== INIT ==========
 async function init() {
     const grid = document.getElementById('productGrid');
@@ -404,7 +374,7 @@ async function init() {
 
     try {
         await DATA.load();
-        setupCampaignHero();
+        loadProducts(currentProducts);
         populateBrandOptions();
         populateCategoryOptions();
         populateSidebar();
