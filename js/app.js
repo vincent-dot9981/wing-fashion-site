@@ -252,10 +252,10 @@ function setupCampaignHero() {
     const products = DATA.products;
     if (!products || products.length === 0) return;
 
-    // Find campaign images from vip.ithk.com
+    // Use local campaign images as hero background
     const campaignImages = products
         .map(p => p.image)
-        .filter(img => img && img.startsWith('https://vip.ithk.com/') && img.match(/\.(jpg|jpeg|png|webp)$/i));
+        .filter(img => img && img.startsWith('images/products/') && img.match(/\.(jpg|jpeg|png|webp)$/i));
 
     if (campaignImages.length > 0) {
         // Pick a good hero image - prefer landscape-oriented or specific campaigns
