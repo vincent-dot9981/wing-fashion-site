@@ -382,6 +382,20 @@ button, select, input { font-family: inherit; font-size: inherit; }
     letter-spacing: 0.2px;
 }
 
+.original-price {
+    font-size: 12px;
+    color: #cc0000;
+    text-decoration: line-through;
+    margin-right: 6px;
+    font-weight: 400;
+}
+
+.sale-price {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--text);
+}
+
 /* ---------- NO RESULTS ---------- */
 .no-results {
     text-align: center;

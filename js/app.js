@@ -99,6 +99,7 @@ function flattenProducts(campaignEntries) {
                 name: prod.name || 'Product',
                 brand: prod.brand || '',
                 price: prod.price || '',
+                original_price: prod.original_price || '',
                 pdp_url: prod.pdp_url || entry.affiliate_link || '',
                 image: prod.code ? 'images/products_sub/' + encodeURIComponent(prod.code) + '.jpg' : '',
                 // Inherit category from parent campaign for filtering
@@ -134,6 +135,14 @@ function renderProducts(products) {
         const prodName = prod.name || 'Product';
         const prodBrand = prod.brand || '';
         const prodPrice = prod.price || '';
+        const origPrice = prod.original_price || '';
+
+        let priceHtml;
+        if (origPrice) {
+            priceHtml = `<span class="original-price">${escHtml(origPrice)}</span><span class="sale-price">${escHtml(prodPrice)}</span>`;
+        } else {
+            priceHtml = `<span class="product-flat-price">${escHtml(prodPrice)}</span>`;
+        }
 
         return `
         <div class="product-card product-card-flat">
@@ -144,7 +153,7 @@ function renderProducts(products) {
                 <div class="product-flat-body">
                     <div class="product-flat-name">${escHtml(prodName)}</div>
                     <div class="product-flat-brand">${escHtml(prodBrand)}</div>
-                    <div class="product-flat-price">${escHtml(prodPrice)}</div>
+                    ${priceHtml}
                 </div>
             </a>
         </div>`;
