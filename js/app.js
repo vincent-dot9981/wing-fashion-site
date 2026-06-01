@@ -13,7 +13,7 @@ const FILTER_STATE = {
     discount: 'all'
 };
 
-// Sidebar-selected category (separate from drawer filter)
+// Sidebar-selected category (separate from draw filter)
 let selectedCategory = 'all';
 
 // ========== NAVIGATION ==========
@@ -88,10 +88,38 @@ function setFilterFromDrawer(type, value) {
 }
 
 // ========== PRODUCT RENDERING ==========
-function renderProducts(products) {
+
+/** Flatten campaign entries into standalone product items */
+function flattenProducts(campaignEntries) {
+    const items = [];
+    campaignEntries.forEach(entry => {
+        (entry.products || []).forEach(prod => {
+            items.push({
+                code: prod.code || '',
+                name: prod.name || 'Product',
+                brand: prod.brand || '',
+                price: prod.price || '',
+                pdp_url: prod.pdp_url || entry.affiliate_link || '',
+                image: prod.code ? 'images/products_sub/' + encodeURIComponent(prod.code) + '.jpg' : '',
+                // Inherit category from parent campaign for filtering
+                category: entry.category || '',
+                occasion: entry.occasion || [],
+                gender: entry.gender || 'all',
+                tags: entry.tags || [],
+                discount_clean: entry.discount_clean || ''
+            });
+        });
+    });
+    return items;
+}
+
+function renderProducts(campaignEntries) {
     const grid = document.getElementById('productGrid');
     const countEl = document.getElementById('productCount');
     const noResults = document.getElementById('noResults');
+
+    // Flatten to individual product items
+    const products = flattenProducts(campaignEntries);
 
     if (products.length === 0) {
         grid.innerHTML = '';
@@ -103,42 +131,25 @@ function renderProducts(products) {
     noResults.style.display = 'none';
     countEl.textContent = products.length;
 
-    grid.innerHTML = products.map(p => {
-        const imgSrc = p.image || '';
-        const displayName = p.displayName || p.name;
-        const originalName = p.originalName || p.name;
-        const imgAlt = displayName || 'Fashion';
-        const discount = p.discount_clean;
-        const priceText = p.price_display || '';
-
-        const productsArr = p.products || [];
-
-        // Build product sub-items HTML
-        let subItemsHtml = '';
-        if (productsArr.length > 0) {
-            subItemsHtml = `<div class="product-sub-items">` +
-                productsArr.map((prod, idx) => {
-                    const prodUrl = prod.pdp_url || p.affiliate_link || '';
-                    const prodName = prod.name || 'Product';
-                    const prodBrand = prod.brand || '';
-                    const prodPrice = prod.price || '';
-                    const prodCode = prod.code || '';
-                    const prodImg = prodCode ? 'images/products_sub/' + encodeURIComponent(prodCode) + '.jpg' : '';
-                    return '<a href="' + escHtml(prodUrl) + '" target="_blank" rel="noopener" class="product-sub-item">'
-                        + (prodImg ? '<div class="sub-item-img"><img src="' + escHtml(prodImg) + '" alt="' + escHtml(prodName) + '" loading="lazy" onerror="void(0)"></div>' : '')
-                        + '<div class="sub-item-info">'
-                        + '<div class="sub-item-name">' + escHtml(prodName) + '</div>'
-                        + '<div class="sub-item-brand">' + escHtml(prodBrand) + '</div>'
-                        + '<div class="sub-item-price">' + escHtml(prodPrice) + '</div>'
-                        + '</div>'
-                        + '</a>';
-                }).join('') +
-                `</div>`;
-        }
+    grid.innerHTML = products.map(prod => {
+        const imgSrc = prod.image || '';
+        const prodUrl = prod.pdp_url || '';
+        const prodName = prod.name || 'Product';
+        const prodBrand = prod.brand || '';
+        const prodPrice = prod.price || '';
 
         return `
-        <div class="product-card product-card-simple">
-            ${subItemsHtml}
+        <div class="product-card product-card-flat">
+            <a href="${escHtml(prodUrl)}" target="_blank" rel="noopener" class="product-flat-link">
+                <div class="product-flat-image">
+                    ${imgSrc ? `<img src="${escHtml(imgSrc)}" alt="${escHtml(prodName)}" loading="lazy" onerror="this.style.display='none';this.parentElement.classList.add('product-flat-placeholder')">` : '<div class="product-flat-placeholder"></div>'}
+                </div>
+                <div class="product-flat-body">
+                    <div class="product-flat-name">${escHtml(prodName)}</div>
+                    <div class="product-flat-brand">${escHtml(prodBrand)}</div>
+                    <div class="product-flat-price">${escHtml(prodPrice)}</div>
+                </div>
+            </a>
         </div>`;
     }).join('');
 }
@@ -387,6 +398,7 @@ async function init() {
         populateBrandOptions();
         populateCategoryOptions();
         populateSidebar();
+        // Render flattened products
         renderProducts(DATA.products);
         updateActiveTags();
         // Apply sidebar filtering (show 20 default)
