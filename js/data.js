@@ -4,9 +4,20 @@
  * Each entry has a 'products' array with specific product PDP links.
  */
 
+const CATEGORY_KEYWORDS = {
+    '上衣': ['tee', 't-shirt', 'top', 'tank', 'blouse', 'shirt', 'polo', 'sweater', 'knit', 'pullover'],
+    '外套': ['jacket', 'coat', 'blazer', 'vest', 'hoodie', 'bomber', 'puffer', 'down'],
+    '下身': ['pants', 'trousers', 'jeans', 'leggings', 'skirt', 'shorts'],
+    '連身': ['dress', 'jumpsuit', 'overalls'],
+    '鞋': ['sneaker', 'shoes', 'boots', 'slides', 'mules', 'loafers'],
+    '袋': ['bag', 'tote', 'crossbody', 'backpack', 'shoulder'],
+    '飾物': ['cap', 'hat', 'beanie', 'belt', 'scarf', 'sunglasses', 'watch']
+};
+
 const DATA = {
     products: [],
     brands: new Set(),
+    categories: new Set(),
     loaded: false,
 
     async load() {
@@ -43,6 +54,8 @@ const DATA = {
                     discount_clean: this._cleanDiscount(p.discount || ''),
                     // Extract brand from tags
                     brand: this._extractBrand(p.tags || []),
+                    // Assign product category based on keyword matching
+                    category: this._assignCategory(strippedName, p.products || []),
                     // Image URL: use original campaign image URL directly
                     image: imgSrc,
                     // Price display
@@ -64,9 +77,10 @@ const DATA = {
                 };
             });
 
-            // Collect all brands
+            // Collect all brands and categories
             this.products.forEach(p => {
                 if (p.brand) this.brands.add(p.brand);
+                if (p.category) this.categories.add(p.category);
             });
             this.loaded = true;
             return this.products;
@@ -100,6 +114,26 @@ const DATA = {
         };
         for (const tag of tags) {
             if (brandMap[tag]) return brandMap[tag];
+        }
+        return '';
+    },
+
+    _assignCategory(campaignName, products) {
+        // Check campaign name first
+        const namesToCheck = [campaignName.toLowerCase()];
+        // Then check each sub-product name
+        (products || []).forEach(prod => {
+            if (prod.name) namesToCheck.push(prod.name.toLowerCase());
+        });
+
+        for (const [cat, keywords] of Object.entries(CATEGORY_KEYWORDS)) {
+            for (const name of namesToCheck) {
+                for (const kw of keywords) {
+                    if (name.includes(kw)) {
+                        return cat;
+                    }
+                }
+            }
         }
         return '';
     },
@@ -349,7 +383,7 @@ const DATA = {
         }).join(' ');
     },
 
-    getFiltered({ search = '', gender = 'all', brand = 'all', occasion = 'all', discount = 'all' } = {}) {
+    getFiltered({ search = '', gender = 'all', brand = 'all', occasion = 'all', discount = 'all', category = 'all' } = {}) {
         let results = [...this.products];
 
         // Search
@@ -380,6 +414,11 @@ const DATA = {
             results = results.filter(p => p.occasion && p.occasion.includes(occasion));
         }
 
+        // Category
+        if (category !== 'all') {
+            results = results.filter(p => p.category === category);
+        }
+
         // Discount level
         if (discount !== 'all') {
             results = results.filter(p => {
@@ -403,5 +442,19 @@ const DATA = {
 
     getBrands() {
         return Array.from(this.brands).sort();
+    },
+
+    getCategories() {
+        return Array.from(this.categories).sort();
+    },
+
+    getCategoryCounts() {
+        const counts = {};
+        this.products.forEach(p => {
+            if (p.category) {
+                counts[p.category] = (counts[p.category] || 0) + 1;
+            }
+        });
+        return counts;
     }
 };

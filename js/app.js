@@ -9,6 +9,7 @@ const FILTER_STATE = {
     gender: 'all',
     brand: 'all',
     occasion: 'all',
+    category: 'all',
     discount: 'all'
 };
 
@@ -62,6 +63,7 @@ function setFilter(type, value) {
     const sectionId = type === 'gender' ? 'filterSectionGender' :
                       type === 'brand' ? 'filterSectionBrand' :
                       type === 'occasion' ? 'filterSectionOccasion' :
+                      type === 'category' ? 'filterSectionCategory' :
                       type === 'discount' ? 'filterSectionDiscount' : null;
     if (sectionId) {
         const section = document.getElementById(sectionId);
@@ -137,6 +139,7 @@ function renderProducts(products) {
             <a href="${escHtml(primaryLink)}" target="_blank" rel="noopener" class="card-main-link">
                 <div class="card-image">
                     ${imgSrc ? `<img src="${escHtml(imgSrc)}" alt="${escHtml(imgAlt)}" loading="lazy" onerror="this.style.display='none';this.parentElement.classList.add('card-image-placeholder')">` : '<div class="card-image-placeholder"></div>'}
+                    ${p.category ? `<span class="card-category-badge">${escHtml(p.category)}</span>` : ''}
                 </div>
                 <div class="card-body">
                     <div class="card-title">${escHtml(displayName)}</div>
@@ -167,6 +170,7 @@ function filterProducts() {
         gender: FILTER_STATE.gender,
         brand: FILTER_STATE.brand,
         occasion: FILTER_STATE.occasion,
+        category: FILTER_STATE.category,
         discount: FILTER_STATE.discount
     });
 
@@ -190,6 +194,9 @@ function updateActiveTags() {
     if (FILTER_STATE.occasion !== 'all') {
         const occasionLabel = FILTER_STATE.occasion;
         tags.push({ type: 'occasion', label: occasionLabel });
+    }
+    if (FILTER_STATE.category !== 'all') {
+        tags.push({ type: 'category', label: FILTER_STATE.category });
     }
     if (FILTER_STATE.discount !== 'all') {
         const discountLabels = { 'high': '低至2折', 'mid': '3-6折', 'low': '7折以上' };
@@ -227,6 +234,11 @@ function clearFilterTag(type) {
         document.querySelectorAll('#filterSectionOccasion .filter-option').forEach(opt => {
             opt.classList.toggle('active', opt.dataset.value === 'all');
         });
+    } else if (type === 'category') {
+        FILTER_STATE.category = 'all';
+        document.querySelectorAll('#filterSectionCategory .filter-option').forEach(opt => {
+            opt.classList.toggle('active', opt.dataset.value === 'all');
+        });
     } else if (type === 'discount') {
         FILTER_STATE.discount = 'all';
         document.querySelectorAll('#filterSectionDiscount .filter-option').forEach(opt => {
@@ -244,6 +256,7 @@ function resetFilters() {
     FILTER_STATE.gender = 'all';
     FILTER_STATE.brand = 'all';
     FILTER_STATE.occasion = 'all';
+    FILTER_STATE.category = 'all';
     FILTER_STATE.discount = 'all';
 
     document.getElementById('searchInput').value = '';
@@ -269,6 +282,23 @@ function populateBrandOptions() {
         btn.dataset.filter = 'brand';
         btn.innerHTML = `<span class="filter-option-indicator"></span><span>${escHtml(b)}</span>`;
         btn.onclick = function() { setFilter('brand', b); };
+        container.appendChild(btn);
+    });
+}
+
+// Initialize category options in drawer
+function populateCategoryOptions() {
+    const container = document.getElementById('categoryOptionsContainer');
+    const counts = DATA.getCategoryCounts();
+    const categories = DATA.getCategories();
+    categories.forEach(cat => {
+        const count = counts[cat] || 0;
+        const btn = document.createElement('button');
+        btn.className = 'filter-option';
+        btn.dataset.value = cat;
+        btn.dataset.filter = 'category';
+        btn.innerHTML = `<span class="filter-option-indicator"></span><span>${escHtml(cat)} (${count})</span>`;
+        btn.onclick = function() { setFilter('category', cat); };
         container.appendChild(btn);
     });
 }
@@ -312,6 +342,7 @@ async function init() {
         await DATA.load();
         setupCampaignHero();
         populateBrandOptions();
+        populateCategoryOptions();
         renderProducts(DATA.products);
         updateActiveTags();
     } catch (err) {

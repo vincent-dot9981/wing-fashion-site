@@ -337,6 +337,23 @@ button, select, input { font-family: inherit; font-size: inherit; }
     background: #e8e8e8;
 }
 
+/* Category badge on product image */
+.card-category-badge {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    display: inline-block;
+    padding: 3px 8px;
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    color: #1a1a1a;
+    background: rgba(255, 255, 255, 0.9);
+    border: 1px solid var(--border);
+    line-height: 1.2;
+    z-index: 2;
+}
+
 /* Simplified card body: only name + price visible */
 .card-body {
     padding: 14px 0 0;
