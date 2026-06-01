@@ -3,27 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
-    <title>阿 Wing 服裝站 | Wing's Fashion Hub</title>
+    <title>WING | Fashion</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='80' fill='%23C9A96E'>W</text></svg>">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='80' fill='%231a1a1a' font-family='serif'>W</text></svg>">
 </head>
 <body>
 
 <!-- ========== NAVIGATION ========== -->
 <nav class="navbar" id="navbar">
     <div class="nav-inner">
-        <a href="#" class="nav-logo" onclick="navigate('home')">
-            <span class="logo-text">WING</span>
-        </a>
+        <a href="#" class="nav-logo" onclick="navigate('home')">WING</a>
         <div class="nav-links" id="navLinks">
             <a href="#" class="nav-link active" data-page="home" onclick="navigate('home')" data-i18n="nav_home">首頁</a>
             <a href="#" class="nav-link" data-page="about" onclick="navigate('about')" data-i18n="nav_about">關於我</a>
         </div>
         <div class="nav-actions">
-            <button class="lang-toggle" id="langToggle" onclick="toggleLang()">中</button>
+            <button class="lang-toggle" id="langToggle" onclick="toggleLang()">EN</button>
             <button class="menu-toggle" id="menuToggle" onclick="toggleMenu()" aria-label="Menu">
                 <span></span><span></span><span></span>
             </button>
@@ -37,55 +35,112 @@
 <!-- ===== HOME PAGE ===== -->
 <section class="page active" id="page-home">
 
-    <!-- Hero -->
-    <header class="hero">
-        <div class="hero-content">
-            <h1 data-i18n="hero_title">阿 Wing 服裝站</h1>
-            <p class="hero-sub" data-i18n="hero_sub">香港本地時尚達人 · ITeSell 服裝銷售顧問</p>
-            <p class="hero-desc" data-i18n="hero_desc">幫你搵最啱嘅衫，襯出最型嘅 look</p>
-            <a href="https://wa.me/85265872179?text=Hi%20%E9%98%BFWing" target="_blank" class="hero-cta" data-i18n="hero_cta">WhatsApp 我搵靚衫</a>
+    <!-- Hero Banner -->
+    <header class="hero" id="campaignHero">
+        <img class="hero-bg" id="heroBg" src="" alt="" onerror="this.style.display='none'">
+        <div class="hero-overlay">
+            <div class="hero-content">
+                <h1 data-i18n="hero_title">WING</h1>
+                <p class="hero-sub" data-i18n="hero_sub">你的時尚顧問</p>
+                <a href="https://wa.me/85265872179?text=Hi%20%E9%98%BFWing" target="_blank" class="hero-cta" data-i18n="hero_cta">WHATSAPP 搵我</a>
+            </div>
         </div>
     </header>
 
     <!-- Filter Bar -->
     <div class="filter-bar" id="filterBar">
-        <div class="filter-inner">
-            <div class="search-box">
-                <input type="text" id="searchInput" placeholder="搜尋品牌、產品..." data-i18n="search_placeholder" oninput="filterProducts()">
+        <div class="filter-bar-inner">
+            <button class="filter-toggle-btn" id="filterToggleBtn" onclick="toggleFilterDrawer()" data-i18n="filter_toggle">篩選</button>
+            <span class="product-count" id="productCount"></span>
+        </div>
+        <div class="filter-bar-inner" style="padding-top:0">
+            <div class="filter-active-tags" id="filterActiveTags"></div>
+        </div>
+    </div>
+
+    <!-- Filter Drawer -->
+    <div class="filter-drawer-overlay" id="filterOverlay" onclick="toggleFilterDrawer()"></div>
+    <div class="filter-drawer" id="filterDrawer">
+        <div class="filter-drawer-header">
+            <span class="filter-drawer-title" data-i18n="filter_title">篩選</span>
+            <button class="filter-drawer-close" onclick="toggleFilterDrawer()">&times;</button>
+        </div>
+        <div class="filter-drawer-body">
+            <div class="filter-section">
+                <div class="filter-section-label" data-i18n="filter_search">搜尋</div>
+                <input type="text" class="filter-search-input" id="searchInput" placeholder="搜尋品牌、產品..." data-i18n="search_placeholder" oninput="filterProducts()">
             </div>
-            <div class="filter-row">
-                <div class="filter-group">
-                    <select id="filterGender" onchange="filterProducts()">
-                        <option value="all" data-i18n="gender_all">所有性別</option>
-                        <option value="men" data-i18n="gender_men">男裝</option>
-                        <option value="women" data-i18n="gender_women">女裝</option>
-                        <option value="kids" data-i18n="gender_kids">童裝</option>
-                    </select>
-                </div>
-                <div class="filter-group">
-                    <select id="filterBrand" onchange="filterProducts()">
-                        <option value="all" data-i18n="all_brands">全部品牌</option>
-                    </select>
-                </div>
-                <div class="filter-group">
-                    <select id="filterOccasion" onchange="filterProducts()">
-                        <option value="all" data-i18n="all_occasions">全部場合</option>
-                        <option value="casual" data-i18n="occasion_casual">休閒</option>
-                        <option value="返工" data-i18n="occasion_work">返工</option>
-                        <option value="送禮" data-i18n="occasion_gift">送禮</option>
-                    </select>
-                </div>
-                <div class="filter-group">
-                    <select id="filterDiscount" onchange="filterProducts()">
-                        <option value="all" data-i18n="all_discounts">全部折扣</option>
-                        <option value="high" data-i18n="discount_high">低至2折</option>
-                        <option value="mid" data-i18n="discount_mid">3-6折</option>
-                        <option value="low" data-i18n="discount_low">7折以上</option>
-                    </select>
-                </div>
-                <button class="filter-reset" onclick="resetFilters()" data-i18n="reset">重設</button>
+
+            <div class="filter-section" id="filterSectionGender">
+                <div class="filter-section-label" data-i18n="filter_gender">性別</div>
+                <button class="filter-option active" data-value="all" data-filter="gender" onclick="setFilter('gender', 'all')">
+                    <span class="filter-option-indicator"></span>
+                    <span data-i18n="gender_all">所有性別</span>
+                </button>
+                <button class="filter-option" data-value="men" data-filter="gender" onclick="setFilter('gender', 'men')">
+                    <span class="filter-option-indicator"></span>
+                    <span data-i18n="gender_men">男裝</span>
+                </button>
+                <button class="filter-option" data-value="women" data-filter="gender" onclick="setFilter('gender', 'women')">
+                    <span class="filter-option-indicator"></span>
+                    <span data-i18n="gender_women">女裝</span>
+                </button>
+                <button class="filter-option" data-value="kids" data-filter="gender" onclick="setFilter('gender', 'kids')">
+                    <span class="filter-option-indicator"></span>
+                    <span data-i18n="gender_kids">童裝</span>
+                </button>
             </div>
-            <div class="filter-tags" id="filterTags"></div>
+
+            <div class="filter-section" id="filterSectionBrand">
+                <div class="filter-section-label" data-i18n="filter_brand">品牌</div>
+                <button class="filter-option active" data-value="all" data-filter="brand" onclick="setFilter('brand', 'all')">
+                    <span class="filter-option-indicator"></span>
+                    <span data-i18n="all_brands">全部品牌</span>
+                </button>
+                <div id="brandOptionsContainer"></div>
+            </div>
+
+            <div class="filter-section" id="filterSectionOccasion">
+                <div class="filter-section-label" data-i18n="filter_occasion">場合</div>
+                <button class="filter-option active" data-value="all" data-filter="occasion" onclick="setFilter('occasion', 'all')">
+                    <span class="filter-option-indicator"></span>
+                    <span data-i18n="all_occasions">全部場合</span>
+                </button>
+                <button class="filter-option" data-value="casual" data-filter="occasion" onclick="setFilter('occasion', 'casual')">
+                    <span class="filter-option-indicator"></span>
+                    <span data-i18n="occasion_casual">休閒</span>
+                </button>
+                <button class="filter-option" data-value="返工" data-filter="occasion" onclick="setFilter('occasion', '返工')">
+                    <span class="filter-option-indicator"></span>
+                    <span data-i18n="occasion_work">返工</span>
+                </button>
+                <button class="filter-option" data-value="送禮" data-filter="occasion" onclick="setFilter('occasion', '送禮')">
+                    <span class="filter-option-indicator"></span>
+                    <span data-i18n="occasion_gift">送禮</span>
+                </button>
+            </div>
+
+            <div class="filter-section" id="filterSectionDiscount">
+                <div class="filter-section-label" data-i18n="filter_discount">折扣</div>
+                <button class="filter-option active" data-value="all" data-filter="discount" onclick="setFilter('discount', 'all')">
+                    <span class="filter-option-indicator"></span>
+                    <span data-i18n="all_discounts">全部折扣</span>
+                </button>
+                <button class="filter-option" data-value="high" data-filter="discount" onclick="setFilter('discount', 'high')">
+                    <span class="filter-option-indicator"></span>
+                    <span data-i18n="discount_high">低至2折</span>
+                </button>
+                <button class="filter-option" data-value="mid" data-filter="discount" onclick="setFilter('discount', 'mid')">
+                    <span class="filter-option-indicator"></span>
+                    <span data-i18n="discount_mid">3-6折</span>
+                </button>
+                <button class="filter-option" data-value="low" data-filter="discount" onclick="setFilter('discount', 'low')">
+                    <span class="filter-option-indicator"></span>
+                    <span data-i18n="discount_low">7折以上</span>
+                </button>
+            </div>
+
+            <button class="filter-reset-btn" onclick="resetFilters()" data-i18n="reset">重設</button>
         </div>
     </div>
 
@@ -93,7 +148,6 @@
     <div class="container">
         <div class="section-header">
             <h2 data-i18n="featured_title">限時優惠精選</h2>
-            <span class="product-count" id="productCount"></span>
         </div>
         <div class="product-grid" id="productGrid">
             <!-- Products will be rendered by JS -->
@@ -149,7 +203,6 @@
             <h2 data-i18n="about_cta_title">直接搵我</h2>
             <p data-i18n="about_cta_text">有咩想問就 WhatsApp 我</p>
             <a href="https://wa.me/85265872179?text=Hi%20%E9%98%BFWing" target="_blank" class="whatsapp-btn-large">
-                <span class="wa-icon">W</span>
                 <span data-i18n="about_cta_btn">WhatsApp 阿 Wing</span>
             </a>
         </div>
@@ -172,18 +225,20 @@
 <!-- ========== FOOTER ========== -->
 <footer class="footer">
     <div class="footer-inner">
-        <div class="footer-brand">
+        <div class="footer-col">
             <p><strong data-i18n="footer_brand">阿 Wing 服裝站</strong></p>
             <p data-i18n="footer_tag">香港時尚顧問 · ITeSell affiliate (Staff ID: hk10071365)</p>
         </div>
-        <div class="footer-links">
-            <a href="#" onclick="navigate('home')" data-i18n="nav_home">首頁</a>
-            <a href="#" onclick="navigate('about')" data-i18n="nav_about">關於我</a>
-            <a href="https://wa.me/85265872179?text=Hi%20%E9%98%BFWing" target="_blank">WhatsApp</a>
+        <div class="footer-col">
+            <div class="footer-links">
+                <a href="#" onclick="navigate('home')" data-i18n="nav_home">首頁</a>
+                <a href="#" onclick="navigate('about')" data-i18n="nav_about">關於我</a>
+                <a href="https://wa.me/85265872179?text=Hi%20%E9%98%BFWing" target="_blank">WhatsApp</a>
+            </div>
         </div>
-        <div class="footer-bottom">
-            <p data-i18n="footer_disclaimer">使用 affiliate link 購物，我會獲得小額佣金，但唔會影響你嘅價格。多謝支持！</p>
-        </div>
+    </div>
+    <div class="footer-bottom">
+        <p data-i18n="footer_disclaimer">使用 affiliate link 購物，我會獲得小額佣金，但唔會影響你嘅價格。多謝支持！</p>
     </div>
 </footer>
 

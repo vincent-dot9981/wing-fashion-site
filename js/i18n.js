@@ -8,10 +8,16 @@ const I18N = {
         zh: {
             nav_home: '首頁',
             nav_about: '關於我',
-            hero_title: '阿 Wing 服裝站',
-            hero_sub: '香港本地時尚達人 · ITeSell 服裝銷售顧問',
-            hero_desc: '幫你搵最啱嘅衫，襯出最型嘅 look',
-            hero_cta: 'WhatsApp 我搵靚衫',
+            hero_title: 'WING',
+            hero_sub: '你的時尚顧問',
+            hero_cta: 'WHATSAPP 搵我',
+            filter_toggle: '篩選',
+            filter_title: '篩選',
+            filter_search: '搜尋',
+            filter_gender: '性別',
+            filter_brand: '品牌',
+            filter_occasion: '場合',
+            filter_discount: '折扣',
             search_placeholder: '搜尋品牌、產品...',
             gender_all: '所有性別',
             gender_men: '男裝',
@@ -29,8 +35,6 @@ const I18N = {
             reset: '重設',
             featured_title: '限時優惠精選',
             no_results: '搵唔到相關產品，試下其他關鍵字',
-            buy_now: '立即購買',
-            free: '免費',
             about_title: '關於阿 Wing',
             about_tagline: '你嘅私人時尚顧問 · ITeSell 香港 affiliate',
             about_who_title: '我係阿 Wing',
@@ -53,10 +57,16 @@ const I18N = {
         en: {
             nav_home: 'Home',
             nav_about: 'About',
-            hero_title: "Wing's Fashion Hub",
-            hero_sub: 'HK Fashion Enthusiast · ITeSell Style Consultant',
-            hero_desc: 'Find your perfect look with curated fashion picks',
-            hero_cta: 'WhatsApp Me Now',
+            hero_title: 'WING',
+            hero_sub: 'Your Style Consultant',
+            hero_cta: 'WHATSAPP ME',
+            filter_toggle: 'Filter',
+            filter_title: 'Filter',
+            filter_search: 'Search',
+            filter_gender: 'Gender',
+            filter_brand: 'Brand',
+            filter_occasion: 'Occasion',
+            filter_discount: 'Discount',
             search_placeholder: 'Search brands, products...',
             gender_all: 'All Genders',
             gender_men: 'Men',
@@ -74,8 +84,6 @@ const I18N = {
             reset: 'Reset',
             featured_title: 'Limited Time Offers',
             no_results: 'No products found. Try different keywords.',
-            buy_now: 'Shop Now',
-            free: 'Free',
             about_title: 'About Wing',
             about_tagline: 'Your Personal Style Consultant · ITeSell HK Affiliate',
             about_who_title: "Hey, I'm Wing",
@@ -123,7 +131,7 @@ const I18N = {
         if (searchInput) {
             searchInput.placeholder = this.get('search_placeholder');
         }
-        // Update select option labels
+        // Update select option labels (legacy support)
         document.querySelectorAll('select option[data-i18n]').forEach(opt => {
             const key = opt.dataset.i18n;
             if (this.strings[this.current][key]) {
@@ -132,6 +140,8 @@ const I18N = {
         });
         // Update document lang
         document.documentElement.lang = this.current === 'zh' ? 'zh-HK' : 'en';
+        // Re-apply active tags
+        if (typeof updateActiveTags === 'function') updateActiveTags();
     }
 };
 

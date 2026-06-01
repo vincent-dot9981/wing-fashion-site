@@ -29,22 +29,26 @@ const DATA = {
                     throw fetchErr;
                 }
             }
-            this.products = raw.map(p => ({
-                ...p,
-                // Clean up discount text
-                discount_clean: this._cleanDiscount(p.discount || ''),
-                // Extract brand from tags
-                brand: this._extractBrand(p.tags || []),
-                // First image or placeholder
-                image: (p.images && p.images.length > 0) ? p.images[0] : '',
-                // Price display (all are campaigns, price=0)
-                price_display: p.price > 0 ? `HK$${p.price}` : null,
-                // Short selling point
-                selling: p.selling_point || '',
-                // User-friendly display name + original name for subtitle
-                displayName: this._generateDisplayName(p.name, this._extractBrand(p.tags || []), p.tags || []),
-                originalName: p.name
-            }));
+            this.products = raw.map(p => {
+                const strippedName = this._stripEmoji(p.name || '');
+                return {
+                    ...p,
+                    name: strippedName,
+                    // Clean up discount text
+                    discount_clean: this._cleanDiscount(p.discount || ''),
+                    // Extract brand from tags
+                    brand: this._extractBrand(p.tags || []),
+                    // First image or placeholder
+                    image: (p.images && p.images.length > 0) ? p.images[0] : '',
+                    // Price display (all are campaigns, price=0)
+                    price_display: p.price > 0 ? `HK$${p.price}` : null,
+                    // Short selling point
+                    selling: this._stripEmoji(p.selling_point || ''),
+                    // User-friendly display name + original name for subtitle
+                    displayName: this._generateDisplayName(strippedName, this._extractBrand(p.tags || []), p.tags || []),
+                    originalName: strippedName
+                };
+            });
             // Collect all brands
             this.products.forEach(p => {
                 if (p.brand) this.brands.add(p.brand);
@@ -90,8 +94,10 @@ const DATA = {
         // Pick the shortest meaningful one
         parts.sort((a, b) => a.length - b.length);
         let best = parts[0];
-        // Clean up excessive punctuation
+        // Clean up excessive punctuation and emoji
         best = best.replace(/‼+/g, '').replace(/!{2,}/g, '').replace(/\s+/g, ' ').trim();
+        // Remove emoji characters
+        best = best.replace(/[\u{1F600}-\u{1F64F}\u{1F300}-\u{1F5FF}\u{1F680}-\u{1F6FF}\u{1F1E0}-\u{1F1FF}\u{2600}-\u{26FF}\u{2700}-\u{27BF}\u{FE00}-\u{FE0F}\u{1F900}-\u{1F9FF}\u{1FA00}-\u{1FA6F}\u{1FA70}-\u{1FAFF}\u{200D}\u{2934}\u{2935}\u{25AA}\u{25AB}\u{25FB}\u{25FC}\u{25FD}\u{25FE}\u{2B05}\u{2B06}\u{2B07}\u{2B1B}\u{2B1C}\u{2B50}\u{2B55}\u{3030}\u{303D}\u{3297}\u{3299}]/gu, '');
         if (best.length > 40) {
             // Try shorter alternatives
             for (const p of parts) {
@@ -103,6 +109,11 @@ const DATA = {
             if (best.length > 40) best = best.substring(0, 40) + '...';
         }
         return best;
+    },
+
+    _stripEmoji(s) {
+        if (!s) return '';
+        return s.replace(/[\u{1F600}-\u{1F64F}\u{1F300}-\u{1F5FF}\u{1F680}-\u{1F6FF}\u{1F1E0}-\u{1F1FF}\u{2600}-\u{26FF}\u{2700}-\u{27BF}\u{FE00}-\u{FE0F}\u{1F900}-\u{1F9FF}\u{1FA00}-\u{1FA6F}\u{1FA70}-\u{1FAFF}\u{200D}\u{2934}\u{2935}\u{25AA}\u{25AB}\u{25FB}\u{25FC}\u{25FD}\u{25FE}\u{2B05}\u{2B06}\u{2B07}\u{2B1B}\u{2B1C}\u{2B50}\u{2B55}\u{3030}\u{303D}\u{3297}\u{3299}]/gu, '').trim();
     },
 
     /**
