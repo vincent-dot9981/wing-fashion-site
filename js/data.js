@@ -52,8 +52,15 @@ const DATA = {
                     // User-friendly display name + original name for subtitle
                     displayName: this._generateDisplayName(strippedName, this._extractBrand(p.tags || []), p.tags || []),
                     originalName: strippedName,
-                    // Preserve the products array (specific product PDP items)
-                    products: p.products || []
+                    // Preserve the products array (specific product PDP items) with affiliate tracking
+                    products: (p.products || []).map(prod => ({
+                        ...prod,
+                        pdp_url: prod.pdp_url 
+                            ? (prod.pdp_url.includes('?') 
+                                ? prod.pdp_url + '&tscode=affhr_hk10071365' 
+                                : prod.pdp_url + '?tscode=affhr_hk10071365')
+                            : prod.pdp_url
+                    }))
                 };
             });
 
