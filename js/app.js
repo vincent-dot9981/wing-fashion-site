@@ -126,7 +126,7 @@ function renderProducts(products) {
                     const prodCode = prod.code || '';
                     const prodImg = prodCode ? 'images/products_sub/' + encodeURIComponent(prodCode) + '.jpg' : '';
                     return '<a href="' + escHtml(prodUrl) + '" target="_blank" rel="noopener" class="product-sub-item">'
-                        + (prodImg ? '<div class="sub-item-img"><img src="' + escHtml(prodImg) + '" alt="' + escHtml(prodName) + '" loading="lazy" onerror="this.style.display='none'"></div>' : '')
+                        + (prodImg ? '<div class="sub-item-img"><img src="' + escHtml(prodImg) + '" alt="' + escHtml(prodName) + '" loading="lazy" onerror="void(0)"></div>' : '')
                         + '<div class="sub-item-info">'
                         + '<div class="sub-item-name">' + escHtml(prodName) + '</div>'
                         + '<div class="sub-item-brand">' + escHtml(prodBrand) + '</div>'
