@@ -1,4 +1,4 @@
-// Auto-generated 2026-06-01 11:52:38
+// Auto-generated 2026-06-01 11:53:54
 // Primary data source - do not edit manually
 window.__PRODUCT_DATA = [
   {
@@ -1791,30 +1791,30 @@ window.__PRODUCT_DATA = [
     ],
     "products": [
       {
-        "code": "ITTSKW00711XQBWX",
-        "name": "Layered waist skirt",
+        "code": "ITTTEW00707XQNYZ",
+        "name": "Striped tee",
         "brand": "i.TTiTUD",
-        "price": "HK$369.00",
-        "pdp_url": "https://hk.iteshop.com/bit/item/ITTSKW00711XQBWX?tscode=affhr_hk10071365",
-        "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
+        "price": "HK$269.00",
+        "pdp_url": "https://hk.iteshop.com/sit/item/ITTTEW00707XQNYZ?tscode=affhr_hk10071365",
+        "source_url": "https://hk.iteshop.com/sit/item/ITTTEW00707XQNYZ",
         "image": ""
       },
       {
-        "code": "ITTTKW00656XQWHZ",
-        "name": "Plaid cami top",
+        "code": "ITTTPW00670XQWHX",
+        "name": "Cowl neck top",
         "brand": "i.TTiTUD",
-        "price": "HK$239.00",
-        "pdp_url": "https://hk.iteshop.com/bit/item/ITTTKW00656XQWHZ?tscode=affhr_hk10071365",
-        "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
+        "price": "HK$339.00",
+        "pdp_url": "https://hk.iteshop.com/sit/item/ITTTPW00670XQWHX?tscode=affhr_hk10071365",
+        "source_url": "https://hk.iteshop.com/sit/item/ITTTPW00670XQWHX",
         "image": ""
       },
       {
-        "code": "ITTTPW00724XQNYX",
-        "name": "Layered top",
+        "code": "ITTDSW00677XQBKX",
+        "name": "Textured midi dress",
         "brand": "i.TTiTUD",
-        "price": "HK$369.00",
-        "pdp_url": "https://hk.iteshop.com/bit/item/ITTTPW00724XQNYX?tscode=affhr_hk10071365",
-        "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
+        "price": "HK$399.00",
+        "pdp_url": "https://hk.iteshop.com/sit/item/ITTDSW00677XQBKX?tscode=affhr_hk10071365",
+        "source_url": "https://hk.iteshop.com/sit/item/ITTDSW00677XQBKX",
         "image": ""
       }
     ]
@@ -1855,12 +1855,12 @@ window.__PRODUCT_DATA = [
         "image": ""
       },
       {
-        "code": "ITTTEW00707XQNYZ",
-        "name": "Striped tee",
+        "code": "ITTSKW00711XQBWX",
+        "name": "Layered waist skirt",
         "brand": "i.TTiTUD",
-        "price": "HK$269.00",
-        "pdp_url": "https://hk.iteshop.com/bit/item/ITTTEW00707XQNYZ?tscode=affhr_hk10071365",
-        "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
+        "price": "HK$369.00",
+        "pdp_url": "https://hk.iteshop.com/sit/item/ITTSKW00711XQBWX?tscode=affhr_hk10071365",
+        "source_url": "https://hk.iteshop.com/sit/item/ITTSKW00711XQBWX",
         "image": ""
       }
     ]
