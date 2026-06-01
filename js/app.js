@@ -13,6 +13,9 @@ const FILTER_STATE = {
     discount: 'all'
 };
 
+// Sidebar-selected category (separate from drawer filter)
+let selectedCategory = 'all';
+
 // ========== NAVIGATION ==========
 function navigate(page) {
     document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
@@ -169,7 +172,7 @@ function filterProducts() {
     const search = document.getElementById('searchInput').value;
     FILTER_STATE.search = search || '';
 
-    const results = DATA.getFiltered({
+    let results = DATA.getFiltered({
         search: FILTER_STATE.search,
         gender: FILTER_STATE.gender,
         brand: FILTER_STATE.brand,
@@ -177,6 +180,25 @@ function filterProducts() {
         category: FILTER_STATE.category,
         discount: FILTER_STATE.discount
     });
+
+    // Apply sidebar category filter (overrides drawer category)
+    if (selectedCategory !== 'all') {
+        results = results.filter(p => p.category === selectedCategory);
+    }
+
+    // Default 'all' view: show max 20 products (randomly selected)
+    if (selectedCategory === 'all' && FILTER_STATE.category === 'all'
+        && FILTER_STATE.gender === 'all' && FILTER_STATE.brand === 'all'
+        && FILTER_STATE.occasion === 'all' && FILTER_STATE.discount === 'all'
+        && !FILTER_STATE.search) {
+        // Shuffle and take 20
+        const shuffled = [...results];
+        for (let i = shuffled.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+        }
+        results = shuffled.slice(0, 20);
+    }
 
     renderProducts(results);
     updateActiveTags();
@@ -307,6 +329,40 @@ function populateCategoryOptions() {
     });
 }
 
+// ========== CATEGORY SIDEBAR ==========
+function selectCategory(category) {
+    selectedCategory = category;
+
+    // Update sidebar active state
+    document.querySelectorAll('.sidebar-item').forEach(item => {
+        item.classList.toggle('active', item.dataset.category === category);
+    });
+
+    filterProducts();
+}
+
+function populateSidebar() {
+    const sidebar = document.getElementById('categorySidebar');
+    const counts = DATA.getCategoryCounts();
+    const totalCount = DATA.products.length;
+
+    let html = '<div class="category-sidebar-label" data-i18n="sidebar_categories">類別</div>';
+
+    // "全部" (All) option
+    html += '<button class="sidebar-item active" data-category="all" onclick="selectCategory(\'all\')">'
+        + '全部 <span class="sidebar-item-count">(' + totalCount + ')</span></button>';
+
+    // Each actual category from data
+    const categories = DATA.getCategories();
+    categories.forEach(cat => {
+        const count = counts[cat] || 0;
+        html += '<button class="sidebar-item" data-category="' + cat + '" onclick="selectCategory(\'' + cat + '\')">'
+            + cat + ' <span class="sidebar-item-count">(' + count + ')</span></button>';
+    });
+
+    sidebar.innerHTML = html;
+}
+
 // ========== HERO BANNER ==========
 function setupCampaignHero() {
     // Use a campaign image as hero background
@@ -347,8 +403,11 @@ async function init() {
         setupCampaignHero();
         populateBrandOptions();
         populateCategoryOptions();
+        populateSidebar();
         renderProducts(DATA.products);
         updateActiveTags();
+        // Apply sidebar filtering (show 20 default)
+        filterProducts();
     } catch (err) {
         console.error('Init error:', err);
         grid.innerHTML = `<div class="no-results"><p>載入失敗: ${err.message}</p></div>`;
