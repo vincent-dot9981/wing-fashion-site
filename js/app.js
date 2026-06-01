@@ -106,9 +106,35 @@ function renderProducts(products) {
         const discount = p.discount_clean;
         const priceText = p.price_display || '';
 
+        // Determine the primary link: first product's PDP URL, or fallback to affiliate_link
+        const productsArr = p.products || [];
+        const primaryLink = (productsArr.length > 0 && productsArr[0].pdp_url)
+            ? productsArr[0].pdp_url
+            : p.affiliate_link;
+
+        // Build product sub-items HTML
+        let subItemsHtml = '';
+        if (productsArr.length > 0) {
+            subItemsHtml = `<div class="product-sub-items">` +
+                productsArr.map((prod, idx) => {
+                    const prodUrl = prod.pdp_url || primaryLink;
+                    const prodName = prod.name || 'Product';
+                    const prodBrand = prod.brand || '';
+                    const prodPrice = prod.price || '';
+                    return `<a href="${escHtml(prodUrl)}" target="_blank" rel="noopener" class="product-sub-item">
+                        <div class="sub-item-info">
+                            <div class="sub-item-name">${escHtml(prodName)}</div>
+                            <div class="sub-item-brand">${escHtml(prodBrand)}</div>
+                            <div class="sub-item-price">${escHtml(prodPrice)}</div>
+                        </div>
+                    </a>`;
+                }).join('') +
+                `</div>`;
+        }
+
         return `
         <div class="product-card">
-            <a href="${escHtml(p.affiliate_link)}" target="_blank" rel="noopener">
+            <a href="${escHtml(primaryLink)}" target="_blank" rel="noopener" class="card-main-link">
                 <div class="card-image">
                     ${imgSrc ? `<img src="${escHtml(imgSrc)}" alt="${escHtml(imgAlt)}" loading="lazy" onerror="this.style.display='none';this.parentElement.classList.add('card-image-placeholder')">` : '<div class="card-image-placeholder"></div>'}
                 </div>
@@ -119,6 +145,7 @@ function renderProducts(products) {
                     <div class="card-price">${priceText ? escHtml(priceText) : 'SHOP NOW'}</div>
                 </div>
             </a>
+            ${subItemsHtml}
         </div>`;
     }).join('');
 }
@@ -252,22 +279,19 @@ function setupCampaignHero() {
     const products = DATA.products;
     if (!products || products.length === 0) return;
 
-    // Use local campaign images as hero background
+    // Use campaign images from data (original_image URLs or images array)
     const campaignImages = products
         .map(p => p.image)
-        .filter(img => img && img.startsWith('images/products/') && img.match(/\.(jpg|jpeg|png|webp)$/i));
+        .filter(img => img && img.length > 0);
 
     if (campaignImages.length > 0) {
-        // Pick a good hero image - prefer landscape-oriented or specific campaigns
-        // BITOUTLET images are good hero candidates
         let heroImg = campaignImages[0];
         // Try to find an outlet/mega sale image as it's typically more hero-like
         const preferred = campaignImages.filter(img =>
-            img.includes('MEGA SALE') || img.includes('OUTLET'));
+            img.includes('OUTLET') || img.includes('MEGA') || img.includes('outlet'));
         if (preferred.length > 0) {
             heroImg = preferred[Math.floor(Math.random() * preferred.length)];
         } else {
-            // Pick randomly from available
             heroImg = campaignImages[Math.floor(Math.random() * campaignImages.length)];
         }
 

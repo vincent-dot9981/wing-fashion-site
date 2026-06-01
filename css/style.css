@@ -411,6 +411,57 @@ button, select, input { font-family: inherit; font-size: inherit; }
     color: var(--bg);
 }
 
+/* ---------- PRODUCT SUB ITEMS (specific PDP links) ---------- */
+.product-sub-items {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-top: 12px;
+    padding-top: 12px;
+    border-top: 1px solid var(--border-light);
+}
+
+.product-sub-item {
+    display: block;
+    padding: 8px 10px;
+    border: 1px solid var(--border-light);
+    transition: var(--transition);
+    text-decoration: none;
+    color: var(--text);
+}
+
+.product-sub-item:hover {
+    border-color: var(--text);
+    background: #fafafa;
+}
+
+.sub-item-info {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+
+.sub-item-name {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.4;
+    color: var(--text);
+}
+
+.sub-item-brand {
+    font-size: 10px;
+    font-weight: 300;
+    color: var(--text-muted);
+    letter-spacing: 0.3px;
+}
+
+.sub-item-price {
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--text);
+    margin-top: 2px;
+}
+
 /* ---------- NO RESULTS ---------- */
 .no-results {
     text-align: center;

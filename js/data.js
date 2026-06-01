@@ -1,45 +1,8 @@
 /**
  * WING Fashion Hub - Data Loader
- * Loads product data from product_knowledge_base.json
+ * Loads product data from campaign_product_map.json or inline products.js
+ * Each entry has a 'products' array with specific product PDP links.
  */
-
-// Image URL mapping: vip.ithk.com URLs -> local placeholder images
-const IMAGE_URL_MAP = {
-  "https://vip.ithk.com/aff-all/img/SS26SOPHvipsales_SS26 SOPH. MP.jpg": "SS26SOPHvipsales_SS26_SOPH._MP.jpg",
-  "https://vip.ithk.com/aff-all/img/AAPE5202605_SS26 AAPE 520 PROMOTION.jpg": "AAPE5202605_SS26_AAPE_520_PROMOTION.jpg",
-  "https://vip.ithk.com/aff-all/img/acnestudioopensales__ACNE STUDIOS OPEN SALE.jpg": "acnestudioopensales_ACNE_STUDIOS_OPEN_SALE.jpg",
-  "https://vip.ithk.com/aff-all/img/520BITSALE_HK_BIT_PLP_MB_SS26 520.jpg": "520BITSALE_HK_BIT_PLP_MB_SS26_520.jpg",
-  "https://vip.ithk.com/aff-all/img/520SIT2605_SS26 520 PROMOTION_EN.jpg": "520SIT2605_SS26_520_PROMOTION_EN.jpg",
-  "https://vip.ithk.com/aff-all/img/520SIT2605_SS26 520 PROMOTION_EN_VER2.jpg": "520SIT2605_SS26_520_PROMOTION_EN_VER2.jpg",
-  "https://vip.ithk.com/aff-all/img/BITOUTMEGASALE_OUTLET MEGA SALE_M.jpg": "BITOUTMEGASALE_OUTLET_MEGA_SALE_M.jpg",
-  "https://vip.ithk.com/aff-all/img/BITOUTMEGASALE_OUTLET MEGA SALE_W.jpg": "BITOUTMEGASALE_OUTLET_MEGA_SALE_W.jpg",
-  "https://vip.ithk.com/aff-all/img/outletmegasale2605_SS26 Outlet Mega Sale.jpg": "outletmegasale2605_SS26_Outlet_Mega_Sale.jpg",
-  "https://vip.ithk.com/aff-all/img/outletmegasale2605_SS26 Outlet Mega Sale_MEN.jpg": "outletmegasale2605_SS26_Outlet_Mega_Sale_MEN.jpg",
-  "https://vip.ithk.com/aff-all/img/totmepresale1_VALENTINO.jpg": "totmepresale1_VALENTINO.jpg",
-  "https://vip.ithk.com/aff-all/img/VALENTINOpresale1_2.jpg": "VALENTINOpresale1_2.jpg",
-  "https://vip.ithk.com/aff-all/img/VALENTINOpresale1_3.jpg": "VALENTINOpresale1_3.jpg",
-  "https://vip.ithk.com/aff-all/img/offwhite6_3.jpg": "offwhite6_3.jpg",
-  "https://vip.ithk.com/aff-all/img/RainyDay2605_Rainy Day Outfit.png": "RainyDay2605_Rainy_Day_Outfit.png",
-  "https://vip.ithk.com/aff-all/img/BITSITMM2605_Cardigan X Shirt穿搭.png": "BITSITMM2605_Cardigan_X_Shirt穿搭.png",
-  "https://vip.ithk.com/aff-all/img/BITSITMM2605_MM 2026May.png": "BITSITMM2605_MM_2026May.png",
-  "https://vip.ithk.com/aff-all/img/CROCSSS265_CROCS5.jpg": "CROCSSS265_CROCS5.jpg",
-  "https://vip.ithk.com/aff-all/img/mm6salomonss26_sS26 MM6 W.jpg": "mm6salomonss26_sS26_MM6_W.jpg",
-  "https://vip.ithk.com/aff-all/img/bitootdw1_12.jpg": "bitootdw1_12.jpg",
-  "https://vip.ithk.com/aff-all/img/bitootdw1_14.jpg": "bitootdw1_14.jpg",
-  "https://vip.ithk.com/aff-all/img/bitootdw1_NEW.jpg": "bitootdw1_NEW.jpg",
-  "https://vip.ithk.com/aff-all/img/bitootdw1_5 (2).jpg": "bitootdw1_5_2_.jpg",
-  "https://vip.ithk.com/aff-all/img/MARINE1_1.jpg": "MARINE1_1.jpg",
-  "https://vip.ithk.com/aff-all/img/BITSITMM2604_14 Apr.png": "BITSITMM2604_14_Apr.png",
-  "https://vip.ithk.com/aff-all/img/BITSITMM2604_27 Apr.png": "BITSITMM2604_27_Apr.png",
-  "https://vip.ithk.com/aff-all/img/123456_17.jpg": "123456_17.jpg",
-  "https://vip.ithk.com/aff-all/img/bitmenscol_14.jpg": "bitmenscol_14.jpg",
-  "https://vip.ithk.com/aff-all/img/BMSxTimberlandNL_BEAMS x TIMBERLAND.jpg": "BMSxTimberlandNL_BEAMS_x_TIMBERLAND.jpg",
-  "https://vip.ithk.com/aff-all/img/ITT2604_ITT.png": "ITT2604_ITT.png",
-  "https://vip.ithk.com/aff-all/img/ITT2604_ITT 3.png": "ITT2604_ITT_3.png",
-  "https://vip.ithk.com/aff-all/img/palmangle4_1.jpg": "palmangle4_1.jpg",
-  "https://vip.ithk.com/aff-all/img/BITOUTLET_ITeSHOP Outlet_BIT.jpg": "BITOUTLET_ITeSHOP_Outlet_BIT.jpg",
-  "https://vip.ithk.com/aff-all/img/SITOUTLET_ITeSHOP Outlet_SIT.jpg": "SITOUTLET_ITeSHOP_Outlet_SIT.jpg"
-};
 
 const DATA = {
     products: [],
@@ -50,25 +13,29 @@ const DATA = {
         if (this.loaded) return;
         try {
             let raw;
-            // Try fetch first (works on HTTP servers like GitHub Pages)
+            // Try fetching campaign_product_map.json first (primary source for daily updates)
             try {
-                const resp = await fetch('../product_knowledge_base.json');
+                const resp = await fetch('./campaign_product_map.json');
                 if (resp.ok) {
                     raw = await resp.json();
+                    console.log('Loaded campaign_product_map.json (' + raw.length + ' entries)');
                 } else {
                     throw new Error('HTTP error');
                 }
             } catch (fetchErr) {
-                // Fallback: use inline data (works with file:// protocol)
+                // Fallback: use inline data from products.js
                 if (window.__PRODUCT_DATA) {
                     raw = window.__PRODUCT_DATA;
-                    console.log('Using inline product data');
+                    console.log('Using inline product data (' + raw.length + ' entries)');
                 } else {
                     throw fetchErr;
                 }
             }
+
             this.products = raw.map(p => {
                 const strippedName = this._stripEmoji(p.name || '');
+                // Determine image: use original_image if available, else first image from images array
+                const imgSrc = p.original_image || (p.images && p.images.length > 0 ? p.images[0] : '');
                 return {
                     ...p,
                     name: strippedName,
@@ -76,17 +43,20 @@ const DATA = {
                     discount_clean: this._cleanDiscount(p.discount || ''),
                     // Extract brand from tags
                     brand: this._extractBrand(p.tags || []),
-                    // First image or placeholder (use local copies to avoid hotlink blocking)
-                    image: (p.images && p.images.length > 0) ? ('images/products/' + (IMAGE_URL_MAP[p.images[0]] || p.images[0].split('/').pop())) : '',
-                    // Price display (all are campaigns, price=0)
+                    // Image URL: use original campaign image URL directly
+                    image: imgSrc,
+                    // Price display
                     price_display: p.price > 0 ? `HK$${p.price}` : null,
                     // Short selling point
                     selling: this._stripEmoji(p.selling_point || ''),
                     // User-friendly display name + original name for subtitle
                     displayName: this._generateDisplayName(strippedName, this._extractBrand(p.tags || []), p.tags || []),
-                    originalName: strippedName
+                    originalName: strippedName,
+                    // Preserve the products array (specific product PDP items)
+                    products: p.products || []
                 };
             });
+
             // Collect all brands
             this.products.forEach(p => {
                 if (p.brand) this.brands.add(p.brand);
@@ -96,8 +66,11 @@ const DATA = {
         } catch (err) {
             console.error('Data load error:', err);
             // Fallback: show error in UI
-            document.getElementById('productGrid').innerHTML =
-                `<div class="no-results"><p>數據載入失敗: ${err.message}</p></div>`;
+            const grid = document.getElementById('productGrid');
+            if (grid) {
+                grid.innerHTML =
+                    `<div class="no-results"><p>數據載入失敗: ${err.message}</p></div>`;
+            }
             return [];
         }
     },
