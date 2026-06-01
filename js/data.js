@@ -45,8 +45,8 @@ const DATA = {
 
             this.products = raw.map(p => {
                 const strippedName = this._stripEmoji(p.name || '');
-                // Determine image: use original_image if available, else first image from images array
-                const imgSrc = p.original_image || (p.images && p.images.length > 0 ? p.images[0] : '');
+                // Determine image: resolve VIP URLs to local files to avoid hotlink blocking
+                const imgSrc = this._resolveImage(p.original_image || (p.images && p.images.length > 0 ? p.images[0] : ''));
                 return {
                     ...p,
                     name: strippedName,
@@ -56,7 +56,7 @@ const DATA = {
                     brand: this._extractBrand(p.tags || []),
                     // Assign product category based on keyword matching
                     category: this._assignCategory(strippedName, p.products || []),
-                    // Image URL: use original campaign image URL directly
+                    // Image URL: use local file for campaign image
                     image: imgSrc,
                     // Price display
                     price_display: p.price > 0 ? `HK$${p.price}` : null,
@@ -69,9 +69,9 @@ const DATA = {
                     products: (p.products || []).map(prod => ({
                         ...prod,
                         pdp_url: prod.pdp_url 
-                            ? (prod.pdp_url.includes('?') 
-                                ? prod.pdp_url + '&tscode=affhr_hk10071365' 
-                                : prod.pdp_url + '?tscode=affhr_hk10071365')
+                            ? (prod.pdp_url.includes('tscode=') 
+                                ? prod.pdp_url 
+                                : prod.pdp_url + (prod.pdp_url.includes('?') ? '&' : '?') + 'tscode=affhr_hk10071365')
                             : prod.pdp_url
                     }))
                 };
@@ -381,6 +381,26 @@ const DATA = {
             if (/^[A-Z]+$/.test(w)) return w.charAt(0).toUpperCase() + w.slice(1).toLowerCase();
             return w;
         }).join(' ');
+    },
+
+    /**
+     * Resolve campaign image URL to local file to avoid hotlink blocking.
+     * VIP.ITHK.com URLs have hotlink protection on GitHub Pages.
+     * Local files are stored in images/products/ with spaces replaced by underscores etc.
+     */
+    _resolveImage(url) {
+        if (!url) return '';
+        // Only resolve vip.ithk.com URLs
+        if (!url.includes('vip.ithk.com/aff-all/img/')) return url;
+        // Extract filename from URL
+        const filename = url.split('/img/').pop();
+        if (!filename) return url;
+        // Convert to local filename: replace spaces, parens, collapse underscores
+        let localName = filename
+            .replace(/ /g, '_')
+            .replace(/[()]/g, '_')
+            .replace(/__+/g, '_');
+        return 'images/products/' + localName;
     },
 
     getFiltered({ search = '', gender = 'all', brand = 'all', occasion = 'all', discount = 'all', category = 'all' } = {}) {

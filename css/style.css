@@ -337,6 +337,11 @@ button, select, input { font-family: inherit; font-size: inherit; }
     background: #e8e8e8;
 }
 
+/* Wrapper for image + badge: badge uses absolute positioning relative to this */
+.card-image-wrapper {
+    position: relative;
+}
+
 /* Category badge on product image */
 .card-category-badge {
     position: absolute;

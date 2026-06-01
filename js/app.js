@@ -136,10 +136,10 @@ function renderProducts(products) {
 
         return `
         <div class="product-card">
+            <div class="card-image-wrapper">
             <a href="${escHtml(primaryLink)}" target="_blank" rel="noopener" class="card-main-link">
                 <div class="card-image">
                     ${imgSrc ? `<img src="${escHtml(imgSrc)}" alt="${escHtml(imgAlt)}" loading="lazy" onerror="this.style.display='none';this.parentElement.classList.add('card-image-placeholder')">` : '<div class="card-image-placeholder"></div>'}
-                    ${p.category ? `<span class="card-category-badge">${escHtml(p.category)}</span>` : ''}
                 </div>
                 <div class="card-body">
                     <div class="card-title">${escHtml(displayName)}</div>
@@ -148,6 +148,8 @@ function renderProducts(products) {
                     <div class="card-price">${priceText ? escHtml(priceText) : 'SHOP NOW'}</div>
                 </div>
             </a>
+            ${p.category ? `<span class="card-category-badge">${escHtml(p.category)}</span>` : ''}
+            </div>
             ${subItemsHtml}
         </div>`;
     }).join('');
