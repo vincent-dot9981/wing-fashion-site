@@ -123,13 +123,16 @@ function renderProducts(products) {
                     const prodName = prod.name || 'Product';
                     const prodBrand = prod.brand || '';
                     const prodPrice = prod.price || '';
-                    return `<a href="${escHtml(prodUrl)}" target="_blank" rel="noopener" class="product-sub-item">
-                        <div class="sub-item-info">
-                            <div class="sub-item-name">${escHtml(prodName)}</div>
-                            <div class="sub-item-brand">${escHtml(prodBrand)}</div>
-                            <div class="sub-item-price">${escHtml(prodPrice)}</div>
-                        </div>
-                    </a>`;
+                    const prodCode = prod.code || '';
+                    const prodImg = prodCode ? 'images/products_sub/' + encodeURIComponent(prodCode) + '.jpg' : '';
+                    return '<a href="' + escHtml(prodUrl) + '" target="_blank" rel="noopener" class="product-sub-item">'
+                        + (prodImg ? '<div class="sub-item-img"><img src="' + escHtml(prodImg) + '" alt="' + escHtml(prodName) + '" loading="lazy" onerror="this.style.display='none'"></div>' : '')
+                        + '<div class="sub-item-info">'
+                        + '<div class="sub-item-name">' + escHtml(prodName) + '</div>'
+                        + '<div class="sub-item-brand">' + escHtml(prodBrand) + '</div>'
+                        + '<div class="sub-item-price">' + escHtml(prodPrice) + '</div>'
+                        + '</div>'
+                        + '</a>';
                 }).join('') +
                 `</div>`;
         }
