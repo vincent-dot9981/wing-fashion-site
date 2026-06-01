@@ -143,7 +143,6 @@ function renderProducts(products) {
                 </div>
                 <div class="card-body">
                     <div class="card-title">${escHtml(displayName)}</div>
-                    ${originalName && originalName !== displayName ? `<div class="card-subtitle">${escHtml(originalName)}</div>` : ''}
                     ${discount ? `<div class="card-discount">${escHtml(discount)}</div>` : ''}
                     <div class="card-price">${priceText ? escHtml(priceText) : 'SHOP NOW'}</div>
                 </div>
