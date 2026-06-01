@@ -1,5 +1,5 @@
 /**
- * 阿 Wing 服裝站 - Main Application
+ * WING Fashion Hub - Main Application
  * H&M inspired: simplified cards, filter drawer, campaign hero
  */
 

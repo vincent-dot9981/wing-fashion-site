@@ -1,5 +1,5 @@
 /**
- * 阿 Wing 服裝站 - i18n / 中英雙語
+ * WING Fashion Hub - i18n / 中英雙語
  */
 
 const I18N = {
@@ -10,7 +10,7 @@ const I18N = {
             nav_about: '關於我',
             hero_title: 'WING',
             hero_sub: '你的時尚顧問',
-            hero_cta: 'WHATSAPP 搵我',
+            hero_cta: 'WHATSAPP 找我',
             filter_toggle: '篩選',
             filter_title: '篩選',
             filter_search: '搜尋',
@@ -34,25 +34,25 @@ const I18N = {
             discount_low: '7折以上',
             reset: '重設',
             featured_title: '限時優惠精選',
-            no_results: '搵唔到相關產品，試下其他關鍵字',
-            about_title: '關於阿 Wing',
-            about_tagline: '你嘅私人時尚顧問 · ITeSell 香港 affiliate',
-            about_who_title: '我係阿 Wing',
-            about_who_text1: '土生土長香港女仔，對時裝有著一份執著同熱愛。由細到大都鍾意襯衫、研究潮流，慢慢發現 — 著得靚唔係因為件衫貴，而係因為適合自己。',
-            about_who_text2: '我係 ITeSell 平台嘅 affiliate（Staff ID: hk10071365），同 ITeSHOP 合作，幫大家搵到最抵嘅名牌服裝優惠。',
-            about_offer_title: '我幫你做咩？',
-            about_offer1: '幫你揀最啱你身形、風格嘅衫',
-            about_offer2: '提供穿搭建議，由 head-to-toe 襯到最靚',
-            about_offer3: '推介最新、最抵嘅名牌優惠',
+            no_results: '找不到相關產品，請嘗試其他關鍵字',
+            about_title: '關於 Wing',
+            about_tagline: '你的私人時尚顧問',
+            about_who_title: '我是 Wing',
+            about_who_text1: '土生土長香港女生，對時裝有著一份執著與熱愛。從小到大都喜歡襯衫、研究潮流，慢慢發現 — 穿得漂亮不是因為衣服貴，而是因為適合自己。',
+            about_who_text2: '我是 ITeSell 平台的 affiliate，與 ITeSHOP 合作，幫大家找到最划算的名牌服裝優惠。',
+            about_offer_title: '我幫你做什麼？',
+            about_offer1: '幫你挑選最適合你身形、風格的服裝',
+            about_offer2: '提供穿搭建議，從頭到腳搭配到最好看',
+            about_offer3: '推介最新、最划算的名牌優惠',
             about_offer4: '全程透過 WhatsApp 溝通，真正個人化服務',
-            about_brands_title: '我推介嘅品牌',
-            about_brands_note: '仲有其他 brand 優惠，直接 WhatsApp 問我最快',
-            about_cta_title: '直接搵我',
-            about_cta_text: '有咩想問就 WhatsApp 我',
-            about_cta_btn: 'WhatsApp 阿 Wing',
-            footer_brand: '阿 Wing 服裝站',
-            footer_tag: '香港時尚顧問 · ITeSell affiliate (Staff ID: hk10071365)',
-            footer_disclaimer: '使用 affiliate link 購物，我會獲得小額佣金，但唔會影響你嘅價格。多謝支持！'
+            about_brands_title: '我推薦的品牌',
+            about_brands_note: '還有其他品牌優惠，直接 WhatsApp 問我最方便',
+            about_cta_title: '直接找我',
+            about_cta_text: '有問題就 WhatsApp 問我',
+            about_cta_btn: 'WhatsApp Wing',
+            footer_brand: 'WING',
+            footer_tag: '',
+            footer_disclaimer: '使用聯盟連結購物，我會獲得小額佣金，但不會影響你的價格。感謝支持！'
         },
         en: {
             nav_home: 'Home',
@@ -85,10 +85,10 @@ const I18N = {
             featured_title: 'Limited Time Offers',
             no_results: 'No products found. Try different keywords.',
             about_title: 'About Wing',
-            about_tagline: 'Your Personal Style Consultant · ITeSell HK Affiliate',
+            about_tagline: 'Your Personal Style Consultant',
             about_who_title: "Hey, I'm Wing",
             about_who_text1: "Born and raised in Hong Kong, I have a deep passion for fashion. I've always loved styling outfits and exploring trends. I've learned that looking good isn't about expensive clothes — it's about what suits you.",
-            about_who_text2: "I'm an affiliate of ITeSell (Staff ID: hk10071365), partnering with ITeSHOP to help you find the best designer fashion deals.",
+            about_who_text2: "I'm an affiliate of ITeSell, partnering with ITeSHOP to help you find the best designer fashion deals.",
             about_offer_title: 'What I Do',
             about_offer1: 'Help you pick clothes that fit your body & style',
             about_offer2: 'Provide head-to-toe styling advice',
@@ -99,9 +99,9 @@ const I18N = {
             about_cta_title: 'Get in Touch',
             about_cta_text: "Don't hesitate, message me anytime on WhatsApp",
             about_cta_btn: 'Chat with Wing',
-            footer_brand: "Wing's Fashion Hub",
-            footer_tag: 'HK Fashion Consultant · ITeSell affiliate (Staff ID: hk10071365)',
-            footer_disclaimer: "Using my affiliate links helps support me with a small commission at no extra cost to you. Thanks for your support!"
+            footer_brand: "WING",
+            footer_tag: '',
+            footer_disclaimer: "Using affiliate links helps support me with a small commission at no extra cost to you. Thanks for your support!"
         }
     },
 

@@ -1,5 +1,5 @@
 /**
- * 阿 Wing 服裝站 - Data Loader
+ * WING Fashion Hub - Data Loader
  * Loads product data from product_knowledge_base.json
  */
 
