@@ -36,19 +36,23 @@ function closeMenu() {
 
 // ========== PRODUCT RENDERING ==========
 
-/** Flatten campaign entries into standalone product items */
+/** Flatten campaign entries into standalone product items (deduped by code) */
 function flattenProducts(campaignEntries) {
+    const seen = new Set();
     const items = [];
     campaignEntries.forEach(entry => {
         (entry.products || []).forEach(prod => {
+            const code = prod.code || '';
+            if (code && seen.has(code)) return;
+            if (code) seen.add(code);
             items.push({
-                code: prod.code || '',
+                code: code,
                 name: prod.name || 'Product',
                 brand: prod.brand || '',
                 price: prod.price || '',
                 original_price: prod.original_price || '',
                 pdp_url: prod.pdp_url || entry.affiliate_link || '',
-                image: prod.code ? 'images/products_sub/' + encodeURIComponent(prod.code) + '.jpg' : '',
+                image: code ? 'images/products_sub/' + encodeURIComponent(code) + '.jpg' : '',
                 // Inherit category from parent campaign for filtering
                 category: entry.category || '',
                 occasion: entry.occasion || [],
