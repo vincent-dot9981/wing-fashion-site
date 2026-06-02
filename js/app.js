@@ -181,16 +181,16 @@ function filterProducts() {
         discount: FILTER_STATE.discount
     });
 
-    // Apply sidebar category filter (overrides drawer category)
+    // Flatten to individual products for filtering
+    let allFlat = flattenProducts(results);
+
+    // Apply sidebar category filter on flattened products
     if (selectedCategory === 'sale') {
-        results = results.filter(p => p.original_price);
+        allFlat = allFlat.filter(p => p.original_price);
     } else if (selectedCategory !== 'all') {
-        results = results.filter(p => p.category === selectedCategory);
+        allFlat = allFlat.filter(p => p.category === selectedCategory);
     }
 
-    // Default 'all' view: show max 20 PRODUCTs (not campaigns)
-    // We flatten first to count actual products
-    const allFlat = flattenProducts(results);
     let displayFlat = allFlat;
 
     if (selectedCategory === 'all' && FILTER_STATE.category === 'all'
@@ -358,7 +358,8 @@ function selectCategory(category) {
 function populateSidebar() {
     const sidebar = document.getElementById('categorySidebar');
     const counts = DATA.getCategoryCounts();
-    const totalCount = DATA.products.length;
+    const allProducts = flattenProducts(DATA.products);
+    const totalCount = allProducts.length;
     const saleCount = DATA.getSaleCount();
 
     let html = '<div class="category-sidebar-label" data-i18n="sidebar_categories">類別</div>';
