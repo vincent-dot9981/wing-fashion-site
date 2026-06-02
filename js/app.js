@@ -391,7 +391,6 @@ async function init() {
 
     try {
         await DATA.load();
-        loadProducts(currentProducts);
         populateBrandOptions();
         populateCategoryOptions();
         populateSidebar();
