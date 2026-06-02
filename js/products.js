@@ -1,4 +1,4 @@
-// Auto-generated 2026-06-02 16:53:23
+// Auto-generated 2026-06-02 16:54:12
 // Do not edit directly - use campaign_product_map.json
 window.__PRODUCT_DATA = [
   {
@@ -27,8 +27,7 @@ window.__PRODUCT_DATA = [
         "price": "HK$99.00",
         "pdp_url": "https://hk.iteshop.com/sit/item/IZXTEF0000740GY2?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": "",
-        "original_price": "HK$359.00"
+        "image": ""
       },
       {
         "code": "EMXTE1032580QGYD",
@@ -37,8 +36,7 @@ window.__PRODUCT_DATA = [
         "price": "HK$359.00",
         "pdp_url": "https://hk.iteshop.com/sit/item/EMXTE1032580QGYD?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": "",
-        "original_price": "HK$399.00"
+        "image": ""
       },
       {
         "code": "DZXSK6208009QBKZ",
@@ -47,8 +45,7 @@ window.__PRODUCT_DATA = [
         "price": "HK$863.00",
         "pdp_url": "https://hk.iteshop.com/sit/item/DZXSK6208009QBKZ?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": "",
-        "original_price": "HK$959.00"
+        "image": ""
       }
     ]
   },
@@ -296,8 +293,7 @@ window.__PRODUCT_DATA = [
         "price": "HK$560.00",
         "pdp_url": "https://hk.iteshop.com/bit/item/CXETES29T20MQWHX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": "",
-        "original_price": "HK$799.00"
+        "image": ""
       },
       {
         "code": "FFXTEF0000550GY2",
@@ -306,8 +302,7 @@ window.__PRODUCT_DATA = [
         "price": "HK$99.00",
         "pdp_url": "https://hk.iteshop.com/sit/item/FFXTEF0000550GY2?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": "",
-        "original_price": "HK$359.00"
+        "image": ""
       }
     ]
   },
@@ -338,8 +333,7 @@ window.__PRODUCT_DATA = [
         "price": "HK$89.00",
         "pdp_url": "https://hk.iteshop.com/sit/item/B1XTEF0001430GY2?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": "",
-        "original_price": "HK$329.00"
+        "image": ""
       },
       {
         "code": "AJXBO4078028QBWX",
@@ -348,8 +342,7 @@ window.__PRODUCT_DATA = [
         "price": "HK$10,290.00",
         "pdp_url": "https://hk.iteshop.com/bit/item/AJXBO4078028QBWX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": "",
-        "original_price": "HK$14,699.00"
+        "image": ""
       },
       {
         "code": "IZXTEF0000530GY2",
@@ -358,8 +351,7 @@ window.__PRODUCT_DATA = [
         "price": "HK$89.00",
         "pdp_url": "https://hk.iteshop.com/sit/item/IZXTEF0000530GY2?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": "",
-        "original_price": "HK$329.00"
+        "image": ""
       }
     ]
   },
@@ -390,8 +382,7 @@ window.__PRODUCT_DATA = [
         "price": "HK$630.00",
         "pdp_url": "https://hk.iteshop.com/bit/item/CXETES29T13MQBKX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": "",
-        "original_price": "HK$899.00"
+        "image": ""
       },
       {
         "code": "AJXBO4078028QBWX",
@@ -400,8 +391,7 @@ window.__PRODUCT_DATA = [
         "price": "HK$10,290.00",
         "pdp_url": "https://hk.iteshop.com/bit/item/AJXBO4078028QBWX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": "",
-        "original_price": "HK$14,699.00"
+        "image": ""
       },
       {
         "code": "MGGKN7KN101XQGYX",
@@ -410,8 +400,7 @@ window.__PRODUCT_DATA = [
         "price": "HK$1,960.00",
         "pdp_url": "https://hk.iteshop.com/bit/item/MGGKN7KN101XQGYX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": "",
-        "original_price": "HK$2,799.00"
+        "image": ""
       }
     ]
   },
@@ -441,8 +430,7 @@ window.__PRODUCT_DATA = [
         "price": "HK$1,820.00",
         "pdp_url": "https://hk.iteshop.com/bit/item/MGGCD8KN101XQGYX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": "",
-        "original_price": "HK$2,599.00"
+        "image": ""
       },
       {
         "code": "MRRJKWJA076XQBLL",
@@ -451,8 +439,7 @@ window.__PRODUCT_DATA = [
         "price": "HK$4,200.00",
         "pdp_url": "https://hk.iteshop.com/bit/item/MRRJKWJA076XQBLL?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": "",
-        "original_price": "HK$5,999.00"
+        "image": ""
       }
     ]
   },
@@ -482,8 +469,7 @@ window.__PRODUCT_DATA = [
         "price": "HK$99.00",
         "pdp_url": "https://hk.iteshop.com/sit/item/B1XTEF0003780WHX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": "",
-        "original_price": "HK$359.00"
+        "image": ""
       },
       {
         "code": "TNTSPSOCS01MQBWX",
@@ -492,8 +478,7 @@ window.__PRODUCT_DATA = [
         "price": "HK$980.00",
         "pdp_url": "https://hk.iteshop.com/bit/item/TNTSPSOCS01MQBWX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": "",
-        "original_price": "HK$1,399.00"
+        "image": ""
       }
     ]
   },
@@ -523,8 +508,7 @@ window.__PRODUCT_DATA = [
         "price": "HK$99.00",
         "pdp_url": "https://hk.iteshop.com/sit/item/IZXTEF0000490GY2?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": "",
-        "original_price": "HK$359.00"
+        "image": ""
       },
       {
         "code": "CMFTE601C19MQBKX",
@@ -533,8 +517,7 @@ window.__PRODUCT_DATA = [
         "price": "HK$650.00",
         "pdp_url": "https://hk.iteshop.com/bit/item/CMFTE601C19MQBKX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": "",
-        "original_price": "HK$999.00"
+        "image": ""
       },
       {
         "code": "TNTSTSHTL01MQBLX",
@@ -543,8 +526,7 @@ window.__PRODUCT_DATA = [
         "price": "HK$910.00",
         "pdp_url": "https://hk.iteshop.com/bit/item/TNTSTSHTL01MQBLX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": "",
-        "original_price": "HK$1,299.00"
+        "image": ""
       }
     ]
   },
@@ -574,8 +556,7 @@ window.__PRODUCT_DATA = [
         "price": "HK$99.00",
         "pdp_url": "https://hk.iteshop.com/sit/item/B1XTEF0003920GYD?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": "",
-        "original_price": "HK$359.00"
+        "image": ""
       },
       {
         "code": "B1XTEF0003860GYD",
@@ -584,8 +565,7 @@ window.__PRODUCT_DATA = [
         "price": "HK$89.00",
         "pdp_url": "https://hk.iteshop.com/sit/item/B1XTEF0003860GYD?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": "",
-        "original_price": "HK$329.00"
+        "image": ""
       }
     ]
   },
@@ -615,8 +595,7 @@ window.__PRODUCT_DATA = [
         "price": "HK$99.00",
         "pdp_url": "https://hk.iteshop.com/sit/item/B1XTEF0002400BKX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": "",
-        "original_price": "HK$359.00"
+        "image": ""
       },
       {
         "code": "FEVSP140258MQBKX",
@@ -625,8 +604,7 @@ window.__PRODUCT_DATA = [
         "price": "HK$980.00",
         "pdp_url": "https://hk.iteshop.com/bit/item/FEVSP140258MQBKX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": "",
-        "original_price": "HK$1,399.00"
+        "image": ""
       }
     ]
   },
@@ -656,8 +634,7 @@ window.__PRODUCT_DATA = [
         "price": "HK$99.00",
         "pdp_url": "https://hk.iteshop.com/sit/item/FFXTEF0000010WHX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": "",
-        "original_price": "HK$359.00"
+        "image": ""
       },
       {
         "code": "MGGKN6KN101XQGYX",
@@ -666,8 +643,7 @@ window.__PRODUCT_DATA = [
         "price": "HK$2,310.00",
         "pdp_url": "https://hk.iteshop.com/bit/item/MGGKN6KN101XQGYX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": "",
-        "original_price": "HK$3,299.00"
+        "image": ""
       },
       {
         "code": "CMFCP01AC04MQBLX",
@@ -676,8 +652,7 @@ window.__PRODUCT_DATA = [
         "price": "HK$390.00",
         "pdp_url": "https://hk.iteshop.com/bit/item/CMFCP01AC04MQBLX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": "",
-        "original_price": "HK$599.00"
+        "image": ""
       }
     ]
   },
@@ -705,8 +680,7 @@ window.__PRODUCT_DATA = [
         "price": "HK$910.00",
         "pdp_url": "https://hk.iteshop.com/bit/item/TNTSTSHTL01MQBLX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": "",
-        "original_price": "HK$1,299.00"
+        "image": ""
       },
       {
         "code": "TNTPTPA5P04MQGYX",
@@ -715,8 +689,7 @@ window.__PRODUCT_DATA = [
         "price": "HK$1,050.00",
         "pdp_url": "https://hk.iteshop.com/bit/item/TNTPTPA5P04MQGYX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": "",
-        "original_price": "HK$1,499.00"
+        "image": ""
       },
       {
         "code": "EMXTK1176030QBWZ",
@@ -725,8 +698,7 @@ window.__PRODUCT_DATA = [
         "price": "HK$413.00",
         "pdp_url": "https://hk.iteshop.com/sit/item/EMXTK1176030QBWZ?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": "",
-        "original_price": "HK$459.00"
+        "image": ""
       }
     ]
   },
@@ -754,8 +726,7 @@ window.__PRODUCT_DATA = [
         "price": "HK$413.00",
         "pdp_url": "https://hk.iteshop.com/sit/item/EMXTK1177030QBKX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": "",
-        "original_price": "HK$459.00"
+        "image": ""
       },
       {
         "code": "MRRJNWPA128XQBLL",
@@ -764,8 +735,7 @@ window.__PRODUCT_DATA = [
         "price": "HK$3,500.00",
         "pdp_url": "https://hk.iteshop.com/bit/item/MRRJNWPA128XQBLL?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": "",
-        "original_price": "HK$4,999.00"
+        "image": ""
       },
       {
         "code": "EMXTK1176030QBWZ",
@@ -774,8 +744,7 @@ window.__PRODUCT_DATA = [
         "price": "HK$413.00",
         "pdp_url": "https://hk.iteshop.com/sit/item/EMXTK1176030QBWZ?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": "",
-        "original_price": "HK$459.00"
+        "image": ""
       }
     ]
   },
@@ -803,8 +772,7 @@ window.__PRODUCT_DATA = [
         "price": "HK$1,300.00",
         "pdp_url": "https://hk.iteshop.com/bit/item/CMFPT601P04MQBKX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": "",
-        "original_price": "HK$1,999.00"
+        "image": ""
       },
       {
         "code": "B1XTEF0002360GY2",
@@ -813,8 +781,7 @@ window.__PRODUCT_DATA = [
         "price": "HK$89.00",
         "pdp_url": "https://hk.iteshop.com/sit/item/B1XTEF0002360GY2?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": "",
-        "original_price": "HK$329.00"
+        "image": ""
       }
     ]
   },
@@ -842,8 +809,7 @@ window.__PRODUCT_DATA = [
         "price": "HK$99.00",
         "pdp_url": "https://hk.iteshop.com/sit/item/IZXTEF0000740GY2?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": "",
-        "original_price": "HK$359.00"
+        "image": ""
       },
       {
         "code": "B1XTEF0001430GY2",
@@ -852,8 +818,7 @@ window.__PRODUCT_DATA = [
         "price": "HK$89.00",
         "pdp_url": "https://hk.iteshop.com/sit/item/B1XTEF0001430GY2?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": "",
-        "original_price": "HK$329.00"
+        "image": ""
       },
       {
         "code": "5CXTEF0000060BKX",
@@ -862,8 +827,7 @@ window.__PRODUCT_DATA = [
         "price": "HK$79.00",
         "pdp_url": "https://hk.iteshop.com/sit/item/5CXTEF0000060BKX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": "",
-        "original_price": "HK$299.00"
+        "image": ""
       }
     ]
   },
@@ -891,8 +855,7 @@ window.__PRODUCT_DATA = [
         "price": "HK$89.00",
         "pdp_url": "https://hk.iteshop.com/sit/item/IZXTEF0000530GY2?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": "",
-        "original_price": "HK$329.00"
+        "image": ""
       },
       {
         "code": "5CXTEF0000020BKX",
@@ -901,8 +864,7 @@ window.__PRODUCT_DATA = [
         "price": "HK$89.00",
         "pdp_url": "https://hk.iteshop.com/sit/item/5CXTEF0000020BKX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": "",
-        "original_price": "HK$329.00"
+        "image": ""
       },
       {
         "code": "MRRSR2ARDENMQBLX",
@@ -911,8 +873,7 @@ window.__PRODUCT_DATA = [
         "price": "HK$3,575.00",
         "pdp_url": "https://hk.iteshop.com/bit/item/MRRSR2ARDENMQBLX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": "",
-        "original_price": "HK$5,499.00"
+        "image": ""
       }
     ]
   },
@@ -940,8 +901,7 @@ window.__PRODUCT_DATA = [
         "price": "HK$420.00",
         "pdp_url": "https://hk.iteshop.com/bit/item/TNTTETSST03MQNYX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": "",
-        "original_price": "HK$599.00"
+        "image": ""
       },
       {
         "code": "FEVTE170151MQGYX",
@@ -950,8 +910,7 @@ window.__PRODUCT_DATA = [
         "price": "HK$420.00",
         "pdp_url": "https://hk.iteshop.com/bit/item/FEVTE170151MQGYX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": "",
-        "original_price": "HK$599.00"
+        "image": ""
       },
       {
         "code": "B1XTEF0003920GYD",
@@ -960,8 +919,7 @@ window.__PRODUCT_DATA = [
         "price": "HK$99.00",
         "pdp_url": "https://hk.iteshop.com/sit/item/B1XTEF0003920GYD?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": "",
-        "original_price": "HK$359.00"
+        "image": ""
       }
     ]
   },
@@ -989,8 +947,7 @@ window.__PRODUCT_DATA = [
         "price": "HK$99.00",
         "pdp_url": "https://hk.iteshop.com/sit/item/FFXTEF0001120GYD?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": "",
-        "original_price": "HK$359.00"
+        "image": ""
       },
       {
         "code": "B1XTEF0003920GYD",
@@ -999,8 +956,7 @@ window.__PRODUCT_DATA = [
         "price": "HK$99.00",
         "pdp_url": "https://hk.iteshop.com/sit/item/B1XTEF0003920GYD?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": "",
-        "original_price": "HK$359.00"
+        "image": ""
       }
     ]
   },
@@ -1030,8 +986,7 @@ window.__PRODUCT_DATA = [
         "price": "HK$99.00",
         "pdp_url": "https://hk.iteshop.com/sit/item/FFXTEF0000720GY2?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": "",
-        "original_price": "HK$359.00"
+        "image": ""
       },
       {
         "code": "B1XTEF0003860GYD",
@@ -1040,8 +995,7 @@ window.__PRODUCT_DATA = [
         "price": "HK$89.00",
         "pdp_url": "https://hk.iteshop.com/sit/item/B1XTEF0003860GYD?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": "",
-        "original_price": "HK$329.00"
+        "image": ""
       }
     ]
   },
@@ -1192,8 +1146,7 @@ window.__PRODUCT_DATA = [
         "price": "HK$99.00",
         "pdp_url": "https://hk.iteshop.com/sit/item/IZXTEF0000190GY2?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": "",
-        "original_price": "HK$359.00"
+        "image": ""
       },
       {
         "code": "IZXTEF0000740GY2",
@@ -1202,8 +1155,7 @@ window.__PRODUCT_DATA = [
         "price": "HK$99.00",
         "pdp_url": "https://hk.iteshop.com/sit/item/IZXTEF0000740GY2?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": "",
-        "original_price": "HK$359.00"
+        "image": ""
       },
       {
         "code": "CXETES29T13MQBKX",
@@ -1212,8 +1164,7 @@ window.__PRODUCT_DATA = [
         "price": "HK$630.00",
         "pdp_url": "https://hk.iteshop.com/bit/item/CXETES29T13MQBKX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": "",
-        "original_price": "HK$899.00"
+        "image": ""
       }
     ]
   },
@@ -1239,8 +1190,7 @@ window.__PRODUCT_DATA = [
         "price": "HK$980.00",
         "pdp_url": "https://hk.iteshop.com/bit/item/FEVSP140258MQBKX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": "",
-        "original_price": "HK$1,399.00"
+        "image": ""
       },
       {
         "code": "CXETES29T11MQBKX",
@@ -1249,8 +1199,7 @@ window.__PRODUCT_DATA = [
         "price": "HK$630.00",
         "pdp_url": "https://hk.iteshop.com/bit/item/CXETES29T11MQBKX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": "",
-        "original_price": "HK$899.00"
+        "image": ""
       }
     ]
   },
@@ -1276,8 +1225,7 @@ window.__PRODUCT_DATA = [
         "price": "HK$99.00",
         "pdp_url": "https://hk.iteshop.com/sit/item/B1XTEF0003290WHX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": "",
-        "original_price": "HK$359.00"
+        "image": ""
       },
       {
         "code": "PPATE900138MQWHX",
@@ -1286,8 +1234,7 @@ window.__PRODUCT_DATA = [
         "price": "HK$390.00",
         "pdp_url": "https://hk.iteshop.com/bit/item/PPATE900138MQWHX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": "",
-        "original_price": "HK$599.00"
+        "image": ""
       },
       {
         "code": "TNTTETSST34MQIVX",
@@ -1296,8 +1243,7 @@ window.__PRODUCT_DATA = [
         "price": "HK$420.00",
         "pdp_url": "https://hk.iteshop.com/bit/item/TNTTETSST34MQIVX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": "",
-        "original_price": "HK$599.00"
+        "image": ""
       }
     ]
   },
@@ -1323,8 +1269,7 @@ window.__PRODUCT_DATA = [
         "price": "HK$99.00",
         "pdp_url": "https://hk.iteshop.com/sit/item/FFXTEF0001120GYD?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": "",
-        "original_price": "HK$359.00"
+        "image": ""
       },
       {
         "code": "PPALT990015MQWHX",
@@ -1333,8 +1278,7 @@ window.__PRODUCT_DATA = [
         "price": "HK$520.00",
         "pdp_url": "https://hk.iteshop.com/bit/item/PPALT990015MQWHX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": "",
-        "original_price": "HK$799.00"
+        "image": ""
       },
       {
         "code": "AGDSPA0371XXQBLL",
@@ -1343,8 +1287,7 @@ window.__PRODUCT_DATA = [
         "price": "HK$1,120.00",
         "pdp_url": "https://hk.iteshop.com/bit/item/AGDSPA0371XXQBLL?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": "",
-        "original_price": "HK$1,599.00"
+        "image": ""
       }
     ]
   },
@@ -1441,8 +1384,7 @@ window.__PRODUCT_DATA = [
         "price": "HK$350.00",
         "pdp_url": "https://hk.iteshop.com/bit/item/TNTTETSST02MQWHX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": "",
-        "original_price": "HK$499.00"
+        "image": ""
       },
       {
         "code": "CXETES29T20MQWHX",
@@ -1451,8 +1393,7 @@ window.__PRODUCT_DATA = [
         "price": "HK$560.00",
         "pdp_url": "https://hk.iteshop.com/bit/item/CXETES29T20MQWHX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": "",
-        "original_price": "HK$799.00"
+        "image": ""
       },
       {
         "code": "SGESPPSDBLCMQBLX",
@@ -1461,8 +1402,7 @@ window.__PRODUCT_DATA = [
         "price": "HK$1,960.00",
         "pdp_url": "https://hk.iteshop.com/bit/item/SGESPPSDBLCMQBLX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": "",
-        "original_price": "HK$2,799.00"
+        "image": ""
       }
     ]
   },
@@ -1489,8 +1429,7 @@ window.__PRODUCT_DATA = [
         "price": "HK$629.00",
         "pdp_url": "https://hk.iteshop.com/sit/item/DZXDS6203027QNYX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": "",
-        "original_price": "HK$699.00"
+        "image": ""
       },
       {
         "code": "B1XTEF0003920GYD",
@@ -1499,8 +1438,7 @@ window.__PRODUCT_DATA = [
         "price": "HK$99.00",
         "pdp_url": "https://hk.iteshop.com/sit/item/B1XTEF0003920GYD?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": "",
-        "original_price": "HK$359.00"
+        "image": ""
       },
       {
         "code": "SGESPPSDBLCMQBLX",
@@ -1509,8 +1447,7 @@ window.__PRODUCT_DATA = [
         "price": "HK$1,960.00",
         "pdp_url": "https://hk.iteshop.com/bit/item/SGESPPSDBLCMQBLX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": "",
-        "original_price": "HK$2,799.00"
+        "image": ""
       }
     ]
   },
@@ -1537,8 +1474,7 @@ window.__PRODUCT_DATA = [
         "price": "HK$3,575.00",
         "pdp_url": "https://hk.iteshop.com/bit/item/MRRSR2ARDENMQBLX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": "",
-        "original_price": "HK$5,499.00"
+        "image": ""
       },
       {
         "code": "B1XTEF0001950GY2",
@@ -1547,8 +1483,7 @@ window.__PRODUCT_DATA = [
         "price": "HK$79.00",
         "pdp_url": "https://hk.iteshop.com/sit/item/B1XTEF0001950GY2?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": "",
-        "original_price": "HK$299.00"
+        "image": ""
       },
       {
         "code": "TNTTPTOSP01MQORX",
@@ -1557,8 +1492,7 @@ window.__PRODUCT_DATA = [
         "price": "HK$840.00",
         "pdp_url": "https://hk.iteshop.com/bit/item/TNTTPTOSP01MQORX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": "",
-        "original_price": "HK$1,199.00"
+        "image": ""
       }
     ]
   },
@@ -1585,8 +1519,7 @@ window.__PRODUCT_DATA = [
         "price": "HK$1,625.00",
         "pdp_url": "https://hk.iteshop.com/bit/item/MRRSP3ACWOVMQBKX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": "",
-        "original_price": "HK$2,499.00"
+        "image": ""
       },
       {
         "code": "FFXTEF0000220WHX",
@@ -1595,8 +1528,7 @@ window.__PRODUCT_DATA = [
         "price": "HK$99.00",
         "pdp_url": "https://hk.iteshop.com/sit/item/FFXTEF0000220WHX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": "",
-        "original_price": "HK$359.00"
+        "image": ""
       }
     ]
   },
@@ -1624,8 +1556,7 @@ window.__PRODUCT_DATA = [
         "price": "HK$2,590.00",
         "pdp_url": "https://hk.iteshop.com/bit/item/MRRSKWSK135XQBLL?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": "",
-        "original_price": "HK$3,699.00"
+        "image": ""
       },
       {
         "code": "MRRJKWJA076XQBLL",
@@ -1634,8 +1565,7 @@ window.__PRODUCT_DATA = [
         "price": "HK$4,200.00",
         "pdp_url": "https://hk.iteshop.com/bit/item/MRRJKWJA076XQBLL?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": "",
-        "original_price": "HK$5,999.00"
+        "image": ""
       },
       {
         "code": "MRRHAWHA002XQMLX",
@@ -1644,8 +1574,7 @@ window.__PRODUCT_DATA = [
         "price": "HK$700.00",
         "pdp_url": "https://hk.iteshop.com/bit/item/MRRHAWHA002XQMLX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": "",
-        "original_price": "HK$999.00"
+        "image": ""
       }
     ]
   },
@@ -1755,8 +1684,7 @@ window.__PRODUCT_DATA = [
         "price": "HK$3,575.00",
         "pdp_url": "https://hk.iteshop.com/bit/item/MRRSR2ARDENMQBLX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": "",
-        "original_price": "HK$5,499.00"
+        "image": ""
       },
       {
         "code": "B1XTEF0002340GYD",
@@ -1765,8 +1693,7 @@ window.__PRODUCT_DATA = [
         "price": "HK$99.00",
         "pdp_url": "https://hk.iteshop.com/sit/item/B1XTEF0002340GYD?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": "",
-        "original_price": "HK$359.00"
+        "image": ""
       },
       {
         "code": "5CXTEF0000090GY2",
@@ -1775,8 +1702,7 @@ window.__PRODUCT_DATA = [
         "price": "HK$79.00",
         "pdp_url": "https://hk.iteshop.com/sit/item/5CXTEF0000090GY2?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": "",
-        "original_price": "HK$299.00"
+        "image": ""
       }
     ]
   },
@@ -1803,8 +1729,7 @@ window.__PRODUCT_DATA = [
         "price": "HK$1,190.00",
         "pdp_url": "https://hk.iteshop.com/bit/item/NEDSTSX4856MQBKX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": "",
-        "original_price": "HK$1,699.00"
+        "image": ""
       },
       {
         "code": "CXETES29T17MQBKX",
@@ -1813,8 +1738,7 @@ window.__PRODUCT_DATA = [
         "price": "HK$490.00",
         "pdp_url": "https://hk.iteshop.com/bit/item/CXETES29T17MQBKX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": "",
-        "original_price": "HK$699.00"
+        "image": ""
       },
       {
         "code": "MRRSKWSK135XQBLL",
@@ -1823,8 +1747,7 @@ window.__PRODUCT_DATA = [
         "price": "HK$2,590.00",
         "pdp_url": "https://hk.iteshop.com/bit/item/MRRSKWSK135XQBLL?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": "",
-        "original_price": "HK$3,699.00"
+        "image": ""
       }
     ]
   },
@@ -2010,8 +1933,7 @@ window.__PRODUCT_DATA = [
         "price": "HK$863.00",
         "pdp_url": "https://hk.iteshop.com/sit/item/DZXSK6208009QBKZ?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": "",
-        "original_price": "HK$959.00"
+        "image": ""
       },
       {
         "code": "PPALT990015MQWHX",
@@ -2020,8 +1942,7 @@ window.__PRODUCT_DATA = [
         "price": "HK$520.00",
         "pdp_url": "https://hk.iteshop.com/bit/item/PPALT990015MQWHX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": "",
-        "original_price": "HK$799.00"
+        "image": ""
       },
       {
         "code": "B1XTEF0002140BKX",
@@ -2030,8 +1951,7 @@ window.__PRODUCT_DATA = [
         "price": "HK$79.00",
         "pdp_url": "https://hk.iteshop.com/sit/item/B1XTEF0002140BKX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": "",
-        "original_price": "HK$299.00"
+        "image": ""
       }
     ]
   },
@@ -2057,8 +1977,7 @@ window.__PRODUCT_DATA = [
         "price": "HK$420.00",
         "pdp_url": "https://hk.iteshop.com/bit/item/FEVTE170151MQGYX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": "",
-        "original_price": "HK$599.00"
+        "image": ""
       },
       {
         "code": "MGGCD8KN610XQBWX",
@@ -2067,8 +1986,7 @@ window.__PRODUCT_DATA = [
         "price": "HK$1,820.00",
         "pdp_url": "https://hk.iteshop.com/bit/item/MGGCD8KN610XQBWX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": "",
-        "original_price": "HK$2,599.00"
+        "image": ""
       }
     ]
   },
@@ -2094,8 +2012,7 @@ window.__PRODUCT_DATA = [
         "price": "HK$350.00",
         "pdp_url": "https://hk.iteshop.com/bit/item/TNTTETSST02MQWHX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": "",
-        "original_price": "HK$499.00"
+        "image": ""
       },
       {
         "code": "TNTSPSO5S01MQBLX",
@@ -2104,8 +2021,7 @@ window.__PRODUCT_DATA = [
         "price": "HK$840.00",
         "pdp_url": "https://hk.iteshop.com/bit/item/TNTSPSO5S01MQBLX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": "",
-        "original_price": "HK$1,199.00"
+        "image": ""
       }
     ]
   },
@@ -2131,8 +2047,7 @@ window.__PRODUCT_DATA = [
         "price": "HK$2,590.00",
         "pdp_url": "https://hk.iteshop.com/bit/item/MRRSKWSK135XQBLL?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": "",
-        "original_price": "HK$3,699.00"
+        "image": ""
       },
       {
         "code": "IZXTEF0000620BKX",
@@ -2141,8 +2056,7 @@ window.__PRODUCT_DATA = [
         "price": "HK$89.00",
         "pdp_url": "https://hk.iteshop.com/sit/item/IZXTEF0000620BKX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": "",
-        "original_price": "HK$329.00"
+        "image": ""
       }
     ]
   },
@@ -2168,8 +2082,7 @@ window.__PRODUCT_DATA = [
         "price": "HK$359.00",
         "pdp_url": "https://hk.iteshop.com/sit/item/EMXTE1032580QGYD?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": "",
-        "original_price": "HK$399.00"
+        "image": ""
       },
       {
         "code": "EMOST6204502QBKX",
@@ -2178,8 +2091,7 @@ window.__PRODUCT_DATA = [
         "price": "HK$399.00",
         "pdp_url": "https://hk.iteshop.com/sit/item/EMOST6204502QBKX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": "",
-        "original_price": "HK$499.00"
+        "image": ""
       }
     ]
   },
@@ -2205,8 +2117,7 @@ window.__PRODUCT_DATA = [
         "price": "HK$975.00",
         "pdp_url": "https://hk.iteshop.com/bit/item/CMFTE601C17MQBKX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": "",
-        "original_price": "HK$1,499.00"
+        "image": ""
       },
       {
         "code": "5CXTEF0000090GY2",
@@ -2215,8 +2126,7 @@ window.__PRODUCT_DATA = [
         "price": "HK$79.00",
         "pdp_url": "https://hk.iteshop.com/sit/item/5CXTEF0000090GY2?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": "",
-        "original_price": "HK$299.00"
+        "image": ""
       }
     ]
   },
@@ -2242,8 +2152,7 @@ window.__PRODUCT_DATA = [
         "price": "HK$89.00",
         "pdp_url": "https://hk.iteshop.com/sit/item/IZXTEF0000650BKX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": "",
-        "original_price": "HK$329.00"
+        "image": ""
       },
       {
         "code": "TNTJNPA5P02MQBKX",
@@ -2252,8 +2161,7 @@ window.__PRODUCT_DATA = [
         "price": "HK$1,050.00",
         "pdp_url": "https://hk.iteshop.com/bit/item/TNTJNPA5P02MQBKX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": "",
-        "original_price": "HK$1,499.00"
+        "image": ""
       }
     ]
   }
