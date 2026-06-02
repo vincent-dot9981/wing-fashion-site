@@ -1,4 +1,4 @@
-// Auto-generated 2026-06-02 18:15:00
+// Auto-generated 2026-06-02 18:16:28
 // Do not edit directly - use campaign_product_map.json
 window.__PRODUCT_DATA = [
   {
