@@ -152,29 +152,25 @@ function selectCategory(category) {
 
 function populateSidebar() {
     const sidebar = document.getElementById('categorySidebar');
-    const counts = DATA.getCategoryCounts();
-    const allProducts = flattenProducts(DATA.products);
-    const totalCount = allProducts.length;
-    const saleCount = DATA.getSaleCount();
 
     let html = '<div class="category-sidebar-label" data-i18n="sidebar_categories">類別</div>';
 
     // "全部" (All) option
     html += '<button class="sidebar-item active" data-category="all" onclick="selectCategory(\'all\')">'
-        + '全部 <span class="sidebar-item-count">(' + totalCount + ')</span></button>';
+        + '全部</button>';
 
     // "減價產品" (Sale) option
+    const saleCount = DATA.getSaleCount();
     if (saleCount > 0) {
         html += '<button class="sidebar-item" data-category="sale" onclick="selectCategory(\'sale\')">'
-            + '減價產品 <span class="sidebar-item-count">(' + saleCount + ')</span></button>';
+            + '減價產品</button>';
     }
 
     // Each actual category from data
     const categories = DATA.getCategories();
     categories.forEach(cat => {
-        const count = counts[cat] || 0;
         html += '<button class="sidebar-item" data-category="' + cat + '" onclick="selectCategory(\'' + cat + '\')">'
-            + cat + ' <span class="sidebar-item-count">(' + count + ')</span></button>';
+            + cat + '</button>';
     });
 
     sidebar.innerHTML = html;
