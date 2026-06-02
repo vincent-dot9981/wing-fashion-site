@@ -397,7 +397,7 @@ const DATA = {
         return 'images/products/' + localName;
     },
 
-    getFiltered({ search = '', gender = 'all', brand = 'all', occasion = 'all', discount = 'all', category = 'all' } = {}) {
+    getFiltered({ search = '', gender = 'all', brand = 'all', occasion = 'all', category = 'all' } = {}) {
         let results = [...this.products];
 
         // Search
@@ -431,24 +431,6 @@ const DATA = {
         // Category
         if (category !== 'all') {
             results = results.filter(p => p.category === category);
-        }
-
-        // Discount level
-        if (discount !== 'all') {
-            results = results.filter(p => {
-                const d = p.discount_clean || '';
-                if (discount === 'high') {
-                    // "2折", "3折", "低至2折" → high discount (80%+ off)
-                    return /[2-3]折/.test(d) || /低至/.test(d);
-                } else if (discount === 'mid') {
-                    // 4-6折
-                    return /[4-6]折/.test(d) || /6折/.test(d);
-                } else if (discount === 'low') {
-                    // 7折 or 20% off etc
-                    return /7折/.test(d) || /8折/.test(d) || /9折/.test(d) || /20%/.test(d) || /85折/.test(d) || d === '';
-                }
-                return true;
-            });
         }
 
         return results;

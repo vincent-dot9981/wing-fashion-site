@@ -9,8 +9,7 @@ const FILTER_STATE = {
     gender: 'all',
     brand: 'all',
     occasion: 'all',
-    category: 'all',
-    discount: 'all'
+    category: 'all'
 };
 
 // Sidebar-selected category (separate from draw filter)
@@ -177,8 +176,7 @@ function filterProducts() {
         gender: FILTER_STATE.gender,
         brand: FILTER_STATE.brand,
         occasion: FILTER_STATE.occasion,
-        category: FILTER_STATE.category,
-        discount: FILTER_STATE.discount
+        category: FILTER_STATE.category
     });
 
     // Flatten to individual products for filtering
@@ -195,7 +193,7 @@ function filterProducts() {
 
     if (selectedCategory === 'all' && FILTER_STATE.category === 'all'
         && FILTER_STATE.gender === 'all' && FILTER_STATE.brand === 'all'
-        && FILTER_STATE.occasion === 'all' && FILTER_STATE.discount === 'all'
+        && FILTER_STATE.occasion === 'all'
         && !FILTER_STATE.search) {
         // Shuffle and take 20 individual products
         const shuffled = [...allFlat];
@@ -224,17 +222,13 @@ function updateActiveTags() {
         tags.push({ type: 'brand', label: FILTER_STATE.brand });
     }
     if (FILTER_STATE.occasion !== 'all') {
-        const occasionLabel = FILTER_STATE.occasion;
-        tags.push({ type: 'occasion', label: occasionLabel });
+        const occasionLabels = { 'casual': '休閒', 'work': '返工', 'gift': '送禮' };
+        const enOccasionLabels = { 'casual': 'Casual', 'work': 'Work', 'gift': 'Gift' };
+        const oLabel = I18N.current === 'zh' ? occasionLabels[FILTER_STATE.occasion] : enOccasionLabels[FILTER_STATE.occasion];
+        tags.push({ type: 'occasion', label: oLabel || FILTER_STATE.occasion });
     }
     if (FILTER_STATE.category !== 'all') {
         tags.push({ type: 'category', label: FILTER_STATE.category });
-    }
-    if (FILTER_STATE.discount !== 'all') {
-        const discountLabels = { 'high': '低至2折', 'mid': '3-6折', 'low': '7折以上' };
-        const enDiscountLabels = { 'high': 'Up to 80%', 'mid': '40-70%', 'low': '30%+' };
-        const dLabel = I18N.current === 'zh' ? discountLabels[FILTER_STATE.discount] : enDiscountLabels[FILTER_STATE.discount];
-        tags.push({ type: 'discount', label: dLabel || FILTER_STATE.discount });
     }
     if (FILTER_STATE.search) {
         tags.push({ type: 'search', label: `"${FILTER_STATE.search}"` });
@@ -271,11 +265,6 @@ function clearFilterTag(type) {
         document.querySelectorAll('#filterSectionCategory .filter-option').forEach(opt => {
             opt.classList.toggle('active', opt.dataset.value === 'all');
         });
-    } else if (type === 'discount') {
-        FILTER_STATE.discount = 'all';
-        document.querySelectorAll('#filterSectionDiscount .filter-option').forEach(opt => {
-            opt.classList.toggle('active', opt.dataset.value === 'all');
-        });
     } else if (type === 'search') {
         FILTER_STATE.search = '';
         document.getElementById('searchInput').value = '';
@@ -289,7 +278,6 @@ function resetFilters() {
     FILTER_STATE.brand = 'all';
     FILTER_STATE.occasion = 'all';
     FILTER_STATE.category = 'all';
-    FILTER_STATE.discount = 'all';
 
     document.getElementById('searchInput').value = '';
 
