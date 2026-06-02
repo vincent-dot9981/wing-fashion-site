@@ -473,6 +473,12 @@ const DATA = {
     },
 
     getSaleCount() {
-        return this.products.filter(p => p.original_price).length;
+        let count = 0;
+        this.products.forEach(camp => {
+            (camp.products || []).forEach(prod => {
+                if (prod.original_price) count++;
+            });
+        });
+        return count;
     }
 };
