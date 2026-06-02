@@ -240,6 +240,7 @@ button, select, input { font-family: inherit; font-size: inherit; }
 
 .hero-cta {
     display: inline-block;
+    white-space: pre-line;
     padding: 14px 40px;
     border: 1px solid #ffffff;
     color: #ffffff;
