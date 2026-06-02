@@ -1,4 +1,4 @@
-// Auto-generated 2026-06-02 11:29:26
+// Auto-generated 2026-06-02 11:30:35
 // Do not edit directly - use campaign_product_map.json
 window.__PRODUCT_DATA = [
   {
@@ -21,29 +21,20 @@ window.__PRODUCT_DATA = [
     "brand_matches": [],
     "products": [
       {
-        "code": "FPXSRM2625XMQBKX",
-        "name": "Striped-collar shirt",
+        "code": "B1XTEF0003450BKX",
+        "name": "Graphic patch tee",
+        "brand": ":CHOCOOLATE",
+        "price": "HK$79.00",
+        "pdp_url": "https://hk.iteshop.com/sit/item/B1XTEF0003450BKX?tscode=affhr_hk10071365",
+        "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
+        "image": ""
+      },
+      {
+        "code": "FPXTEM7XXXXMQBKX",
+        "name": "Crew neck tee",
         "brand": "Fred Perry",
-        "price": "HK$1,120.00",
-        "pdp_url": "https://hk.iteshop.com/sit/item/FPXSRM2625XMQBKX?tscode=affhr_hk10071365",
-        "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": ""
-      },
-      {
-        "code": "ADWBGP70L001QBKX",
-        "name": "Logo shoulder bag",
-        "brand": "alexander wang",
-        "price": "HK$3,700.00",
-        "pdp_url": "https://hk.iteshop.com/bit/item/ADWBGP70L001QBKX?tscode=affhr_hk10071365",
-        "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": ""
-      },
-      {
-        "code": "ZNXTE6279RN0QBKX",
-        "name": "Paneled tee",
-        "brand": "RICK OWENS",
-        "price": "HK$3,799.00",
-        "pdp_url": "https://hk.iteshop.com/bit/item/ZNXTE6279RN0QBKX?tscode=affhr_hk10071365",
+        "price": "HK$960.00",
+        "pdp_url": "https://hk.iteshop.com/sit/item/FPXTEM7XXXXMQBKX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": ""
       }
@@ -104,20 +95,29 @@ window.__PRODUCT_DATA = [
     ],
     "products": [
       {
-        "code": "AAPTEM1866XXQBKX",
-        "name": "AAPENOW moonface tee",
+        "code": "AAPTEM10039XQBKX",
+        "name": "AAPENOW camo moonface logo tee",
         "brand": "AAPE",
-        "price": "HK$799.00",
-        "pdp_url": "https://hk.iteshop.com/sit/item/AAPTEM1866XXQBKX?tscode=affhr_hk10071365",
+        "price": "HK$399.00",
+        "pdp_url": "https://hk.iteshop.com/sit/item/AAPTEM10039XQBKX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": ""
       },
       {
-        "code": "AAPTEW1906XXQWHX",
-        "name": "Moonface graphic tee",
+        "code": "AAPTEM1884XXQWHX",
+        "name": "AAPENOW moonface graphic tee",
         "brand": "AAPE",
-        "price": "HK$429.00",
-        "pdp_url": "https://hk.iteshop.com/sit/item/AAPTEW1906XXQWHX?tscode=affhr_hk10071365",
+        "price": "HK$599.00",
+        "pdp_url": "https://hk.iteshop.com/sit/item/AAPTEM1884XXQWHX?tscode=affhr_hk10071365",
+        "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
+        "image": ""
+      },
+      {
+        "code": "AAPTEM1670XXQGYD",
+        "name": "AAPEUNVS moonface patch tee",
+        "brand": "AAPE",
+        "price": "HK$699.00",
+        "pdp_url": "https://hk.iteshop.com/sit/item/AAPTEM1670XXQGYD?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": ""
       }
@@ -146,29 +146,29 @@ window.__PRODUCT_DATA = [
     ],
     "products": [
       {
-        "code": "AAPSPMD602XXQBKX",
-        "name": "Moonface cargo shorts",
+        "code": "AAPTEM1846XXQBKX",
+        "name": "Moonface tee",
         "brand": "AAPE",
-        "price": "HK$999.00",
-        "pdp_url": "https://hk.iteshop.com/sit/item/AAPSPMD602XXQBKX?tscode=affhr_hk10071365",
+        "price": "HK$399.00",
+        "pdp_url": "https://hk.iteshop.com/sit/item/AAPTEM1846XXQBKX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": ""
       },
       {
-        "code": "AAPTEM1884XXQWHX",
-        "name": "AAPENOW moonface graphic tee",
+        "code": "AAPTEM1670XXQGYD",
+        "name": "AAPEUNVS moonface patch tee",
         "brand": "AAPE",
-        "price": "HK$599.00",
-        "pdp_url": "https://hk.iteshop.com/sit/item/AAPTEM1884XXQWHX?tscode=affhr_hk10071365",
+        "price": "HK$699.00",
+        "pdp_url": "https://hk.iteshop.com/sit/item/AAPTEM1670XXQGYD?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": ""
       },
       {
-        "code": "AAPTEM1866XXQBKX",
-        "name": "AAPENOW moonface tee",
+        "code": "AAPTEM1942XXQBKL",
+        "name": "AAPEUNVS moonface jersey tee",
         "brand": "AAPE",
-        "price": "HK$799.00",
-        "pdp_url": "https://hk.iteshop.com/sit/item/AAPTEM1866XXQBKX?tscode=affhr_hk10071365",
+        "price": "HK$859.00",
+        "pdp_url": "https://hk.iteshop.com/sit/item/AAPTEM1942XXQBKL?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": ""
       }
@@ -197,20 +197,20 @@ window.__PRODUCT_DATA = [
     ],
     "products": [
       {
-        "code": "AAPTEM1670XXQGYD",
-        "name": "AAPEUNVS moonface patch tee",
+        "code": "AAPTEW1906XXQWHX",
+        "name": "Moonface graphic tee",
         "brand": "AAPE",
-        "price": "HK$699.00",
-        "pdp_url": "https://hk.iteshop.com/sit/item/AAPTEM1670XXQGYD?tscode=affhr_hk10071365",
+        "price": "HK$429.00",
+        "pdp_url": "https://hk.iteshop.com/sit/item/AAPTEW1906XXQWHX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": ""
       },
       {
-        "code": "AAPTEM1942XXQBKL",
-        "name": "AAPEUNVS moonface jersey tee",
+        "code": "AAPSPMD603XAQNYX",
+        "name": "Denim jorts pants",
         "brand": "AAPE",
-        "price": "HK$859.00",
-        "pdp_url": "https://hk.iteshop.com/sit/item/AAPTEM1942XXQBKL?tscode=affhr_hk10071365",
+        "price": "HK$1,099.00",
+        "pdp_url": "https://hk.iteshop.com/sit/item/AAPSPMD603XAQNYX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": ""
       }
@@ -238,20 +238,20 @@ window.__PRODUCT_DATA = [
     ],
     "products": [
       {
-        "code": "ANXJNC00096MRBLL",
-        "name": "1981 Loose fit jeans",
+        "code": "ANXTEAL0539XRNYD",
+        "name": "Fitted logo tee",
         "brand": "Acne Studios",
-        "price": "HK$6,499.00",
-        "pdp_url": "https://hk.iteshop.com/bit/item/ANXJNC00096MRBLL?tscode=affhr_hk10071365",
+        "price": "HK$2,699.00",
+        "pdp_url": "https://hk.iteshop.com/bit/item/ANXTEAL0539XRNYD?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": ""
       },
       {
-        "code": "ANXSRBB0679MQBLX",
-        "name": "Denim short sleeve shirt",
+        "code": "ANXJKB90863MRBGX",
+        "name": "Zip-up jacket",
         "brand": "Acne Studios",
-        "price": "HK$6,999.00",
-        "pdp_url": "https://hk.iteshop.com/bit/item/ANXSRBB0679MQBLX?tscode=affhr_hk10071365",
+        "price": "HK$6,499.00",
+        "pdp_url": "https://hk.iteshop.com/bit/item/ANXJKB90863MRBGX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": ""
       }
@@ -278,20 +278,29 @@ window.__PRODUCT_DATA = [
     "brand_matches": [],
     "products": [
       {
-        "code": "ZNXPT2322NCMQBKX",
-        "name": "Belted pants",
-        "brand": "RICK OWENS",
-        "price": "HK$8,399.00",
-        "pdp_url": "https://hk.iteshop.com/bit/item/ZNXPT2322NCMQBKX?tscode=affhr_hk10071365",
+        "code": "CHXSPI036530QBKX",
+        "name": "W brandon shorts",
+        "brand": "CARHARTT WIP",
+        "price": "HK$1,299.00",
+        "pdp_url": "https://hk.iteshop.com/sit/item/CHXSPI036530QBKX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": ""
       },
       {
-        "code": "AAPTEM1885XXQWHX",
-        "name": "Graphic tee",
-        "brand": "AAPE",
-        "price": "HK$479.00",
-        "pdp_url": "https://hk.iteshop.com/sit/item/AAPTEM1885XXQWHX?tscode=affhr_hk10071365",
+        "code": "VALSPDD28S9XQBLX",
+        "name": "Denim shorts",
+        "brand": "VALENTINO",
+        "price": "HK$9,500.00",
+        "pdp_url": "https://hk.iteshop.com/bit/item/VALSPDD28S9XQBLX?tscode=affhr_hk10071365",
+        "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
+        "image": ""
+      },
+      {
+        "code": "B1XTEF0003780WHX",
+        "name": "Bear graphic tee",
+        "brand": ":CHOCOOLATE",
+        "price": "HK$99.00",
+        "pdp_url": "https://hk.iteshop.com/sit/item/B1XTEF0003780WHX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": ""
       }
@@ -318,21 +327,20 @@ window.__PRODUCT_DATA = [
     "brand_matches": [],
     "products": [
       {
-        "code": "B1XTEF0001950GY2",
-        "name": "Contrast logo tee",
-        "brand": ":CHOCOOLATE",
-        "price": "HK$79.00",
-        "pdp_url": "https://hk.iteshop.com/sit/item/B1XTEF0001950GY2?tscode=affhr_hk10071365",
+        "code": "FPXPOM2466XMQWHX",
+        "name": "Relaxed striped polo shirt",
+        "brand": "Fred Perry",
+        "price": "HK$1,399.00",
+        "pdp_url": "https://hk.iteshop.com/sit/item/FPXPOM2466XMQWHX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": "",
-        "original_price": "HK$299.00"
+        "image": ""
       },
       {
-        "code": "ZNXJK6701TU3QGYX",
-        "name": "Gary jacket",
-        "brand": "RICK OWENS",
-        "price": "HK$7,899.00",
-        "pdp_url": "https://hk.iteshop.com/bit/item/ZNXJK6701TU3QGYX?tscode=affhr_hk10071365",
+        "code": "KGLTEMST2837QBKX",
+        "name": "Graphic tee",
+        "brand": "KANGOL",
+        "price": "HK$395.00",
+        "pdp_url": "https://hk.iteshop.com/sit/item/KGLTEMST2837QBKX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": ""
       }
@@ -359,29 +367,29 @@ window.__PRODUCT_DATA = [
     "brand_matches": [],
     "products": [
       {
-        "code": "ANXTECL0465MRBGX",
-        "name": "Slogan print tee",
+        "code": "IZXTEW00931YQBKX",
+        "name": "Cropped logo tee",
+        "brand": "IZZUE",
+        "price": "HK$359.00",
+        "pdp_url": "https://hk.iteshop.com/sit/item/IZXTEW00931YQBKX?tscode=affhr_hk10071365",
+        "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
+        "image": ""
+      },
+      {
+        "code": "B1XTEF0001430GY2",
+        "name": "Penguin graphic tee",
+        "brand": ":CHOCOOLATE",
+        "price": "HK$89.00",
+        "pdp_url": "https://hk.iteshop.com/sit/item/B1XTEF0001430GY2?tscode=affhr_hk10071365",
+        "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
+        "image": ""
+      },
+      {
+        "code": "ANXSRBB0679MQBLX",
+        "name": "Denim short sleeve shirt",
         "brand": "Acne Studios",
-        "price": "HK$3,199.00",
-        "pdp_url": "https://hk.iteshop.com/bit/item/ANXTECL0465MRBGX?tscode=affhr_hk10071365",
-        "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": ""
-      },
-      {
-        "code": "AAPTEM1839XAQGR2",
-        "name": "AAPEUNVS moonface tee",
-        "brand": "AAPE",
-        "price": "HK$459.00",
-        "pdp_url": "https://hk.iteshop.com/sit/item/AAPTEM1839XAQGR2?tscode=affhr_hk10071365",
-        "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": ""
-      },
-      {
-        "code": "ADWJN264230XRBLL",
-        "name": "Crystal blow up jean",
-        "brand": "alexander wang",
-        "price": "HK$6,000.00",
-        "pdp_url": "https://hk.iteshop.com/bit/item/ADWJN264230XRBLL?tscode=affhr_hk10071365",
+        "price": "HK$6,999.00",
+        "pdp_url": "https://hk.iteshop.com/bit/item/ANXSRBB0679MQBLX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": ""
       }
@@ -407,20 +415,20 @@ window.__PRODUCT_DATA = [
     "brand_matches": [],
     "products": [
       {
-        "code": "ADWBGT65T473QBLX",
-        "name": "Denim punch medium tote bag",
+        "code": "ADWPT1CC025XQBKX",
+        "name": "Layered baggy sweatpants",
         "brand": "alexander wang",
-        "price": "HK$3,000.00",
-        "pdp_url": "https://hk.iteshop.com/bit/item/ADWBGT65T473QBLX?tscode=affhr_hk10071365",
+        "price": "HK$4,200.00",
+        "pdp_url": "https://hk.iteshop.com/bit/item/ADWPT1CC025XQBKX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": ""
       },
       {
-        "code": "ZNXSW2281BAMQBKX",
-        "name": "Graphic hoodie",
-        "brand": "RICK OWENS",
-        "price": "HK$6,099.00",
-        "pdp_url": "https://hk.iteshop.com/bit/item/ZNXSW2281BAMQBKX?tscode=affhr_hk10071365",
+        "code": "AAPTEM1881XXQBKX",
+        "name": "AAPEUNVS moonface logo tee",
+        "brand": "AAPE",
+        "price": "HK$759.00",
+        "pdp_url": "https://hk.iteshop.com/sit/item/AAPTEM1881XXQBKX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": ""
       }
@@ -446,20 +454,29 @@ window.__PRODUCT_DATA = [
     "brand_matches": [],
     "products": [
       {
-        "code": "VALCDMV0AUTXQGRX",
-        "name": "Lace cardigan",
-        "brand": "VALENTINO",
-        "price": "HK$20,300.00",
-        "pdp_url": "https://hk.iteshop.com/bit/item/VALCDMV0AUTXQGRX?tscode=affhr_hk10071365",
+        "code": "FPXSRM2470XMQIVX",
+        "name": "Seersucker check shirt",
+        "brand": "Fred Perry",
+        "price": "HK$1,260.00",
+        "pdp_url": "https://hk.iteshop.com/sit/item/FPXSRM2470XMQIVX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": ""
       },
       {
-        "code": "CHXCPI036729QBWL",
-        "name": "Harlem cap",
-        "brand": "CARHARTT WIP",
-        "price": "HK$399.00",
-        "pdp_url": "https://hk.iteshop.com/sit/item/CHXCPI036729QBWL?tscode=affhr_hk10071365",
+        "code": "AAPTEM1865XAQWHZ",
+        "name": "AAPEUNVS moonface tee",
+        "brand": "AAPE",
+        "price": "HK$759.00",
+        "pdp_url": "https://hk.iteshop.com/sit/item/AAPTEM1865XAQWHZ?tscode=affhr_hk10071365",
+        "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
+        "image": ""
+      },
+      {
+        "code": "FPXPOM2454XMQBKX",
+        "name": "Geometric polo shirt",
+        "brand": "Fred Perry",
+        "price": "HK$1,120.00",
+        "pdp_url": "https://hk.iteshop.com/sit/item/FPXPOM2454XMQBKX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": ""
       }
@@ -485,29 +502,29 @@ window.__PRODUCT_DATA = [
     "brand_matches": [],
     "products": [
       {
-        "code": "CHXTEA171068QGY2",
-        "name": "S/S Pocket tee",
-        "brand": "CARHARTT WIP",
-        "price": "HK$399.00",
-        "pdp_url": "https://hk.iteshop.com/sit/item/CHXTEA171068QGY2?tscode=affhr_hk10071365",
+        "code": "KGLSRMSH7077QBKX",
+        "name": "Short sleeve shirt",
+        "brand": "KANGOL",
+        "price": "HK$665.00",
+        "pdp_url": "https://hk.iteshop.com/sit/item/KGLSRMSH7077QBKX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": ""
       },
       {
-        "code": "ADWST1KC098XQBKA",
-        "name": "Vest-shirt combo",
+        "code": "ADWJN264112XRGYD",
+        "name": "Crystal blow up jeans",
         "brand": "alexander wang",
-        "price": "HK$2,520.00",
-        "pdp_url": "https://hk.iteshop.com/bit/item/ADWST1KC098XQBKA?tscode=affhr_hk10071365",
+        "price": "HK$6,000.00",
+        "pdp_url": "https://hk.iteshop.com/bit/item/ADWJN264112XRGYD?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": ""
       },
       {
-        "code": "FPXSRG2187XXQNYX",
-        "name": "Short-sleeve shirt",
-        "brand": "Fred Perry",
-        "price": "HK$1,105.00",
-        "pdp_url": "https://hk.iteshop.com/sit/item/FPXSRG2187XXQNYX?tscode=affhr_hk10071365",
+        "code": "PMATE09S00AMQPPL",
+        "name": "Bear graphic tee",
+        "brand": "PALM ANGELS",
+        "price": "HK$2,199.00",
+        "pdp_url": "https://hk.iteshop.com/bit/item/PMATE09S00AMQPPL?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": ""
       }
@@ -533,29 +550,29 @@ window.__PRODUCT_DATA = [
     "brand_matches": [],
     "products": [
       {
-        "code": "ZNXJW0131MMMQSVX",
-        "name": "Sister charm",
-        "brand": "RICK OWENS",
-        "price": "HK$3,299.00",
-        "pdp_url": "https://hk.iteshop.com/bit/item/ZNXJW0131MMMQSVX?tscode=affhr_hk10071365",
+        "code": "FPXPOM2454XMQBKX",
+        "name": "Geometric polo shirt",
+        "brand": "Fred Perry",
+        "price": "HK$1,120.00",
+        "pdp_url": "https://hk.iteshop.com/sit/item/FPXPOM2454XMQBKX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": ""
       },
       {
-        "code": "ADWJN264230XRBLL",
-        "name": "Crystal blow up jean",
+        "code": "ADWSP1WC410XQBKK",
+        "name": "Pleated shorts",
         "brand": "alexander wang",
-        "price": "HK$6,000.00",
-        "pdp_url": "https://hk.iteshop.com/bit/item/ADWJN264230XRBLL?tscode=affhr_hk10071365",
+        "price": "HK$5,000.00",
+        "pdp_url": "https://hk.iteshop.com/bit/item/ADWSP1WC410XQBKK?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": ""
       },
       {
-        "code": "KGLSRMSH7080QBLL",
-        "name": "Denim short-sleeved shirt",
-        "brand": "KANGOL",
-        "price": "HK$719.00",
-        "pdp_url": "https://hk.iteshop.com/sit/item/KGLSRMSH7080QBLL?tscode=affhr_hk10071365",
+        "code": "CHXSPI036530QBKX",
+        "name": "W brandon shorts",
+        "brand": "CARHARTT WIP",
+        "price": "HK$1,299.00",
+        "pdp_url": "https://hk.iteshop.com/sit/item/CHXSPI036530QBKX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": ""
       }
@@ -581,20 +598,29 @@ window.__PRODUCT_DATA = [
     "brand_matches": [],
     "products": [
       {
-        "code": "AAPTEM1839XAQGR2",
-        "name": "AAPEUNVS moonface tee",
-        "brand": "AAPE",
-        "price": "HK$459.00",
-        "pdp_url": "https://hk.iteshop.com/sit/item/AAPTEM1839XAQGR2?tscode=affhr_hk10071365",
+        "code": "IZXPTM00427XQBKX",
+        "name": "Cargo pants",
+        "brand": "IZZUE",
+        "price": "HK$759.00",
+        "pdp_url": "https://hk.iteshop.com/sit/item/IZXPTM00427XQBKX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": ""
       },
       {
-        "code": "ANXJNC00081MRGYD",
-        "name": "1981 Loose fit jeans",
-        "brand": "Acne Studios",
-        "price": "HK$6,499.00",
-        "pdp_url": "https://hk.iteshop.com/bit/item/ANXJNC00081MRGYD?tscode=affhr_hk10071365",
+        "code": "NEDJKSX2176MQBKX",
+        "name": "Embroidered jacket",
+        "brand": "NEEDLES",
+        "price": "HK$1,610.00",
+        "pdp_url": "https://hk.iteshop.com/bit/item/NEDJKSX2176MQBKX?tscode=affhr_hk10071365",
+        "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
+        "image": ""
+      },
+      {
+        "code": "AAPTEM1846XXQBKX",
+        "name": "Moonface tee",
+        "brand": "AAPE",
+        "price": "HK$399.00",
+        "pdp_url": "https://hk.iteshop.com/sit/item/AAPTEM1846XXQBKX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": ""
       }
@@ -620,29 +646,29 @@ window.__PRODUCT_DATA = [
     "brand_matches": [],
     "products": [
       {
-        "code": "ADWSP1WC410XQBKK",
-        "name": "Pleated shorts",
-        "brand": "alexander wang",
-        "price": "HK$5,000.00",
-        "pdp_url": "https://hk.iteshop.com/bit/item/ADWSP1WC410XQBKK?tscode=affhr_hk10071365",
-        "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": ""
-      },
-      {
-        "code": "CHXSPI036483QBWD",
-        "name": "Double knee shorts",
-        "brand": "CARHARTT WIP",
-        "price": "HK$1,299.00",
-        "pdp_url": "https://hk.iteshop.com/sit/item/CHXSPI036483QBWD?tscode=affhr_hk10071365",
-        "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": ""
-      },
-      {
-        "code": "KGLSPMSA4067QBLL",
-        "name": "Wide leg shorts",
+        "code": "KGLPOMST2818QGYX",
+        "name": "Striped polo",
         "brand": "KANGOL",
-        "price": "HK$593.00",
-        "pdp_url": "https://hk.iteshop.com/sit/item/KGLSPMSA4067QBLL?tscode=affhr_hk10071365",
+        "price": "HK$521.00",
+        "pdp_url": "https://hk.iteshop.com/sit/item/KGLPOMST2818QGYX?tscode=affhr_hk10071365",
+        "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
+        "image": ""
+      },
+      {
+        "code": "ANXJNC00138MRWHX",
+        "name": "1981 loose fit jeans",
+        "brand": "Acne Studios",
+        "price": "HK$7,499.00",
+        "pdp_url": "https://hk.iteshop.com/bit/item/ANXJNC00138MRWHX?tscode=affhr_hk10071365",
+        "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
+        "image": ""
+      },
+      {
+        "code": "PMGTE09ISKAMQGYD",
+        "name": "Graphic tee",
+        "brand": "PALM ANGELS",
+        "price": "HK$899.00",
+        "pdp_url": "https://hk.iteshop.com/bit/item/PMGTE09ISKAMQGYD?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": ""
       }
@@ -666,30 +692,29 @@ window.__PRODUCT_DATA = [
     "brand_matches": [],
     "products": [
       {
-        "code": "IZXTEF0000880BKX",
-        "name": "Graphic tee",
-        "brand": "IZZUE",
+        "code": "B1XTEF0003920GYD",
+        "name": "Bear graphic tee",
+        "brand": ":CHOCOOLATE",
         "price": "HK$99.00",
-        "pdp_url": "https://hk.iteshop.com/sit/item/IZXTEF0000880BKX?tscode=affhr_hk10071365",
-        "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": "",
-        "original_price": "HK$359.00"
-      },
-      {
-        "code": "KGLPOWPS1733QGYX",
-        "name": "Polo tee",
-        "brand": "KANGOL",
-        "price": "HK$485.00",
-        "pdp_url": "https://hk.iteshop.com/sit/item/KGLPOWPS1733QGYX?tscode=affhr_hk10071365",
+        "pdp_url": "https://hk.iteshop.com/sit/item/B1XTEF0003920GYD?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": ""
       },
       {
-        "code": "CHXCPI036729QBWL",
-        "name": "Harlem cap",
-        "brand": "CARHARTT WIP",
-        "price": "HK$399.00",
-        "pdp_url": "https://hk.iteshop.com/sit/item/CHXCPI036729QBWL?tscode=affhr_hk10071365",
+        "code": "ANXJNA00513XRBKX",
+        "name": "2021F Loose fit jeans",
+        "brand": "Acne Studios",
+        "price": "HK$4,999.00",
+        "pdp_url": "https://hk.iteshop.com/bit/item/ANXJNA00513XRBKX?tscode=affhr_hk10071365",
+        "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
+        "image": ""
+      },
+      {
+        "code": "FPXTEM2499XMQNYX",
+        "name": "Cable taped tee",
+        "brand": "Fred Perry",
+        "price": "HK$999.00",
+        "pdp_url": "https://hk.iteshop.com/sit/item/FPXTEM2499XMQNYX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": ""
       }
@@ -713,20 +738,29 @@ window.__PRODUCT_DATA = [
     "brand_matches": [],
     "products": [
       {
-        "code": "ANXJKB90863MRBGX",
-        "name": "Zip-up jacket",
-        "brand": "Acne Studios",
-        "price": "HK$6,499.00",
-        "pdp_url": "https://hk.iteshop.com/bit/item/ANXJKB90863MRBGX?tscode=affhr_hk10071365",
+        "code": "ADWST261347XRWHX",
+        "name": "Cropped shirt",
+        "brand": "alexander wang",
+        "price": "HK$3,200.00",
+        "pdp_url": "https://hk.iteshop.com/bit/item/ADWST261347XRWHX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": ""
       },
       {
-        "code": "IZXTEM00637XQGYL",
-        "name": "Raw finish logo tee",
-        "brand": "IZZUE",
-        "price": "HK$429.00",
-        "pdp_url": "https://hk.iteshop.com/sit/item/IZXTEM00637XQGYL?tscode=affhr_hk10071365",
+        "code": "FPXSRM2471XMQCCD",
+        "name": "Short-sleeve shirt",
+        "brand": "Fred Perry",
+        "price": "HK$1,399.00",
+        "pdp_url": "https://hk.iteshop.com/sit/item/FPXSRM2471XMQCCD?tscode=affhr_hk10071365",
+        "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
+        "image": ""
+      },
+      {
+        "code": "KGLPOMPS1728QGYX",
+        "name": "Striped polo",
+        "brand": "KANGOL",
+        "price": "HK$521.00",
+        "pdp_url": "https://hk.iteshop.com/sit/item/KGLPOMPS1728QGYX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": ""
       }
@@ -750,30 +784,29 @@ window.__PRODUCT_DATA = [
     "brand_matches": [],
     "products": [
       {
-        "code": "B1XTEF0003920GYD",
-        "name": "Bear graphic tee",
-        "brand": ":CHOCOOLATE",
-        "price": "HK$99.00",
-        "pdp_url": "https://hk.iteshop.com/sit/item/B1XTEF0003920GYD?tscode=affhr_hk10071365",
-        "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": "",
-        "original_price": "HK$359.00"
-      },
-      {
-        "code": "CHXSP033345AQBLD",
-        "name": "W alta shorts",
-        "brand": "CARHARTT WIP",
-        "price": "HK$999.00",
-        "pdp_url": "https://hk.iteshop.com/sit/item/CHXSP033345AQBLD?tscode=affhr_hk10071365",
+        "code": "ZNXPT2311NCMQBKX",
+        "name": "Mega strapped bolans pants",
+        "brand": "RICK OWENS",
+        "price": "HK$8,999.00",
+        "pdp_url": "https://hk.iteshop.com/bit/item/ZNXPT2311NCMQBKX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": ""
       },
       {
-        "code": "KGLPOWPS1731QBWD",
-        "name": "Striped polo tee",
-        "brand": "KANGOL",
-        "price": "HK$559.00",
-        "pdp_url": "https://hk.iteshop.com/sit/item/KGLPOWPS1731QBWD?tscode=affhr_hk10071365",
+        "code": "FPXSRG2189XXQPKQ",
+        "name": "Checkered shirt",
+        "brand": "Fred Perry",
+        "price": "HK$975.00",
+        "pdp_url": "https://hk.iteshop.com/sit/item/FPXSRG2189XXQPKQ?tscode=affhr_hk10071365",
+        "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
+        "image": ""
+      },
+      {
+        "code": "ANXJNC00138MRWHX",
+        "name": "1981 loose fit jeans",
+        "brand": "Acne Studios",
+        "price": "HK$7,499.00",
+        "pdp_url": "https://hk.iteshop.com/bit/item/ANXJNC00138MRWHX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": ""
       }
@@ -797,29 +830,29 @@ window.__PRODUCT_DATA = [
     "brand_matches": [],
     "products": [
       {
-        "code": "FPXPOM2466XMQWHX",
-        "name": "Relaxed striped polo shirt",
-        "brand": "Fred Perry",
-        "price": "HK$1,399.00",
-        "pdp_url": "https://hk.iteshop.com/sit/item/FPXPOM2466XMQWHX?tscode=affhr_hk10071365",
+        "code": "CHXSPA261037QIVX",
+        "name": "Ethan long shorts",
+        "brand": "CARHARTT WIP",
+        "price": "HK$1,099.00",
+        "pdp_url": "https://hk.iteshop.com/sit/item/CHXSPA261037QIVX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": ""
       },
       {
-        "code": "KGLPOWPS1733QGYX",
-        "name": "Polo tee",
-        "brand": "KANGOL",
-        "price": "HK$485.00",
-        "pdp_url": "https://hk.iteshop.com/sit/item/KGLPOWPS1733QGYX?tscode=affhr_hk10071365",
+        "code": "NEDSTSX4856MQBKX",
+        "name": "Patchwork shirt",
+        "brand": "NEEDLES",
+        "price": "HK$1,190.00",
+        "pdp_url": "https://hk.iteshop.com/bit/item/NEDSTSX4856MQBKX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": ""
       },
       {
-        "code": "AAPTEM1864XXQBKL",
-        "name": "AAPEUNVS graphic tee",
-        "brand": "AAPE",
-        "price": "HK$759.00",
-        "pdp_url": "https://hk.iteshop.com/sit/item/AAPTEM1864XXQBKL?tscode=affhr_hk10071365",
+        "code": "CHXSPA261010QBKX",
+        "name": "Onyx shorts",
+        "brand": "CARHARTT WIP",
+        "price": "HK$999.00",
+        "pdp_url": "https://hk.iteshop.com/sit/item/CHXSPA261010QBKX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": ""
       }
@@ -843,30 +876,29 @@ window.__PRODUCT_DATA = [
     "brand_matches": [],
     "products": [
       {
-        "code": "B1XTEF0003920GYD",
+        "code": "IZXTEF0000490GY2",
         "name": "Bear graphic tee",
-        "brand": ":CHOCOOLATE",
+        "brand": "IZZUE",
         "price": "HK$99.00",
-        "pdp_url": "https://hk.iteshop.com/sit/item/B1XTEF0003920GYD?tscode=affhr_hk10071365",
-        "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": "",
-        "original_price": "HK$359.00"
-      },
-      {
-        "code": "KGLTEMST2837QBKX",
-        "name": "Graphic tee",
-        "brand": "KANGOL",
-        "price": "HK$395.00",
-        "pdp_url": "https://hk.iteshop.com/sit/item/KGLTEMST2837QBKX?tscode=affhr_hk10071365",
+        "pdp_url": "https://hk.iteshop.com/sit/item/IZXTEF0000490GY2?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": ""
       },
       {
-        "code": "ADWST261347XRWHX",
-        "name": "Cropped shirt",
-        "brand": "alexander wang",
-        "price": "HK$3,200.00",
-        "pdp_url": "https://hk.iteshop.com/bit/item/ADWST261347XRWHX?tscode=affhr_hk10071365",
+        "code": "FPXCPHW2300MQNYD",
+        "name": "Flp twill cap",
+        "brand": "Fred Perry",
+        "price": "HK$595.00",
+        "pdp_url": "https://hk.iteshop.com/sit/item/FPXCPHW2300MQNYD?tscode=affhr_hk10071365",
+        "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
+        "image": ""
+      },
+      {
+        "code": "KGLPOMPS1727QGYX",
+        "name": "Polo tee",
+        "brand": "KANGOL",
+        "price": "HK$476.00",
+        "pdp_url": "https://hk.iteshop.com/sit/item/KGLPOMPS1727QGYX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": ""
       }
@@ -890,20 +922,20 @@ window.__PRODUCT_DATA = [
     "brand_matches": [],
     "products": [
       {
-        "code": "ADWJN264112XRGYD",
-        "name": "Crystal blow up jeans",
-        "brand": "alexander wang",
-        "price": "HK$6,000.00",
-        "pdp_url": "https://hk.iteshop.com/bit/item/ADWJN264112XRGYD?tscode=affhr_hk10071365",
+        "code": "ANXJNC00138MRWHX",
+        "name": "1981 loose fit jeans",
+        "brand": "Acne Studios",
+        "price": "HK$7,499.00",
+        "pdp_url": "https://hk.iteshop.com/bit/item/ANXJNC00138MRWHX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": ""
       },
       {
-        "code": "AAPTEM1881XXQBKX",
-        "name": "AAPEUNVS moonface logo tee",
-        "brand": "AAPE",
-        "price": "HK$759.00",
-        "pdp_url": "https://hk.iteshop.com/sit/item/AAPTEM1881XXQBKX?tscode=affhr_hk10071365",
+        "code": "IZXTEM00637XQGYL",
+        "name": "Raw finish logo tee",
+        "brand": "IZZUE",
+        "price": "HK$429.00",
+        "pdp_url": "https://hk.iteshop.com/sit/item/IZXTEM00637XQGYL?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": ""
       }
@@ -927,29 +959,29 @@ window.__PRODUCT_DATA = [
     "brand_matches": [],
     "products": [
       {
-        "code": "CHXTEA171068QGY2",
-        "name": "S/S Pocket tee",
-        "brand": "CARHARTT WIP",
-        "price": "HK$399.00",
-        "pdp_url": "https://hk.iteshop.com/sit/item/CHXTEA171068QGY2?tscode=affhr_hk10071365",
+        "code": "ADWPT1WC012XQBKX",
+        "name": "Zip-detail pants",
+        "brand": "alexander wang",
+        "price": "HK$6,300.00",
+        "pdp_url": "https://hk.iteshop.com/bit/item/ADWPT1WC012XQBKX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": ""
       },
       {
-        "code": "FPXTEM2499XMQNYX",
-        "name": "Cable taped tee",
+        "code": "FPXSRG2187XXQNYX",
+        "name": "Short-sleeve shirt",
         "brand": "Fred Perry",
-        "price": "HK$999.00",
-        "pdp_url": "https://hk.iteshop.com/sit/item/FPXTEM2499XMQNYX?tscode=affhr_hk10071365",
+        "price": "HK$1,105.00",
+        "pdp_url": "https://hk.iteshop.com/sit/item/FPXSRG2187XXQNYX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": ""
       },
       {
-        "code": "KGLCDWKN1921QIVX",
-        "name": "Buttoned cardigan",
+        "code": "KGLTEMST2837QBKX",
+        "name": "Graphic tee",
         "brand": "KANGOL",
-        "price": "HK$683.00",
-        "pdp_url": "https://hk.iteshop.com/sit/item/KGLCDWKN1921QIVX?tscode=affhr_hk10071365",
+        "price": "HK$395.00",
+        "pdp_url": "https://hk.iteshop.com/sit/item/KGLTEMST2837QBKX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": ""
       }
@@ -975,23 +1007,22 @@ window.__PRODUCT_DATA = [
     "brand_matches": [],
     "products": [
       {
-        "code": "ANXBS0848F26RBWX",
-        "name": "Suede panelled low-top sneakers",
-        "brand": "Acne Studios",
-        "price": "HK$4,899.00",
-        "pdp_url": "https://hk.iteshop.com/bit/item/ANXBS0848F26RBWX?tscode=affhr_hk10071365",
+        "code": "B1XTEF0001820BKX",
+        "name": "Dog graphic tee",
+        "brand": ":CHOCOOLATE",
+        "price": "HK$99.00",
+        "pdp_url": "https://hk.iteshop.com/sit/item/B1XTEF0001820BKX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": ""
       },
       {
-        "code": "IZXTEF0000490GY2",
-        "name": "Bear graphic tee",
-        "brand": "IZZUE",
-        "price": "HK$99.00",
-        "pdp_url": "https://hk.iteshop.com/sit/item/IZXTEF0000490GY2?tscode=affhr_hk10071365",
+        "code": "B1XTEF0003450BKX",
+        "name": "Graphic patch tee",
+        "brand": ":CHOCOOLATE",
+        "price": "HK$79.00",
+        "pdp_url": "https://hk.iteshop.com/sit/item/B1XTEF0003450BKX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": "",
-        "original_price": "HK$359.00"
+        "image": ""
       }
     ]
   },
@@ -1018,20 +1049,20 @@ window.__PRODUCT_DATA = [
     ],
     "products": [
       {
-        "code": "VALSPDD28S9XQBLX",
-        "name": "Denim shorts",
+        "code": "VALCDMV0AUTXQGRX",
+        "name": "Lace cardigan",
         "brand": "VALENTINO",
-        "price": "HK$9,500.00",
-        "pdp_url": "https://hk.iteshop.com/bit/item/VALSPDD28S9XQBLX?tscode=affhr_hk10071365",
+        "price": "HK$20,300.00",
+        "pdp_url": "https://hk.iteshop.com/bit/item/VALCDMV0AUTXQGRX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": ""
       },
       {
-        "code": "VALSTAEBAD6XQIVX",
-        "name": "Bow-detail blouse",
+        "code": "VALTPAEB0NOXQBKX",
+        "name": "Bow neckline top",
         "brand": "VALENTINO",
-        "price": "HK$23,500.00",
-        "pdp_url": "https://hk.iteshop.com/bit/item/VALSTAEBAD6XQIVX?tscode=affhr_hk10071365",
+        "price": "HK$16,100.00",
+        "pdp_url": "https://hk.iteshop.com/bit/item/VALTPAEB0NOXQBKX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": ""
       }
@@ -1060,15 +1091,6 @@ window.__PRODUCT_DATA = [
     ],
     "products": [
       {
-        "code": "VALSTAEBAD6XQIVX",
-        "name": "Bow-detail blouse",
-        "brand": "VALENTINO",
-        "price": "HK$23,500.00",
-        "pdp_url": "https://hk.iteshop.com/bit/item/VALSTAEBAD6XQIVX?tscode=affhr_hk10071365",
-        "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": ""
-      },
-      {
         "code": "VALCDMV0AUTXQGRX",
         "name": "Lace cardigan",
         "brand": "VALENTINO",
@@ -1083,6 +1105,15 @@ window.__PRODUCT_DATA = [
         "brand": "VALENTINO",
         "price": "HK$16,100.00",
         "pdp_url": "https://hk.iteshop.com/bit/item/VALTPAEB0NOXQBKX?tscode=affhr_hk10071365",
+        "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
+        "image": ""
+      },
+      {
+        "code": "VALSTAEBAD6XQIVX",
+        "name": "Bow-detail blouse",
+        "brand": "VALENTINO",
+        "price": "HK$23,500.00",
+        "pdp_url": "https://hk.iteshop.com/bit/item/VALSTAEBAD6XQIVX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": ""
       }
@@ -1110,29 +1141,20 @@ window.__PRODUCT_DATA = [
     ],
     "products": [
       {
-        "code": "ADWSK1CC408XQWHX",
-        "name": "Wrap skort",
+        "code": "ADWST1WC304XQWHX",
+        "name": "Zip front shirt",
         "brand": "alexander wang",
-        "price": "HK$1,620.00",
-        "pdp_url": "https://hk.iteshop.com/bit/item/ADWSK1CC408XQWHX?tscode=affhr_hk10071365",
+        "price": "HK$1,980.00",
+        "pdp_url": "https://hk.iteshop.com/bit/item/ADWST1WC304XQWHX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": ""
       },
       {
-        "code": "ADWBGP70L001QBKX",
-        "name": "Logo shoulder bag",
+        "code": "ADWPT1CC025XQBKX",
+        "name": "Layered baggy sweatpants",
         "brand": "alexander wang",
-        "price": "HK$3,700.00",
-        "pdp_url": "https://hk.iteshop.com/bit/item/ADWBGP70L001QBKX?tscode=affhr_hk10071365",
-        "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": ""
-      },
-      {
-        "code": "ADWPT1WC504XQBKX",
-        "name": "Wide-leg pants",
-        "brand": "alexander wang",
-        "price": "HK$6,300.00",
-        "pdp_url": "https://hk.iteshop.com/bit/item/ADWPT1WC504XQBKX?tscode=affhr_hk10071365",
+        "price": "HK$4,200.00",
+        "pdp_url": "https://hk.iteshop.com/bit/item/ADWPT1CC025XQBKX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": ""
       }
@@ -1154,29 +1176,29 @@ window.__PRODUCT_DATA = [
     "brand_matches": [],
     "products": [
       {
-        "code": "AAPTEM1881XXQBKX",
-        "name": "AAPEUNVS moonface logo tee",
-        "brand": "AAPE",
-        "price": "HK$759.00",
-        "pdp_url": "https://hk.iteshop.com/sit/item/AAPTEM1881XXQBKX?tscode=affhr_hk10071365",
+        "code": "FPXSRM2470XMQIVX",
+        "name": "Seersucker check shirt",
+        "brand": "Fred Perry",
+        "price": "HK$1,260.00",
+        "pdp_url": "https://hk.iteshop.com/sit/item/FPXSRM2470XMQIVX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": ""
       },
       {
-        "code": "ADWPT264038XRGYX",
-        "name": "Baggy pants",
-        "brand": "alexander wang",
-        "price": "HK$5,800.00",
-        "pdp_url": "https://hk.iteshop.com/bit/item/ADWPT264038XRGYX?tscode=affhr_hk10071365",
+        "code": "NEDSTSX4836MQMLX",
+        "name": "Patchwork shirt",
+        "brand": "NEEDLES",
+        "price": "HK$1,190.00",
+        "pdp_url": "https://hk.iteshop.com/bit/item/NEDSTSX4836MQMLX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": ""
       },
       {
-        "code": "B1XSRW01071YQBLZ",
-        "name": "Scarf neck striped shirt",
-        "brand": ":CHOCOOLATE",
-        "price": "HK$459.00",
-        "pdp_url": "https://hk.iteshop.com/sit/item/B1XSRW01071YQBLZ?tscode=affhr_hk10071365",
+        "code": "IZXTEW00931YQBKX",
+        "name": "Cropped logo tee",
+        "brand": "IZZUE",
+        "price": "HK$359.00",
+        "pdp_url": "https://hk.iteshop.com/sit/item/IZXTEW00931YQBKX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": ""
       }
@@ -1198,32 +1220,22 @@ window.__PRODUCT_DATA = [
     "brand_matches": [],
     "products": [
       {
-        "code": "ZNXTP6274TU0QBKX",
-        "name": "Temple bandeau top",
+        "code": "ZNXTE232JAEMQBKX",
+        "name": "Graphic tee",
         "brand": "RICK OWENS",
-        "price": "HK$3,999.00",
-        "pdp_url": "https://hk.iteshop.com/bit/item/ZNXTP6274TU0QBKX?tscode=affhr_hk10071365",
+        "price": "HK$2,999.00",
+        "pdp_url": "https://hk.iteshop.com/bit/item/ZNXTE232JAEMQBKX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": ""
       },
       {
-        "code": "ANXJNC00091MRBLL",
-        "name": "2023 loose fit jeans",
-        "brand": "Acne Studios",
-        "price": "HK$6,499.00",
-        "pdp_url": "https://hk.iteshop.com/bit/item/ANXJNC00091MRBLL?tscode=affhr_hk10071365",
+        "code": "PMGSP11IGOLMQGRL",
+        "name": "Pleated shorts",
+        "brand": "PALM ANGELS",
+        "price": "HK$1,999.00",
+        "pdp_url": "https://hk.iteshop.com/bit/item/PMGSP11IGOLMQGRL?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": ""
-      },
-      {
-        "code": "IZXTEF0000740GY2",
-        "name": "Script logo tee",
-        "brand": "IZZUE",
-        "price": "HK$99.00",
-        "pdp_url": "https://hk.iteshop.com/sit/item/IZXTEF0000740GY2?tscode=affhr_hk10071365",
-        "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": "",
-        "original_price": "HK$359.00"
       }
     ]
   },
@@ -1243,20 +1255,20 @@ window.__PRODUCT_DATA = [
     "brand_matches": [],
     "products": [
       {
-        "code": "ZNXJW0131MMMQSVX",
-        "name": "Sister charm",
-        "brand": "RICK OWENS",
-        "price": "HK$3,299.00",
-        "pdp_url": "https://hk.iteshop.com/bit/item/ZNXJW0131MMMQSVX?tscode=affhr_hk10071365",
+        "code": "CHXVTI034514QBKX",
+        "name": "W nelson tank top",
+        "brand": "CARHARTT WIP",
+        "price": "HK$399.00",
+        "pdp_url": "https://hk.iteshop.com/sit/item/CHXVTI034514QBKX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": ""
       },
       {
-        "code": "CHXTEI032180QGY2",
-        "name": "W s/s pocket heart tee",
-        "brand": "CARHARTT WIP",
-        "price": "HK$399.00",
-        "pdp_url": "https://hk.iteshop.com/sit/item/CHXTEI032180QGY2?tscode=affhr_hk10071365",
+        "code": "KGLTEMST2838QWHX",
+        "name": "Graphic tee",
+        "brand": "KANGOL",
+        "price": "HK$431.00",
+        "pdp_url": "https://hk.iteshop.com/sit/item/KGLTEMST2838QWHX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": ""
       }
@@ -1278,32 +1290,22 @@ window.__PRODUCT_DATA = [
     "brand_matches": [],
     "products": [
       {
-        "code": "ANXJNC00091MRBLL",
-        "name": "2023 loose fit jeans",
-        "brand": "Acne Studios",
-        "price": "HK$6,499.00",
-        "pdp_url": "https://hk.iteshop.com/bit/item/ANXJNC00091MRBLL?tscode=affhr_hk10071365",
+        "code": "ADWPT264038XRGYX",
+        "name": "Baggy pants",
+        "brand": "alexander wang",
+        "price": "HK$5,800.00",
+        "pdp_url": "https://hk.iteshop.com/bit/item/ADWPT264038XRGYX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": ""
       },
       {
-        "code": "IZXPTM00427XQBKX",
-        "name": "Cargo pants",
-        "brand": "IZZUE",
-        "price": "HK$759.00",
-        "pdp_url": "https://hk.iteshop.com/sit/item/IZXPTM00427XQBKX?tscode=affhr_hk10071365",
+        "code": "KGLBGUTB4030QIVX",
+        "name": "Crochet tote bag",
+        "brand": "KANGOL",
+        "price": "HK$566.00",
+        "pdp_url": "https://hk.iteshop.com/sit/item/KGLBGUTB4030QIVX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": ""
-      },
-      {
-        "code": "B1XTEF0002340GYD",
-        "name": "Graphic logo tee",
-        "brand": ":CHOCOOLATE",
-        "price": "HK$99.00",
-        "pdp_url": "https://hk.iteshop.com/sit/item/B1XTEF0002340GYD?tscode=affhr_hk10071365",
-        "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": "",
-        "original_price": "HK$359.00"
       }
     ]
   },
@@ -1358,20 +1360,20 @@ window.__PRODUCT_DATA = [
     ],
     "products": [
       {
-        "code": "8AXTP57M899XQGYX",
-        "name": "Lace trim tank top",
-        "brand": "MM6 MAISON MARGIELA",
-        "price": "HK$4,499.00",
-        "pdp_url": "https://hk.iteshop.com/bit/item/8AXTP57M899XQGYX?tscode=affhr_hk10071365",
-        "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": ""
-      },
-      {
         "code": "8AXJN0053M3MQBLX",
         "name": "Straight jeans",
         "brand": "MM6 MAISON MARGIELA",
         "price": "HK$5,440.00",
         "pdp_url": "https://hk.iteshop.com/bit/item/8AXJN0053M3MQBLX?tscode=affhr_hk10071365",
+        "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
+        "image": ""
+      },
+      {
+        "code": "8AXTP57M899XQGYX",
+        "name": "Lace trim tank top",
+        "brand": "MM6 MAISON MARGIELA",
+        "price": "HK$4,499.00",
+        "pdp_url": "https://hk.iteshop.com/bit/item/8AXTP57M899XQGYX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": ""
       }
@@ -1394,20 +1396,20 @@ window.__PRODUCT_DATA = [
     "brand_matches": [],
     "products": [
       {
-        "code": "FPXSRM2505XMQBLE",
-        "name": "Madras shirt",
-        "brand": "Fred Perry",
-        "price": "HK$980.00",
-        "pdp_url": "https://hk.iteshop.com/sit/item/FPXSRM2505XMQBLE?tscode=affhr_hk10071365",
+        "code": "ZNXPT2312LGMQBKX",
+        "name": "Fashion pants",
+        "brand": "RICK OWENS",
+        "price": "HK$26,999.00",
+        "pdp_url": "https://hk.iteshop.com/bit/item/ZNXPT2312LGMQBKX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": ""
       },
       {
-        "code": "CHXVTI034514QBKX",
-        "name": "W nelson tank top",
-        "brand": "CARHARTT WIP",
-        "price": "HK$399.00",
-        "pdp_url": "https://hk.iteshop.com/sit/item/CHXVTI034514QBKX?tscode=affhr_hk10071365",
+        "code": "ANXSPCE0080MRWHX",
+        "name": "Stained denim shorts",
+        "brand": "Acne Studios",
+        "price": "HK$4,699.00",
+        "pdp_url": "https://hk.iteshop.com/bit/item/ANXSPCE0080MRWHX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": ""
       }
@@ -1430,29 +1432,29 @@ window.__PRODUCT_DATA = [
     "brand_matches": [],
     "products": [
       {
-        "code": "ADWPT1WC012XQBKX",
-        "name": "Zip-detail pants",
-        "brand": "alexander wang",
-        "price": "HK$6,300.00",
-        "pdp_url": "https://hk.iteshop.com/bit/item/ADWPT1WC012XQBKX?tscode=affhr_hk10071365",
+        "code": "B1XTEF0003290WHX",
+        "name": "Dog graphic tee",
+        "brand": ":CHOCOOLATE",
+        "price": "HK$99.00",
+        "pdp_url": "https://hk.iteshop.com/sit/item/B1XTEF0003290WHX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": ""
       },
       {
-        "code": "ZNXTE6279RN0QBKX",
-        "name": "Paneled tee",
-        "brand": "RICK OWENS",
-        "price": "HK$3,799.00",
-        "pdp_url": "https://hk.iteshop.com/bit/item/ZNXTE6279RN0QBKX?tscode=affhr_hk10071365",
-        "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": ""
-      },
-      {
-        "code": "CHXSPA261010QBKX",
-        "name": "Onyx shorts",
+        "code": "CHXPTI034809QBGL",
+        "name": "Brandon pants",
         "brand": "CARHARTT WIP",
-        "price": "HK$999.00",
-        "pdp_url": "https://hk.iteshop.com/sit/item/CHXSPA261010QBKX?tscode=affhr_hk10071365",
+        "price": "HK$1,199.00",
+        "pdp_url": "https://hk.iteshop.com/sit/item/CHXPTI034809QBGL?tscode=affhr_hk10071365",
+        "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
+        "image": ""
+      },
+      {
+        "code": "KGLSPWSA4069QGYL",
+        "name": "Drawstring shorts",
+        "brand": "KANGOL",
+        "price": "HK$413.00",
+        "pdp_url": "https://hk.iteshop.com/sit/item/KGLSPWSA4069QGYL?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": ""
       }
@@ -1475,20 +1477,29 @@ window.__PRODUCT_DATA = [
     "brand_matches": [],
     "products": [
       {
-        "code": "FPXTEM2396XMQCCD",
-        "name": "Twin tipped cuff tee",
-        "brand": "Fred Perry",
-        "price": "HK$799.00",
-        "pdp_url": "https://hk.iteshop.com/sit/item/FPXTEM2396XMQCCD?tscode=affhr_hk10071365",
+        "code": "ADWSW1CC306XQGYL",
+        "name": "Layered sweatshirt",
+        "brand": "alexander wang",
+        "price": "HK$4,200.00",
+        "pdp_url": "https://hk.iteshop.com/bit/item/ADWSW1CC306XQGYL?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": ""
       },
       {
-        "code": "AAPTEM1869XXQBKX",
-        "name": "Moonface logo tee",
-        "brand": "AAPE",
-        "price": "HK$459.00",
-        "pdp_url": "https://hk.iteshop.com/sit/item/AAPTEM1869XXQBKX?tscode=affhr_hk10071365",
+        "code": "CHXTEA191022QGY2",
+        "name": "Embroidery tee",
+        "brand": "CARHARTT WIP",
+        "price": "HK$399.00",
+        "pdp_url": "https://hk.iteshop.com/sit/item/CHXTEA191022QGY2?tscode=affhr_hk10071365",
+        "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
+        "image": ""
+      },
+      {
+        "code": "ZNXJK2225FTMQBKX",
+        "name": "Rev track jacket",
+        "brand": "RICK OWENS",
+        "price": "HK$9,399.00",
+        "pdp_url": "https://hk.iteshop.com/bit/item/ZNXJK2225FTMQBKX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": ""
       }
@@ -1511,30 +1522,29 @@ window.__PRODUCT_DATA = [
     "brand_matches": [],
     "products": [
       {
-        "code": "KGLBGUSL1372QBKX",
-        "name": "Crossbody bag",
-        "brand": "KANGOL",
-        "price": "HK$459.00",
-        "pdp_url": "https://hk.iteshop.com/sit/item/KGLBGUSL1372QBKX?tscode=affhr_hk10071365",
+        "code": "ANXJNA00513XRBKX",
+        "name": "2021F Loose fit jeans",
+        "brand": "Acne Studios",
+        "price": "HK$4,999.00",
+        "pdp_url": "https://hk.iteshop.com/bit/item/ANXJNA00513XRBKX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": ""
       },
       {
-        "code": "IZXTEF0000740GY2",
-        "name": "Script logo tee",
-        "brand": "IZZUE",
-        "price": "HK$99.00",
-        "pdp_url": "https://hk.iteshop.com/sit/item/IZXTEF0000740GY2?tscode=affhr_hk10071365",
+        "code": "B1XTEF0003450BKX",
+        "name": "Graphic patch tee",
+        "brand": ":CHOCOOLATE",
+        "price": "HK$79.00",
+        "pdp_url": "https://hk.iteshop.com/sit/item/B1XTEF0003450BKX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": "",
-        "original_price": "HK$359.00"
+        "image": ""
       },
       {
-        "code": "ZNXJK6744TU0QBKA",
-        "name": "Bomber secchia flight jacket",
+        "code": "ZNXSP6351SC9QBKX",
+        "name": "Relax fit boxers",
         "brand": "RICK OWENS",
-        "price": "HK$20,599.00",
-        "pdp_url": "https://hk.iteshop.com/bit/item/ZNXJK6744TU0QBKA?tscode=affhr_hk10071365",
+        "price": "HK$4,899.00",
+        "pdp_url": "https://hk.iteshop.com/bit/item/ZNXSP6351SC9QBKX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": ""
       }
@@ -1558,24 +1568,13 @@ window.__PRODUCT_DATA = [
     ],
     "products": [
       {
-        "code": "MRRJNPA174DXQBLL",
-        "name": "Denim barrel jeans",
-        "brand": "MARINE SERRE",
-        "price": "HK$3,920.00",
-        "pdp_url": "https://hk.iteshop.com/bit/item/MRRJNPA174DXQBLL?tscode=affhr_hk10071365",
-        "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": "",
-        "original_price": "HK$5,599.00"
-      },
-      {
         "code": "MRRSKWSK135XQBLL",
         "name": "Moon laser panel denim skirt",
         "brand": "MARINE SERRE",
         "price": "HK$2,590.00",
         "pdp_url": "https://hk.iteshop.com/bit/item/MRRSKWSK135XQBLL?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": "",
-        "original_price": "HK$3,699.00"
+        "image": ""
       },
       {
         "code": "MRRSPWSH18DXQBLX",
@@ -1584,8 +1583,16 @@ window.__PRODUCT_DATA = [
         "price": "HK$2,800.00",
         "pdp_url": "https://hk.iteshop.com/bit/item/MRRSPWSH18DXQBLX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": "",
-        "original_price": "HK$3,999.00"
+        "image": ""
+      },
+      {
+        "code": "MRRJKWJA076XQBLL",
+        "name": "Denim trucker zipped jacket",
+        "brand": "MARINE SERRE",
+        "price": "HK$4,200.00",
+        "pdp_url": "https://hk.iteshop.com/bit/item/MRRJKWJA076XQBLL?tscode=affhr_hk10071365",
+        "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
+        "image": ""
       }
     ]
   },
@@ -1607,20 +1614,20 @@ window.__PRODUCT_DATA = [
     ],
     "products": [
       {
-        "code": "FPXTEM2397XMQBKX",
-        "name": "Trim detail crepe pique tee",
+        "code": "FPXCPHW2307MQBKX",
+        "name": "Bold branding canvas cap",
         "brand": "Fred Perry",
-        "price": "HK$899.00",
-        "pdp_url": "https://hk.iteshop.com/sit/item/FPXTEM2397XMQBKX?tscode=affhr_hk10071365",
+        "price": "HK$630.00",
+        "pdp_url": "https://hk.iteshop.com/sit/item/FPXCPHW2307MQBKX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": ""
       },
       {
-        "code": "FPXTEM7XXXXMQBKX",
-        "name": "Crew neck tee",
+        "code": "FPXSRM2625XMQBKX",
+        "name": "Striped-collar shirt",
         "brand": "Fred Perry",
-        "price": "HK$960.00",
-        "pdp_url": "https://hk.iteshop.com/sit/item/FPXTEM7XXXXMQBKX?tscode=affhr_hk10071365",
+        "price": "HK$1,120.00",
+        "pdp_url": "https://hk.iteshop.com/sit/item/FPXSRM2625XMQBKX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": ""
       }
@@ -1644,20 +1651,20 @@ window.__PRODUCT_DATA = [
     ],
     "products": [
       {
-        "code": "FPXTEM7XXXXMQBKX",
-        "name": "Crew neck tee",
+        "code": "FPXCPHW2307MQBKX",
+        "name": "Bold branding canvas cap",
         "brand": "Fred Perry",
-        "price": "HK$960.00",
-        "pdp_url": "https://hk.iteshop.com/sit/item/FPXTEM7XXXXMQBKX?tscode=affhr_hk10071365",
+        "price": "HK$630.00",
+        "pdp_url": "https://hk.iteshop.com/sit/item/FPXCPHW2307MQBKX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": ""
       },
       {
-        "code": "FPXTEM3481XMQCCD",
-        "name": "Oversized tee",
+        "code": "FPXPOM2454XMQBKX",
+        "name": "Geometric polo shirt",
         "brand": "Fred Perry",
-        "price": "HK$799.00",
-        "pdp_url": "https://hk.iteshop.com/sit/item/FPXTEM3481XMQCCD?tscode=affhr_hk10071365",
+        "price": "HK$1,120.00",
+        "pdp_url": "https://hk.iteshop.com/sit/item/FPXPOM2454XMQBKX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": ""
       }
@@ -1680,20 +1687,20 @@ window.__PRODUCT_DATA = [
     "brand_matches": [],
     "products": [
       {
-        "code": "KGLSRMSH7077QBKX",
-        "name": "Short sleeve shirt",
-        "brand": "KANGOL",
-        "price": "HK$665.00",
-        "pdp_url": "https://hk.iteshop.com/sit/item/KGLSRMSH7077QBKX?tscode=affhr_hk10071365",
+        "code": "ANXJNC00138XRIVX",
+        "name": "1981 baggy fit jeans",
+        "brand": "Acne Studios",
+        "price": "HK$7,499.00",
+        "pdp_url": "https://hk.iteshop.com/bit/item/ANXJNC00138XRIVX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": ""
       },
       {
-        "code": "ZNXSP6351SC9QBKX",
-        "name": "Relax fit boxers",
-        "brand": "RICK OWENS",
-        "price": "HK$4,899.00",
-        "pdp_url": "https://hk.iteshop.com/bit/item/ZNXSP6351SC9QBKX?tscode=affhr_hk10071365",
+        "code": "ANXJNA00513XRBKX",
+        "name": "2021F Loose fit jeans",
+        "brand": "Acne Studios",
+        "price": "HK$4,999.00",
+        "pdp_url": "https://hk.iteshop.com/bit/item/ANXJNA00513XRBKX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": ""
       }
@@ -1716,23 +1723,31 @@ window.__PRODUCT_DATA = [
     "brand_matches": [],
     "products": [
       {
-        "code": "AAPTKW1919XXQBKX",
-        "name": "Moonface tank top",
-        "brand": "AAPE",
-        "price": "HK$429.00",
-        "pdp_url": "https://hk.iteshop.com/sit/item/AAPTKW1919XXQBKX?tscode=affhr_hk10071365",
+        "code": "ZNXLE2708LNMQBKX",
+        "name": "Microbiker jacket",
+        "brand": "RICK OWENS",
+        "price": "HK$23,999.00",
+        "pdp_url": "https://hk.iteshop.com/bit/item/ZNXLE2708LNMQBKX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": ""
       },
       {
-        "code": "IZXTEF0000740GY2",
-        "name": "Script logo tee",
-        "brand": "IZZUE",
-        "price": "HK$99.00",
-        "pdp_url": "https://hk.iteshop.com/sit/item/IZXTEF0000740GY2?tscode=affhr_hk10071365",
+        "code": "KGLPOWPS1733QGYX",
+        "name": "Polo tee",
+        "brand": "KANGOL",
+        "price": "HK$485.00",
+        "pdp_url": "https://hk.iteshop.com/sit/item/KGLPOWPS1733QGYX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": "",
-        "original_price": "HK$359.00"
+        "image": ""
+      },
+      {
+        "code": "ZNXJW0141MMMQSVX",
+        "name": "Pentagram lapel pin",
+        "brand": "RICK OWENS",
+        "price": "HK$2,099.00",
+        "pdp_url": "https://hk.iteshop.com/bit/item/ZNXJW0141MMMQSVX?tscode=affhr_hk10071365",
+        "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
+        "image": ""
       }
     ]
   },
@@ -1757,29 +1772,20 @@ window.__PRODUCT_DATA = [
     ],
     "products": [
       {
-        "code": "4BECP412396XQBKX",
-        "name": "Logo cap",
-        "brand": "BEAMS",
-        "price": "HK$439.00",
-        "pdp_url": "https://hk.iteshop.com/sit/item/4BECP412396XQBKX?tscode=affhr_hk10071365",
+        "code": "4RBTP040903XOWHX",
+        "name": "Ruffled sleeve tee",
+        "brand": "RAY BEAMS",
+        "price": "HK$347.00",
+        "pdp_url": "https://hk.iteshop.com/sit/item/4RBTP040903XOWHX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": ""
       },
       {
-        "code": "4BEJN210073XQBLL",
-        "name": "Straight jeans",
-        "brand": "BEAMS",
-        "price": "HK$1,279.00",
-        "pdp_url": "https://hk.iteshop.com/sit/item/4BEJN210073XQBLL?tscode=affhr_hk10071365",
-        "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": ""
-      },
-      {
-        "code": "4BETE040180XOGYD",
-        "name": "Acid wash tee",
-        "brand": "BEAMS",
-        "price": "HK$455.00",
-        "pdp_url": "https://hk.iteshop.com/sit/item/4BETE040180XOGYD?tscode=affhr_hk10071365",
+        "code": "4BXTE040204XQPKL",
+        "name": "Round neck tee",
+        "brand": "BEAMS BOY",
+        "price": "HK$305.00",
+        "pdp_url": "https://hk.iteshop.com/sit/item/4BXTE040204XQPKL?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": ""
       }
@@ -1812,11 +1818,11 @@ window.__PRODUCT_DATA = [
         "image": ""
       },
       {
-        "code": "ITTTKW00656XQWHZ",
-        "name": "Plaid cami top",
+        "code": "ITTTEW00707XQNYZ",
+        "name": "Striped tee",
         "brand": "i.TTiTUD",
-        "price": "HK$239.00",
-        "pdp_url": "https://hk.iteshop.com/sit/item/ITTTKW00656XQWHZ?tscode=affhr_hk10071365",
+        "price": "HK$269.00",
+        "pdp_url": "https://hk.iteshop.com/sit/item/ITTTEW00707XQNYZ?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": ""
       },
@@ -1849,15 +1855,6 @@ window.__PRODUCT_DATA = [
     ],
     "products": [
       {
-        "code": "ITTSKW00711XQBWX",
-        "name": "Layered waist skirt",
-        "brand": "i.TTiTUD",
-        "price": "HK$369.00",
-        "pdp_url": "https://hk.iteshop.com/sit/item/ITTSKW00711XQBWX?tscode=affhr_hk10071365",
-        "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": ""
-      },
-      {
         "code": "ITTTPW00724XQNYX",
         "name": "Layered top",
         "brand": "i.TTiTUD",
@@ -1867,11 +1864,11 @@ window.__PRODUCT_DATA = [
         "image": ""
       },
       {
-        "code": "ITTTEW00707XQNYZ",
-        "name": "Striped tee",
+        "code": "ITTDSW00677XQBKX",
+        "name": "Textured midi dress",
         "brand": "i.TTiTUD",
-        "price": "HK$269.00",
-        "pdp_url": "https://hk.iteshop.com/sit/item/ITTTEW00707XQNYZ?tscode=affhr_hk10071365",
+        "price": "HK$399.00",
+        "pdp_url": "https://hk.iteshop.com/sit/item/ITTDSW00677XQBKX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": ""
       }
@@ -1904,11 +1901,11 @@ window.__PRODUCT_DATA = [
         "image": ""
       },
       {
-        "code": "PMATE09S00AMQPPL",
-        "name": "Bear graphic tee",
+        "code": "PMGTE09ISKAMQGYD",
+        "name": "Graphic tee",
         "brand": "PALM ANGELS",
-        "price": "HK$2,199.00",
-        "pdp_url": "https://hk.iteshop.com/bit/item/PMATE09S00AMQPPL?tscode=affhr_hk10071365",
+        "price": "HK$899.00",
+        "pdp_url": "https://hk.iteshop.com/bit/item/PMGTE09ISKAMQGYD?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": ""
       }
@@ -1930,29 +1927,20 @@ window.__PRODUCT_DATA = [
     "brand_matches": [],
     "products": [
       {
-        "code": "ANXJNC00096MRBLL",
-        "name": "1981 Loose fit jeans",
-        "brand": "Acne Studios",
-        "price": "HK$6,499.00",
-        "pdp_url": "https://hk.iteshop.com/bit/item/ANXJNC00096MRBLL?tscode=affhr_hk10071365",
-        "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": ""
-      },
-      {
-        "code": "AAPTEM10039XQBKX",
-        "name": "AAPENOW camo moonface logo tee",
-        "brand": "AAPE",
-        "price": "HK$399.00",
-        "pdp_url": "https://hk.iteshop.com/sit/item/AAPTEM10039XQBKX?tscode=affhr_hk10071365",
-        "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": ""
-      },
-      {
-        "code": "KGLBGUSL1372QBKX",
-        "name": "Crossbody bag",
+        "code": "KGLTEMST2837QBKX",
+        "name": "Graphic tee",
         "brand": "KANGOL",
-        "price": "HK$459.00",
-        "pdp_url": "https://hk.iteshop.com/sit/item/KGLBGUSL1372QBKX?tscode=affhr_hk10071365",
+        "price": "HK$395.00",
+        "pdp_url": "https://hk.iteshop.com/sit/item/KGLTEMST2837QBKX?tscode=affhr_hk10071365",
+        "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
+        "image": ""
+      },
+      {
+        "code": "IZXTEF0000880BKX",
+        "name": "Graphic tee",
+        "brand": "IZZUE",
+        "price": "HK$99.00",
+        "pdp_url": "https://hk.iteshop.com/sit/item/IZXTEF0000880BKX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": ""
       }
@@ -1974,21 +1962,29 @@ window.__PRODUCT_DATA = [
     "brand_matches": [],
     "products": [
       {
-        "code": "NEDSTSX4836MQMLX",
-        "name": "Patchwork shirt",
-        "brand": "NEEDLES",
-        "price": "HK$1,190.00",
-        "pdp_url": "https://hk.iteshop.com/bit/item/NEDSTSX4836MQMLX?tscode=affhr_hk10071365",
+        "code": "FPXSRG2189XXQPKQ",
+        "name": "Checkered shirt",
+        "brand": "Fred Perry",
+        "price": "HK$975.00",
+        "pdp_url": "https://hk.iteshop.com/sit/item/FPXSRG2189XXQPKQ?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": "",
-        "original_price": "HK$1,699.00"
+        "image": ""
       },
       {
-        "code": "ZNXSN2889LVMQGYX",
-        "name": "Minimal suede sneakers",
-        "brand": "RICK OWENS",
-        "price": "HK$6,999.00",
-        "pdp_url": "https://hk.iteshop.com/bit/item/ZNXSN2889LVMQGYX?tscode=affhr_hk10071365",
+        "code": "ADWJN264230XRBLL",
+        "name": "Crystal blow up jean",
+        "brand": "alexander wang",
+        "price": "HK$6,000.00",
+        "pdp_url": "https://hk.iteshop.com/bit/item/ADWJN264230XRBLL?tscode=affhr_hk10071365",
+        "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
+        "image": ""
+      },
+      {
+        "code": "FPXTEM7XXXXMQBKX",
+        "name": "Crew neck tee",
+        "brand": "Fred Perry",
+        "price": "HK$960.00",
+        "pdp_url": "https://hk.iteshop.com/sit/item/FPXTEM7XXXXMQBKX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": ""
       }
@@ -2010,29 +2006,29 @@ window.__PRODUCT_DATA = [
     "brand_matches": [],
     "products": [
       {
-        "code": "ZNXTE232JAEMQBKX",
-        "name": "Graphic tee",
+        "code": "ZNXTP6274TU0QBKX",
+        "name": "Temple bandeau top",
         "brand": "RICK OWENS",
-        "price": "HK$2,999.00",
-        "pdp_url": "https://hk.iteshop.com/bit/item/ZNXTE232JAEMQBKX?tscode=affhr_hk10071365",
+        "price": "HK$3,999.00",
+        "pdp_url": "https://hk.iteshop.com/bit/item/ZNXTP6274TU0QBKX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": ""
       },
       {
-        "code": "IZXPTM00427XQBKX",
-        "name": "Cargo pants",
-        "brand": "IZZUE",
-        "price": "HK$759.00",
-        "pdp_url": "https://hk.iteshop.com/sit/item/IZXPTM00427XQBKX?tscode=affhr_hk10071365",
+        "code": "B1XTEF0003780WHX",
+        "name": "Bear graphic tee",
+        "brand": ":CHOCOOLATE",
+        "price": "HK$99.00",
+        "pdp_url": "https://hk.iteshop.com/sit/item/B1XTEF0003780WHX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": ""
       },
       {
-        "code": "ANXJNC00091MRBLL",
-        "name": "2023 loose fit jeans",
+        "code": "ANXJNB00458MRBLX",
+        "name": "2021M Regular fit jeans",
         "brand": "Acne Studios",
-        "price": "HK$6,499.00",
-        "pdp_url": "https://hk.iteshop.com/bit/item/ANXJNC00091MRBLL?tscode=affhr_hk10071365",
+        "price": "HK$4,999.00",
+        "pdp_url": "https://hk.iteshop.com/bit/item/ANXJNB00458MRBLX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": ""
       }
@@ -2054,20 +2050,29 @@ window.__PRODUCT_DATA = [
     "brand_matches": [],
     "products": [
       {
-        "code": "ANXJNB00458MRBLX",
-        "name": "2021M Regular fit jeans",
-        "brand": "Acne Studios",
-        "price": "HK$4,999.00",
-        "pdp_url": "https://hk.iteshop.com/bit/item/ANXJNB00458MRBLX?tscode=affhr_hk10071365",
+        "code": "ADWPT264038XRGYX",
+        "name": "Baggy pants",
+        "brand": "alexander wang",
+        "price": "HK$5,800.00",
+        "pdp_url": "https://hk.iteshop.com/bit/item/ADWPT264038XRGYX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": ""
       },
       {
-        "code": "ZNXJK2225FTMQBKX",
-        "name": "Rev track jacket",
-        "brand": "RICK OWENS",
-        "price": "HK$9,399.00",
-        "pdp_url": "https://hk.iteshop.com/bit/item/ZNXJK2225FTMQBKX?tscode=affhr_hk10071365",
+        "code": "ANXJNC00091MRBLL",
+        "name": "2023 loose fit jeans",
+        "brand": "Acne Studios",
+        "price": "HK$6,499.00",
+        "pdp_url": "https://hk.iteshop.com/bit/item/ANXJNC00091MRBLL?tscode=affhr_hk10071365",
+        "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
+        "image": ""
+      },
+      {
+        "code": "KGLSRMSH7080QBLL",
+        "name": "Denim short-sleeved shirt",
+        "brand": "KANGOL",
+        "price": "HK$719.00",
+        "pdp_url": "https://hk.iteshop.com/sit/item/KGLSRMSH7080QBLL?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": ""
       }
@@ -2089,30 +2094,20 @@ window.__PRODUCT_DATA = [
     "brand_matches": [],
     "products": [
       {
-        "code": "AAPTEM1942XXQBKL",
-        "name": "AAPEUNVS moonface jersey tee",
-        "brand": "AAPE",
-        "price": "HK$859.00",
-        "pdp_url": "https://hk.iteshop.com/sit/item/AAPTEM1942XXQBKL?tscode=affhr_hk10071365",
+        "code": "ZNXSN2889LVMQGYX",
+        "name": "Minimal suede sneakers",
+        "brand": "RICK OWENS",
+        "price": "HK$6,999.00",
+        "pdp_url": "https://hk.iteshop.com/bit/item/ZNXSN2889LVMQGYX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": ""
       },
       {
-        "code": "IZXTEF0000740GY2",
-        "name": "Script logo tee",
+        "code": "IZXPTM00427XQBKX",
+        "name": "Cargo pants",
         "brand": "IZZUE",
-        "price": "HK$99.00",
-        "pdp_url": "https://hk.iteshop.com/sit/item/IZXTEF0000740GY2?tscode=affhr_hk10071365",
-        "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": "",
-        "original_price": "HK$359.00"
-      },
-      {
-        "code": "KGLTEMST2827QWHX",
-        "name": "Graphic tee",
-        "brand": "KANGOL",
-        "price": "HK$449.00",
-        "pdp_url": "https://hk.iteshop.com/sit/item/KGLTEMST2827QWHX?tscode=affhr_hk10071365",
+        "price": "HK$759.00",
+        "pdp_url": "https://hk.iteshop.com/sit/item/IZXPTM00427XQBKX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": ""
       }
@@ -2134,20 +2129,29 @@ window.__PRODUCT_DATA = [
     "brand_matches": [],
     "products": [
       {
-        "code": "ADWJN264230XRBLL",
-        "name": "Crystal blow up jean",
-        "brand": "alexander wang",
-        "price": "HK$6,000.00",
-        "pdp_url": "https://hk.iteshop.com/bit/item/ADWJN264230XRBLL?tscode=affhr_hk10071365",
+        "code": "KGLSPMSA4067QBLL",
+        "name": "Wide leg shorts",
+        "brand": "KANGOL",
+        "price": "HK$593.00",
+        "pdp_url": "https://hk.iteshop.com/sit/item/KGLSPMSA4067QBLL?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": ""
       },
       {
-        "code": "ZNXPT2322NCMQBKX",
-        "name": "Belted pants",
+        "code": "ZNXLE2718LHMQBKX",
+        "name": "Vega jacket",
         "brand": "RICK OWENS",
-        "price": "HK$8,399.00",
-        "pdp_url": "https://hk.iteshop.com/bit/item/ZNXPT2322NCMQBKX?tscode=affhr_hk10071365",
+        "price": "HK$41,999.00",
+        "pdp_url": "https://hk.iteshop.com/bit/item/ZNXLE2718LHMQBKX?tscode=affhr_hk10071365",
+        "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
+        "image": ""
+      },
+      {
+        "code": "PMATE09S00AMQPPL",
+        "name": "Bear graphic tee",
+        "brand": "PALM ANGELS",
+        "price": "HK$2,199.00",
+        "pdp_url": "https://hk.iteshop.com/bit/item/PMATE09S00AMQPPL?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": ""
       }
@@ -2169,30 +2173,29 @@ window.__PRODUCT_DATA = [
     "brand_matches": [],
     "products": [
       {
-        "code": "ZNXLE2708LNMQBKX",
-        "name": "Microbiker jacket",
-        "brand": "RICK OWENS",
-        "price": "HK$23,999.00",
-        "pdp_url": "https://hk.iteshop.com/bit/item/ZNXLE2708LNMQBKX?tscode=affhr_hk10071365",
+        "code": "ADWSW1CC307XQGYK",
+        "name": "Inner shirt layer hoodie",
+        "brand": "alexander wang",
+        "price": "HK$4,200.00",
+        "pdp_url": "https://hk.iteshop.com/bit/item/ADWSW1CC307XQGYK?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": ""
       },
       {
-        "code": "B1XTEF0002740WHX",
-        "name": "Poodle graphic tee",
-        "brand": ":CHOCOOLATE",
-        "price": "HK$99.00",
-        "pdp_url": "https://hk.iteshop.com/sit/item/B1XTEF0002740WHX?tscode=affhr_hk10071365",
+        "code": "FPXTEM2499XMQNYX",
+        "name": "Cable taped tee",
+        "brand": "Fred Perry",
+        "price": "HK$999.00",
+        "pdp_url": "https://hk.iteshop.com/sit/item/FPXTEM2499XMQNYX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": "",
-        "original_price": "HK$359.00"
+        "image": ""
       },
       {
-        "code": "KGLPOMPS1728QGYX",
-        "name": "Striped polo",
-        "brand": "KANGOL",
-        "price": "HK$521.00",
-        "pdp_url": "https://hk.iteshop.com/sit/item/KGLPOMPS1728QGYX?tscode=affhr_hk10071365",
+        "code": "B1XTEF0001820BKX",
+        "name": "Dog graphic tee",
+        "brand": ":CHOCOOLATE",
+        "price": "HK$99.00",
+        "pdp_url": "https://hk.iteshop.com/sit/item/B1XTEF0001820BKX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": ""
       }
