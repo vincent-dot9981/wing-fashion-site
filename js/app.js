@@ -123,19 +123,17 @@ function filterProducts() {
         allFlat = allFlat.filter(p => p.category === selectedCategory);
     }
 
-    let displayFlat = allFlat;
-
     if (selectedCategory === 'all') {
-        // Shuffle and take 20 individual products
+        // Shuffle all products randomly every refresh
         const shuffled = [...allFlat];
         for (let i = shuffled.length - 1; i > 0; i--) {
             const j = Math.floor(Math.random() * (i + 1));
             [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
         }
-        displayFlat = shuffled.slice(0, 20);
+        allFlat = shuffled;
     }
 
-    renderProducts(displayFlat);
+    renderProducts(allFlat);
 }
 
 // ========== CATEGORY SIDEBAR ==========
