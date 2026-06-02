@@ -1,18 +1,11 @@
 /**
  * WING Fashion Hub - Main Application
- * H&M inspired: simplified cards, filter drawer, campaign hero
+ * H&M inspired: simplified cards, sidebar category filtering, campaign hero
  */
 
 // ========== STATE ==========
-const FILTER_STATE = {
-    search: '',
-    gender: 'all',
-    brand: 'all',
-    occasion: 'all',
-    category: 'all'
-};
 
-// Sidebar-selected category (separate from draw filter)
+// Sidebar-selected category
 let selectedCategory = 'all';
 
 // ========== NAVIGATION ==========
@@ -39,51 +32,6 @@ function closeMenu() {
     const btn = document.getElementById('menuToggle');
     links.classList.remove('open');
     btn.classList.remove('active');
-}
-
-// ========== FILTER DRAWER ==========
-function toggleFilterDrawer() {
-    const drawer = document.getElementById('filterDrawer');
-    const overlay = document.getElementById('filterOverlay');
-    drawer.classList.toggle('open');
-    overlay.classList.toggle('open');
-    document.body.style.overflow = drawer.classList.contains('open') ? 'hidden' : '';
-}
-
-function closeFilterDrawer() {
-    const drawer = document.getElementById('filterDrawer');
-    const overlay = document.getElementById('filterOverlay');
-    drawer.classList.remove('open');
-    overlay.classList.remove('open');
-    document.body.style.overflow = '';
-}
-
-function setFilter(type, value) {
-    FILTER_STATE[type] = value;
-
-    // Update UI: highlight active option
-    const sectionId = type === 'gender' ? 'filterSectionGender' :
-                      type === 'brand' ? 'filterSectionBrand' :
-                      type === 'occasion' ? 'filterSectionOccasion' :
-                      type === 'category' ? 'filterSectionCategory' :
-                      type === 'discount' ? 'filterSectionDiscount' : null;
-    if (sectionId) {
-        const section = document.getElementById(sectionId);
-        section.querySelectorAll('.filter-option').forEach(opt => {
-            opt.classList.toggle('active', opt.dataset.value === value);
-        });
-    }
-
-    // Update search input
-    if (type === 'search') {
-        document.getElementById('searchInput').value = value;
-    }
-
-    filterProducts();
-}
-
-function setFilterFromDrawer(type, value) {
-    setFilter(type, value);
 }
 
 // ========== PRODUCT RENDERING ==========
@@ -115,18 +63,15 @@ function flattenProducts(campaignEntries) {
 
 function renderProducts(products) {
     const grid = document.getElementById('productGrid');
-    const countEl = document.getElementById('productCount');
     const noResults = document.getElementById('noResults');
 
     if (products.length === 0) {
         grid.innerHTML = '';
         noResults.style.display = 'block';
-        countEl.textContent = '0';
         return;
     }
 
     noResults.style.display = 'none';
-    countEl.textContent = products.length;
 
     grid.innerHTML = products.map(prod => {
         const imgSrc = prod.image || '';
@@ -168,21 +113,10 @@ function escHtml(s) {
 
 // ========== FILTERING ==========
 function filterProducts() {
-    const search = document.getElementById('searchInput').value;
-    FILTER_STATE.search = search || '';
+    // Flatten all products
+    let allFlat = flattenProducts(DATA.products);
 
-    let results = DATA.getFiltered({
-        search: FILTER_STATE.search,
-        gender: FILTER_STATE.gender,
-        brand: FILTER_STATE.brand,
-        occasion: FILTER_STATE.occasion,
-        category: FILTER_STATE.category
-    });
-
-    // Flatten to individual products for filtering
-    let allFlat = flattenProducts(results);
-
-    // Apply sidebar category filter on flattened products
+    // Apply sidebar category filter
     if (selectedCategory === 'sale') {
         allFlat = allFlat.filter(p => p.original_price);
     } else if (selectedCategory !== 'all') {
@@ -191,10 +125,7 @@ function filterProducts() {
 
     let displayFlat = allFlat;
 
-    if (selectedCategory === 'all' && FILTER_STATE.category === 'all'
-        && FILTER_STATE.gender === 'all' && FILTER_STATE.brand === 'all'
-        && FILTER_STATE.occasion === 'all'
-        && !FILTER_STATE.search) {
+    if (selectedCategory === 'all') {
         // Shuffle and take 20 individual products
         const shuffled = [...allFlat];
         for (let i = shuffled.length - 1; i > 0; i--) {
@@ -205,122 +136,6 @@ function filterProducts() {
     }
 
     renderProducts(displayFlat);
-    updateActiveTags();
-}
-
-function updateActiveTags() {
-    const container = document.getElementById('filterActiveTags');
-    const tags = [];
-
-    if (FILTER_STATE.gender !== 'all') {
-        const label = I18N.current === 'zh' ?
-            (FILTER_STATE.gender === 'men' ? '男裝' : FILTER_STATE.gender === 'women' ? '女裝' : '童裝') :
-            FILTER_STATE.gender;
-        tags.push({ type: 'gender', label });
-    }
-    if (FILTER_STATE.brand !== 'all') {
-        tags.push({ type: 'brand', label: FILTER_STATE.brand });
-    }
-    if (FILTER_STATE.occasion !== 'all') {
-        const occasionLabels = { 'casual': '休閒', 'work': '返工', 'gift': '送禮' };
-        const enOccasionLabels = { 'casual': 'Casual', 'work': 'Work', 'gift': 'Gift' };
-        const oLabel = I18N.current === 'zh' ? occasionLabels[FILTER_STATE.occasion] : enOccasionLabels[FILTER_STATE.occasion];
-        tags.push({ type: 'occasion', label: oLabel || FILTER_STATE.occasion });
-    }
-    if (FILTER_STATE.category !== 'all') {
-        tags.push({ type: 'category', label: FILTER_STATE.category });
-    }
-    if (FILTER_STATE.search) {
-        tags.push({ type: 'search', label: `"${FILTER_STATE.search}"` });
-    }
-
-    if (tags.length === 0) {
-        container.innerHTML = '';
-        return;
-    }
-
-    container.innerHTML = tags.map(t => `
-        <span class="filter-tag" onclick="clearFilterTag('${t.type}')">${escHtml(t.label)}</span>
-    `).join('');
-}
-
-function clearFilterTag(type) {
-    if (type === 'gender') {
-        FILTER_STATE.gender = 'all';
-        document.querySelectorAll('#filterSectionGender .filter-option').forEach(opt => {
-            opt.classList.toggle('active', opt.dataset.value === 'all');
-        });
-    } else if (type === 'brand') {
-        FILTER_STATE.brand = 'all';
-        document.querySelectorAll('#filterSectionBrand .filter-option').forEach(opt => {
-            opt.classList.toggle('active', opt.dataset.value === 'all');
-        });
-    } else if (type === 'occasion') {
-        FILTER_STATE.occasion = 'all';
-        document.querySelectorAll('#filterSectionOccasion .filter-option').forEach(opt => {
-            opt.classList.toggle('active', opt.dataset.value === 'all');
-        });
-    } else if (type === 'category') {
-        FILTER_STATE.category = 'all';
-        document.querySelectorAll('#filterSectionCategory .filter-option').forEach(opt => {
-            opt.classList.toggle('active', opt.dataset.value === 'all');
-        });
-    } else if (type === 'search') {
-        FILTER_STATE.search = '';
-        document.getElementById('searchInput').value = '';
-    }
-    filterProducts();
-}
-
-function resetFilters() {
-    FILTER_STATE.search = '';
-    FILTER_STATE.gender = 'all';
-    FILTER_STATE.brand = 'all';
-    FILTER_STATE.occasion = 'all';
-    FILTER_STATE.category = 'all';
-
-    document.getElementById('searchInput').value = '';
-
-    // Reset all filter options to active (all)
-    document.querySelectorAll('[id^="filterSection"]').forEach(section => {
-        section.querySelectorAll('.filter-option').forEach(opt => {
-            opt.classList.toggle('active', opt.dataset.value === 'all');
-        });
-    });
-
-    filterProducts();
-}
-
-// Initialize brand options in drawer
-function populateBrandOptions() {
-    const container = document.getElementById('brandOptionsContainer');
-    const brands = DATA.getBrands();
-    brands.forEach(b => {
-        const btn = document.createElement('button');
-        btn.className = 'filter-option';
-        btn.dataset.value = b;
-        btn.dataset.filter = 'brand';
-        btn.innerHTML = `<span class="filter-option-indicator"></span><span>${escHtml(b)}</span>`;
-        btn.onclick = function() { setFilter('brand', b); };
-        container.appendChild(btn);
-    });
-}
-
-// Initialize category options in drawer
-function populateCategoryOptions() {
-    const container = document.getElementById('categoryOptionsContainer');
-    const counts = DATA.getCategoryCounts();
-    const categories = DATA.getCategories();
-    categories.forEach(cat => {
-        const count = counts[cat] || 0;
-        const btn = document.createElement('button');
-        btn.className = 'filter-option';
-        btn.dataset.value = cat;
-        btn.dataset.filter = 'category';
-        btn.innerHTML = `<span class="filter-option-indicator"></span><span>${escHtml(cat)} (${count})</span>`;
-        btn.onclick = function() { setFilter('category', cat); };
-        container.appendChild(btn);
-    });
 }
 
 // ========== CATEGORY SIDEBAR ==========
@@ -331,14 +146,6 @@ function selectCategory(category) {
     document.querySelectorAll('.sidebar-item').forEach(item => {
         item.classList.toggle('active', item.dataset.category === category);
     });
-
-    // Reset drawer category when switching to sale view
-    if (category === 'sale') {
-        FILTER_STATE.category = 'all';
-        document.querySelectorAll('#filterSectionCategory .filter-option').forEach(opt => {
-            opt.classList.toggle('active', opt.dataset.value === 'all');
-        });
-    }
 
     filterProducts();
 }
@@ -380,12 +187,8 @@ async function init() {
 
     try {
         await DATA.load();
-        populateBrandOptions();
-        populateCategoryOptions();
         populateSidebar();
         // filterProducts will handle the initial render (flattened, limited to 20)
-        updateActiveTags();
-        // Apply sidebar filtering (show 20 default)
         filterProducts();
     } catch (err) {
         console.error('Init error:', err);

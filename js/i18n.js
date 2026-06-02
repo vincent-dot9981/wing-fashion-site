@@ -11,25 +11,6 @@ const I18N = {
             hero_title: 'WING',
             hero_sub: '你的時尚顧問',
             hero_cta: 'WHATSAPP 找我',
-            filter_toggle: '篩選',
-            filter_title: '篩選',
-            filter_search: '搜尋',
-            filter_gender: '性別',
-            filter_brand: '品牌',
-            filter_occasion: '場合',
-            filter_category: '類別',
-            all_categories: '全部類別',
-            search_placeholder: '搜尋品牌、產品...',
-            gender_all: '所有性別',
-            gender_men: '男裝',
-            gender_women: '女裝',
-            gender_kids: '童裝',
-            all_brands: '全部品牌',
-            all_occasions: '全部場合',
-            occasion_casual: '休閒',
-            occasion_work: '返工',
-            occasion_gift: '送禮',
-            reset: '重設',
             sidebar_categories: '類別',
             featured_title: '限時優惠精選',
             no_results: '找不到相關產品，請嘗試其他關鍵字',
@@ -58,25 +39,6 @@ const I18N = {
             hero_title: 'WING',
             hero_sub: 'Your Style Consultant',
             hero_cta: 'WHATSAPP ME',
-            filter_toggle: 'Filter',
-            filter_title: 'Filter',
-            filter_search: 'Search',
-            filter_gender: 'Gender',
-            filter_brand: 'Brand',
-            filter_occasion: 'Occasion',
-            filter_category: 'Category',
-            all_categories: 'All Categories',
-            search_placeholder: 'Search brands, products...',
-            gender_all: 'All Genders',
-            gender_men: 'Men',
-            gender_women: 'Women',
-            gender_kids: 'Kids',
-            all_brands: 'All Brands',
-            all_occasions: 'All Occasions',
-            occasion_casual: 'Casual',
-            occasion_work: 'Work',
-            occasion_gift: 'Gift',
-            reset: 'Reset',
             sidebar_categories: 'Categories',
             featured_title: 'Limited Time Offers',
             no_results: 'No products found. Try different keywords.',
@@ -122,11 +84,6 @@ const I18N = {
         // Update lang toggle button
         const btn = document.getElementById('langToggle');
         if (btn) btn.textContent = this.current === 'zh' ? 'EN' : '中';
-        // Update placeholder
-        const searchInput = document.getElementById('searchInput');
-        if (searchInput) {
-            searchInput.placeholder = this.get('search_placeholder');
-        }
         // Update select option labels (legacy support)
         document.querySelectorAll('select option[data-i18n]').forEach(opt => {
             const key = opt.dataset.i18n;
@@ -136,8 +93,6 @@ const I18N = {
         });
         // Update document lang
         document.documentElement.lang = this.current === 'zh' ? 'zh-HK' : 'en';
-        // Re-apply active tags
-        if (typeof updateActiveTags === 'function') updateActiveTags();
     }
 };
 

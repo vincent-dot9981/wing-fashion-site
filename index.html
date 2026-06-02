@@ -16,7 +16,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css?v=68">
+    <link rel="stylesheet" href="css/style.css?v=69">
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='80' fill='%231a1a1a' font-family='serif'>W</text></svg>">
 </head>
 <body>
@@ -55,91 +55,7 @@
         </div>
     </header>
 
-    <!-- Filter Bar -->
-    <div class="filter-bar" id="filterBar">
-        <div class="filter-bar-inner">
-            <button class="filter-toggle-btn" id="filterToggleBtn" onclick="toggleFilterDrawer()" data-i18n="filter_toggle">篩選</button>
-            <span class="product-count" id="productCount"></span>
-        </div>
-        <div class="filter-bar-inner" style="padding-top:0">
-            <div class="filter-active-tags" id="filterActiveTags"></div>
-        </div>
-    </div>
 
-    <!-- Filter Drawer -->
-    <div class="filter-drawer-overlay" id="filterOverlay" onclick="toggleFilterDrawer()"></div>
-    <div class="filter-drawer" id="filterDrawer">
-        <div class="filter-drawer-header">
-            <span class="filter-drawer-title" data-i18n="filter_title">篩選</span>
-            <button class="filter-drawer-close" onclick="toggleFilterDrawer()">&times;</button>
-        </div>
-        <div class="filter-drawer-body">
-            <div class="filter-section">
-                <div class="filter-section-label" data-i18n="filter_search">搜尋</div>
-                <input type="text" class="filter-search-input" id="searchInput" placeholder="搜尋品牌、產品..." data-i18n="search_placeholder" oninput="filterProducts()">
-            </div>
-
-            <div class="filter-section" id="filterSectionGender">
-                <div class="filter-section-label" data-i18n="filter_gender">性別</div>
-                <button class="filter-option active" data-value="all" data-filter="gender" onclick="setFilter('gender', 'all')">
-                    <span class="filter-option-indicator"></span>
-                    <span data-i18n="gender_all">所有性別</span>
-                </button>
-                <button class="filter-option" data-value="men" data-filter="gender" onclick="setFilter('gender', 'men')">
-                    <span class="filter-option-indicator"></span>
-                    <span data-i18n="gender_men">男裝</span>
-                </button>
-                <button class="filter-option" data-value="women" data-filter="gender" onclick="setFilter('gender', 'women')">
-                    <span class="filter-option-indicator"></span>
-                    <span data-i18n="gender_women">女裝</span>
-                </button>
-                <button class="filter-option" data-value="kids" data-filter="gender" onclick="setFilter('gender', 'kids')">
-                    <span class="filter-option-indicator"></span>
-                    <span data-i18n="gender_kids">童裝</span>
-                </button>
-            </div>
-
-            <div class="filter-section" id="filterSectionBrand">
-                <div class="filter-section-label" data-i18n="filter_brand">品牌</div>
-                <button class="filter-option active" data-value="all" data-filter="brand" onclick="setFilter('brand', 'all')">
-                    <span class="filter-option-indicator"></span>
-                    <span data-i18n="all_brands">全部品牌</span>
-                </button>
-                <div id="brandOptionsContainer"></div>
-            </div>
-
-            <div class="filter-section" id="filterSectionOccasion">
-                <div class="filter-section-label" data-i18n="filter_occasion">場合</div>
-                <button class="filter-option active" data-value="all" data-filter="occasion" onclick="setFilter('occasion', 'all')">
-                    <span class="filter-option-indicator"></span>
-                    <span data-i18n="all_occasions">全部場合</span>
-                </button>
-                <button class="filter-option" data-value="casual" data-filter="occasion" onclick="setFilter('occasion', 'casual')">
-                    <span class="filter-option-indicator"></span>
-                    <span data-i18n="occasion_casual">休閒</span>
-                </button>
-                <button class="filter-option" data-value="返工" data-filter="occasion" onclick="setFilter('occasion', '返工')">
-                    <span class="filter-option-indicator"></span>
-                    <span data-i18n="occasion_work">返工</span>
-                </button>
-                <button class="filter-option" data-value="送禮" data-filter="occasion" onclick="setFilter('occasion', '送禮')">
-                    <span class="filter-option-indicator"></span>
-                    <span data-i18n="occasion_gift">送禮</span>
-                </button>
-            </div>
-
-            <div class="filter-section" id="filterSectionCategory">
-                <div class="filter-section-label" data-i18n="filter_category">類別</div>
-                <button class="filter-option active" data-value="all" data-filter="category" onclick="setFilter('category', 'all')">
-                    <span class="filter-option-indicator"></span>
-                    <span data-i18n="all_categories">全部類別</span>
-                </button>
-                <div id="categoryOptionsContainer"></div>
-            </div>
-
-            <button class="filter-reset-btn" onclick="resetFilters()" data-i18n="reset">重設</button>
-        </div>
-    </div>
 
     <!-- Layout Wrapper: Sidebar + Content -->
     <div class="layout-wrapper">
@@ -248,9 +164,9 @@
 </footer>
 
 <!-- ========== SCRIPTS ========== -->
-<script src="js/products.js?v=68"></script>
-<script src="js/data.js?v=68"></script>
-<script src="js/i18n.js?v=68"></script>
-<script src="js/app.js?v=68"></script>
+<script src="js/products.js?v=69"></script>
+<script src="js/data.js?v=69"></script>
+<script src="js/i18n.js?v=69"></script>
+<script src="js/app.js?v=69"></script>
 </body>
 </html>
