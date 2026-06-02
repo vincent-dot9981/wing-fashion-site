@@ -182,7 +182,9 @@ function filterProducts() {
     });
 
     // Apply sidebar category filter (overrides drawer category)
-    if (selectedCategory !== 'all') {
+    if (selectedCategory === 'sale') {
+        results = results.filter(p => p.original_price);
+    } else if (selectedCategory !== 'all') {
         results = results.filter(p => p.category === selectedCategory);
     }
 
@@ -342,6 +344,14 @@ function selectCategory(category) {
         item.classList.toggle('active', item.dataset.category === category);
     });
 
+    // Reset drawer category when switching to sale view
+    if (category === 'sale') {
+        FILTER_STATE.category = 'all';
+        document.querySelectorAll('#filterSectionCategory .filter-option').forEach(opt => {
+            opt.classList.toggle('active', opt.dataset.value === 'all');
+        });
+    }
+
     filterProducts();
 }
 
@@ -349,12 +359,19 @@ function populateSidebar() {
     const sidebar = document.getElementById('categorySidebar');
     const counts = DATA.getCategoryCounts();
     const totalCount = DATA.products.length;
+    const saleCount = DATA.getSaleCount();
 
     let html = '<div class="category-sidebar-label" data-i18n="sidebar_categories">類別</div>';
 
     // "全部" (All) option
     html += '<button class="sidebar-item active" data-category="all" onclick="selectCategory(\'all\')">'
         + '全部 <span class="sidebar-item-count">(' + totalCount + ')</span></button>';
+
+    // "減價產品" (Sale) option
+    if (saleCount > 0) {
+        html += '<button class="sidebar-item" data-category="sale" onclick="selectCategory(\'sale\')">'
+            + '減價產品 <span class="sidebar-item-count">(' + saleCount + ')</span></button>';
+    }
 
     // Each actual category from data
     const categories = DATA.getCategories();

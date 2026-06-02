@@ -470,5 +470,9 @@ const DATA = {
             }
         });
         return counts;
+    },
+
+    getSaleCount() {
+        return this.products.filter(p => p.original_price).length;
     }
 };
