@@ -36,7 +36,31 @@ function closeMenu() {
 
 // ========== PRODUCT RENDERING ==========
 
-/** Flatten campaign entries into standalone product items */
+/** Product-level keyword-to-category map (expanded) */
+const PRODUCT_CATEGORY_KEYWORDS = {
+    '上衣': ['tee', 't-shirt', 'top', 'tank top', 'blouse', 'shirt', 'polo', 'sweater', 'knit', 'pullover', 'jersey', 'cardigan', 'cami', 'neckline', 'cowl neck'],
+    '外套': ['jacket', 'coat', 'blazer', 'hoodie', 'bomber', 'puffer', 'down'],
+    '下身': ['pants', 'trousers', 'jeans', 'leggings', 'skirt', 'shorts'],
+    '連身': ['dress', 'jumpsuit', 'overalls'],
+    '鞋': ['sneaker', 'shoes', 'boots', 'slides', 'mules', 'loafers'],
+    '袋': ['bag', 'tote', 'crossbody', 'backpack', 'shoulder bag'],
+    '飾物': ['cap', 'hat', 'beanie', 'belt', 'scarf', 'sunglasses', 'watch', 'scrunchie']
+};
+
+/** Assign category to a single product by its name */
+function assignProductCategory(productName) {
+    const name = (productName || '').toLowerCase();
+    for (const [cat, keywords] of Object.entries(PRODUCT_CATEGORY_KEYWORDS)) {
+        for (const kw of keywords) {
+            if (name.includes(kw)) {
+                return cat;
+            }
+        }
+    }
+    return '';
+}
+
+/** Flatten campaign entries into standalone product items (each categorized by its own name) */
 function flattenProducts(campaignEntries) {
     const items = [];
     campaignEntries.forEach(entry => {
@@ -49,8 +73,8 @@ function flattenProducts(campaignEntries) {
                 original_price: prod.original_price || '',
                 pdp_url: prod.pdp_url || entry.affiliate_link || '',
                 image: prod.code ? 'images/products_sub/' + encodeURIComponent(prod.code) + '.jpg' : '',
-                // Inherit category from parent campaign for filtering
-                category: entry.category || '',
+                // Categorize each product individually by its own name
+                category: assignProductCategory(prod.name),
                 occasion: entry.occasion || [],
                 gender: entry.gender || 'all',
                 tags: entry.tags || [],
@@ -164,9 +188,13 @@ function populateSidebar() {
             + '減價產品</button>';
     }
 
-    // Each actual category from data
-    const categories = DATA.getCategories();
-    categories.forEach(cat => {
+    // Each category from product-level categorization (via flattenProducts)
+    const allFlat = flattenProducts(DATA.products);
+    const catSet = new Set();
+    allFlat.forEach(p => { if (p.category) catSet.add(p.category); });
+    // Only show the main categories the user wants: 上衣, 下身, 外套
+    const sidebarCats = ['上衣', '下身', '外套'].filter(c => catSet.has(c));
+    sidebarCats.forEach(cat => {
         html += '<button class="sidebar-item" data-category="' + cat + '" onclick="selectCategory(\'' + cat + '\')">'
             + cat + '</button>';
     });
