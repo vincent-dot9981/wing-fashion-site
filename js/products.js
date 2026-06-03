@@ -1,4 +1,4 @@
-// Auto-generated 2026-06-03 15:20:52
+// Auto-generated 2026-06-03 16:37:19
 // Do not edit directly - use campaign_product_map.json
 window.__PRODUCT_DATA = [
   {
@@ -28,7 +28,7 @@ window.__PRODUCT_DATA = [
         "pdp_url": "https://hk.iteshop.com/sit/item/IZXTEF0000650BKX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": 329
+        "original_price": ""
       },
       {
         "code": "MRRJNWPA128XQBLL",
@@ -38,7 +38,7 @@ window.__PRODUCT_DATA = [
         "pdp_url": "https://hk.iteshop.com/bit/item/MRRJNWPA128XQBLL?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": 4999
+        "original_price": ""
       },
       {
         "code": "AMLTPH143550QBKX",
@@ -48,7 +48,7 @@ window.__PRODUCT_DATA = [
         "pdp_url": "https://hk.iteshop.com/sit/item/AMLTPH143550QBKX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": 199
+        "original_price": ""
       }
     ]
   },
@@ -279,7 +279,7 @@ window.__PRODUCT_DATA = [
         "pdp_url": "https://hk.iteshop.com/sit/item/IZXTEF0000510GYD?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": 299
+        "original_price": ""
       },
       {
         "code": "MGGCD8KN610XQBWX",
@@ -289,7 +289,7 @@ window.__PRODUCT_DATA = [
         "pdp_url": "https://hk.iteshop.com/bit/item/MGGCD8KN610XQBWX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": 2599
+        "original_price": ""
       }
     ]
   },
@@ -321,7 +321,7 @@ window.__PRODUCT_DATA = [
         "pdp_url": "https://hk.iteshop.com/bit/item/CXETES29T17MQBKX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": 699
+        "original_price": ""
       },
       {
         "code": "TNTTETSST44MQWHX",
@@ -331,7 +331,7 @@ window.__PRODUCT_DATA = [
         "pdp_url": "https://hk.iteshop.com/bit/item/TNTTETSST44MQWHX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": 599
+        "original_price": ""
       }
     ]
   },
@@ -363,7 +363,7 @@ window.__PRODUCT_DATA = [
         "pdp_url": "https://hk.iteshop.com/bit/item/CMFTE601C10MQBKX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": 1499
+        "original_price": ""
       },
       {
         "code": "AGDSPA0371XXQBLL",
@@ -373,7 +373,7 @@ window.__PRODUCT_DATA = [
         "pdp_url": "https://hk.iteshop.com/bit/item/AGDSPA0371XXQBLL?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": 1599
+        "original_price": ""
       },
       {
         "code": "XAMST899122MQNYX",
@@ -383,7 +383,7 @@ window.__PRODUCT_DATA = [
         "pdp_url": "https://hk.iteshop.com/bit/item/XAMST899122MQNYX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": 4500
+        "original_price": ""
       }
     ]
   },
@@ -414,7 +414,7 @@ window.__PRODUCT_DATA = [
         "pdp_url": "https://hk.iteshop.com/bit/item/TNTTETSST02MQWHX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": 499
+        "original_price": ""
       },
       {
         "code": "NXXJKK24004MQBGX",
@@ -424,7 +424,7 @@ window.__PRODUCT_DATA = [
         "pdp_url": "https://hk.iteshop.com/bit/item/NXXJKK24004MQBGX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": 4499
+        "original_price": ""
       }
     ]
   },
@@ -448,14 +448,14 @@ window.__PRODUCT_DATA = [
     "brand_matches": [],
     "products": [
       {
-        "code": "AMLTPH143550QBKX",
-        "name": "Relaxed top",
-        "brand": "AMERICAN HOLIC",
-        "price": 179,
-        "pdp_url": "https://hk.iteshop.com/sit/item/AMLTPH143550QBKX?tscode=affhr_hk10071365",
+        "code": "IZXTEF0000620BKX",
+        "name": "Coffee graphic tee",
+        "brand": "IZZUE",
+        "price": 89,
+        "pdp_url": "https://hk.iteshop.com/sit/item/IZXTEF0000620BKX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": 199
+        "original_price": ""
       },
       {
         "code": "CXETES29T20MQWHX",
@@ -465,17 +465,17 @@ window.__PRODUCT_DATA = [
         "pdp_url": "https://hk.iteshop.com/bit/item/CXETES29T20MQWHX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": 799
+        "original_price": ""
       },
       {
-        "code": "FFXTEF0001140GYD",
-        "name": "Graphic tee",
-        "brand": "FINGERCROXX",
-        "price": 89,
-        "pdp_url": "https://hk.iteshop.com/sit/item/FFXTEF0001140GYD?tscode=affhr_hk10071365",
+        "code": "NEDSTSX4836MQMLX",
+        "name": "Patchwork shirt",
+        "brand": "NEEDLES",
+        "price": 1190,
+        "pdp_url": "https://hk.iteshop.com/bit/item/NEDSTSX4836MQMLX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": 329
+        "original_price": ""
       }
     ]
   },
@@ -506,7 +506,7 @@ window.__PRODUCT_DATA = [
         "pdp_url": "https://hk.iteshop.com/bit/item/XAMST899122MQNYX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": 4500
+        "original_price": ""
       },
       {
         "code": "FFXTEF0000550GY2",
@@ -516,7 +516,7 @@ window.__PRODUCT_DATA = [
         "pdp_url": "https://hk.iteshop.com/sit/item/FFXTEF0000550GY2?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": 359
+        "original_price": ""
       }
     ]
   },
@@ -547,7 +547,7 @@ window.__PRODUCT_DATA = [
         "pdp_url": "https://hk.iteshop.com/sit/item/FFXTEF0000010WHX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": 359
+        "original_price": ""
       },
       {
         "code": "FFXTEF0001140GYD",
@@ -557,7 +557,7 @@ window.__PRODUCT_DATA = [
         "pdp_url": "https://hk.iteshop.com/sit/item/FFXTEF0001140GYD?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": 329
+        "original_price": ""
       }
     ]
   },
@@ -588,27 +588,27 @@ window.__PRODUCT_DATA = [
         "pdp_url": "https://hk.iteshop.com/bit/item/TNTJNPA5P02MQBKX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": 1499
+        "original_price": ""
       },
       {
-        "code": "EMXTK1177030QBKX",
-        "name": "Ruffled cami",
-        "brand": "earth music&ecology",
-        "price": 413,
-        "pdp_url": "https://hk.iteshop.com/sit/item/EMXTK1177030QBKX?tscode=affhr_hk10071365",
-        "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": "",
-        "original_price": 459
-      },
-      {
-        "code": "FFXTEF0000550GY2",
+        "code": "CXETES29T17MQBKX",
         "name": "Graphic tee",
-        "brand": "FINGERCROXX",
-        "price": 99,
-        "pdp_url": "https://hk.iteshop.com/sit/item/FFXTEF0000550GY2?tscode=affhr_hk10071365",
+        "brand": "C.E",
+        "price": 490,
+        "pdp_url": "https://hk.iteshop.com/bit/item/CXETES29T17MQBKX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": 359
+        "original_price": ""
+      },
+      {
+        "code": "DZXDS6203027QNYX",
+        "name": "Ruched midi dress",
+        "brand": "DAZZLIN",
+        "price": 629,
+        "pdp_url": "https://hk.iteshop.com/sit/item/DZXDS6203027QNYX?tscode=affhr_hk10071365",
+        "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
+        "image": "",
+        "original_price": ""
       }
     ]
   },
@@ -639,7 +639,7 @@ window.__PRODUCT_DATA = [
         "pdp_url": "https://hk.iteshop.com/bit/item/AJXBO4078028QBWX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": 14699
+        "original_price": ""
       },
       {
         "code": "TNTSPSO5S01MQBLX",
@@ -649,7 +649,7 @@ window.__PRODUCT_DATA = [
         "pdp_url": "https://hk.iteshop.com/bit/item/TNTSPSO5S01MQBLX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": 1199
+        "original_price": ""
       }
     ]
   },
@@ -678,7 +678,7 @@ window.__PRODUCT_DATA = [
         "pdp_url": "https://hk.iteshop.com/sit/item/DZXSK6208009QBKZ?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": 959
+        "original_price": ""
       },
       {
         "code": "DZXSP6208018QGYL",
@@ -688,7 +688,7 @@ window.__PRODUCT_DATA = [
         "pdp_url": "https://hk.iteshop.com/sit/item/DZXSP6208018QGYL?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": 659
+        "original_price": ""
       },
       {
         "code": "B1XTEF0003860GYD",
@@ -698,7 +698,7 @@ window.__PRODUCT_DATA = [
         "pdp_url": "https://hk.iteshop.com/sit/item/B1XTEF0003860GYD?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": 329
+        "original_price": ""
       }
     ]
   },
@@ -727,7 +727,7 @@ window.__PRODUCT_DATA = [
         "pdp_url": "https://hk.iteshop.com/bit/item/CMFTE601C19MQBKX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": 999
+        "original_price": ""
       },
       {
         "code": "CXETES29T11MQBKX",
@@ -737,17 +737,17 @@ window.__PRODUCT_DATA = [
         "pdp_url": "https://hk.iteshop.com/bit/item/CXETES29T11MQBKX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": 899
+        "original_price": ""
       },
       {
-        "code": "FFXTEF0000710GY2",
-        "name": "New York graphic tee",
-        "brand": "FINGERCROXX",
-        "price": 99,
-        "pdp_url": "https://hk.iteshop.com/sit/item/FFXTEF0000710GY2?tscode=affhr_hk10071365",
+        "code": "MRRSKWSK135XQBLL",
+        "name": "Moon laser panel denim skirt",
+        "brand": "MARINE SERRE",
+        "price": "HK$2,590.00",
+        "pdp_url": "https://hk.iteshop.com/bit/item/MRRSKWSK135XQBLL?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": 359
+        "original_price": "HK$3,699.00"
       }
     ]
   },
@@ -769,34 +769,34 @@ window.__PRODUCT_DATA = [
     "brand_matches": [],
     "products": [
       {
-        "code": "DZXDS6203027QNYX",
-        "name": "Ruched midi dress",
-        "brand": "DAZZLIN",
-        "price": 629,
-        "pdp_url": "https://hk.iteshop.com/sit/item/DZXDS6203027QNYX?tscode=affhr_hk10071365",
+        "code": "TNTPOTSPS01MQBKX",
+        "name": "Polo tee",
+        "brand": "THISISNEVERTHAT",
+        "price": "HK$560.00",
+        "pdp_url": "https://hk.iteshop.com/bit/item/TNTPOTSPS01MQBKX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": 699
+        "original_price": "HK$799.00"
       },
       {
-        "code": "IZXTEF0000590GYD",
-        "name": "Cross camo tee",
+        "code": "EMOST6204502QBKX",
+        "name": "Sheer cropped shirt",
+        "brand": "EMODA",
+        "price": 399,
+        "pdp_url": "https://hk.iteshop.com/sit/item/EMOST6204502QBKX?tscode=affhr_hk10071365",
+        "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
+        "image": "",
+        "original_price": ""
+      },
+      {
+        "code": "IZXTEF0000650BKX",
+        "name": "Graphic logo tee",
         "brand": "IZZUE",
-        "price": 79,
-        "pdp_url": "https://hk.iteshop.com/sit/item/IZXTEF0000590GYD?tscode=affhr_hk10071365",
+        "price": 89,
+        "pdp_url": "https://hk.iteshop.com/sit/item/IZXTEF0000650BKX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": 299
-      },
-      {
-        "code": "CMFTE601C17MQBKX",
-        "name": "Striped tee",
-        "brand": "COMFY OUTDOOR GARMENT",
-        "price": 975,
-        "pdp_url": "https://hk.iteshop.com/bit/item/CMFTE601C17MQBKX?tscode=affhr_hk10071365",
-        "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": "",
-        "original_price": 1499
+        "original_price": ""
       }
     ]
   },
@@ -818,34 +818,34 @@ window.__PRODUCT_DATA = [
     "brand_matches": [],
     "products": [
       {
-        "code": "EMOST6204502QBKX",
-        "name": "Sheer cropped shirt",
-        "brand": "EMODA",
-        "price": 399,
-        "pdp_url": "https://hk.iteshop.com/sit/item/EMOST6204502QBKX?tscode=affhr_hk10071365",
+        "code": "MRRJKWJA076XQBLL",
+        "name": "Denim trucker zipped jacket",
+        "brand": "MARINE SERRE",
+        "price": "HK$4,200.00",
+        "pdp_url": "https://hk.iteshop.com/bit/item/MRRJKWJA076XQBLL?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": 499
+        "original_price": "HK$5,999.00"
       },
       {
-        "code": "IZXTEF0000620BKX",
-        "name": "Coffee graphic tee",
-        "brand": "IZZUE",
+        "code": "FEVTE170151MQGYX",
+        "name": "Graphic tee",
+        "brand": "FreshService",
+        "price": 420,
+        "pdp_url": "https://hk.iteshop.com/bit/item/FEVTE170151MQGYX?tscode=affhr_hk10071365",
+        "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
+        "image": "",
+        "original_price": ""
+      },
+      {
+        "code": "B1XTEF0003860GYD",
+        "name": "Tennis Club graphic tee",
+        "brand": ":CHOCOOLATE",
         "price": 89,
-        "pdp_url": "https://hk.iteshop.com/sit/item/IZXTEF0000620BKX?tscode=affhr_hk10071365",
+        "pdp_url": "https://hk.iteshop.com/sit/item/B1XTEF0003860GYD?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": 329
-      },
-      {
-        "code": "NEDSTSX4856MQBKX",
-        "name": "Patchwork shirt",
-        "brand": "NEEDLES",
-        "price": 1190,
-        "pdp_url": "https://hk.iteshop.com/bit/item/NEDSTSX4856MQBKX?tscode=affhr_hk10071365",
-        "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": "",
-        "original_price": 1699
+        "original_price": ""
       }
     ]
   },
@@ -867,24 +867,24 @@ window.__PRODUCT_DATA = [
     "brand_matches": [],
     "products": [
       {
-        "code": "AJXBO4078028QBWX",
-        "name": "Sarith Engineer biker boots",
-        "brand": "Ann Demeulemeester",
-        "price": 10290,
-        "pdp_url": "https://hk.iteshop.com/bit/item/AJXBO4078028QBWX?tscode=affhr_hk10071365",
+        "code": "CMFTE601C17MQBKX",
+        "name": "Striped tee",
+        "brand": "COMFY OUTDOOR GARMENT",
+        "price": 975,
+        "pdp_url": "https://hk.iteshop.com/bit/item/CMFTE601C17MQBKX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": 14699
+        "original_price": ""
       },
       {
-        "code": "IZXTEF0000190GY2",
-        "name": "Script logo tee",
-        "brand": "IZZUE",
-        "price": 99,
-        "pdp_url": "https://hk.iteshop.com/sit/item/IZXTEF0000190GY2?tscode=affhr_hk10071365",
+        "code": "FEVTE170151MQGYX",
+        "name": "Graphic tee",
+        "brand": "FreshService",
+        "price": 420,
+        "pdp_url": "https://hk.iteshop.com/bit/item/FEVTE170151MQGYX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": 359
+        "original_price": ""
       }
     ]
   },
@@ -913,17 +913,17 @@ window.__PRODUCT_DATA = [
         "pdp_url": "https://hk.iteshop.com/sit/item/FFXTEF0000220WHX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": 359
+        "original_price": ""
       },
       {
-        "code": "EMXTE1032580QGYD",
-        "name": "Ruffle sleeve tee",
-        "brand": "earth music&ecology",
-        "price": 359,
-        "pdp_url": "https://hk.iteshop.com/sit/item/EMXTE1032580QGYD?tscode=affhr_hk10071365",
+        "code": "MRRJKWJA076XQBLL",
+        "name": "Denim trucker zipped jacket",
+        "brand": "MARINE SERRE",
+        "price": "HK$4,200.00",
+        "pdp_url": "https://hk.iteshop.com/bit/item/MRRJKWJA076XQBLL?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": 399
+        "original_price": "HK$5,999.00"
       }
     ]
   },
@@ -952,7 +952,7 @@ window.__PRODUCT_DATA = [
         "pdp_url": "https://hk.iteshop.com/bit/item/AJXBO4078028QBWX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": 14699
+        "original_price": ""
       },
       {
         "code": "NXXJKK24004MQBGX",
@@ -962,7 +962,7 @@ window.__PRODUCT_DATA = [
         "pdp_url": "https://hk.iteshop.com/bit/item/NXXJKK24004MQBGX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": 4499
+        "original_price": ""
       },
       {
         "code": "PPALT990015MQWHX",
@@ -972,7 +972,7 @@ window.__PRODUCT_DATA = [
         "pdp_url": "https://hk.iteshop.com/bit/item/PPALT990015MQWHX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": 799
+        "original_price": ""
       }
     ]
   },
@@ -1003,7 +1003,7 @@ window.__PRODUCT_DATA = [
         "pdp_url": "https://hk.iteshop.com/sit/item/IZXTEF0000530GY2?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": 329
+        "original_price": ""
       },
       {
         "code": "IZXTEF0000490GY2",
@@ -1013,7 +1013,7 @@ window.__PRODUCT_DATA = [
         "pdp_url": "https://hk.iteshop.com/sit/item/IZXTEF0000490GY2?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": 359
+        "original_price": ""
       },
       {
         "code": "CMFCP01AC04MQBLX",
@@ -1023,7 +1023,7 @@ window.__PRODUCT_DATA = [
         "pdp_url": "https://hk.iteshop.com/bit/item/CMFCP01AC04MQBLX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": 599
+        "original_price": ""
       }
     ]
   },
@@ -1186,14 +1186,14 @@ window.__PRODUCT_DATA = [
     "brand_matches": [],
     "products": [
       {
-        "code": "IZXTEF0000530GY2",
-        "name": "Camo logo tee",
-        "brand": "IZZUE",
-        "price": 89,
-        "pdp_url": "https://hk.iteshop.com/sit/item/IZXTEF0000530GY2?tscode=affhr_hk10071365",
+        "code": "NEDJKSX2176MQBKX",
+        "name": "Embroidered jacket",
+        "brand": "NEEDLES",
+        "price": 1610,
+        "pdp_url": "https://hk.iteshop.com/bit/item/NEDJKSX2176MQBKX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": 329
+        "original_price": ""
       },
       {
         "code": "AGDSPA0371XXQBLL",
@@ -1203,17 +1203,17 @@ window.__PRODUCT_DATA = [
         "pdp_url": "https://hk.iteshop.com/bit/item/AGDSPA0371XXQBLL?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": 1599
+        "original_price": ""
       },
       {
-        "code": "TNTSTSHTL01MQBLX",
-        "name": "Denim shirt",
-        "brand": "THISISNEVERTHAT",
-        "price": 910,
-        "pdp_url": "https://hk.iteshop.com/bit/item/TNTSTSHTL01MQBLX?tscode=affhr_hk10071365",
+        "code": "B1XTEF0003920GYD",
+        "name": "Bear graphic tee",
+        "brand": ":CHOCOOLATE",
+        "price": 99,
+        "pdp_url": "https://hk.iteshop.com/sit/item/B1XTEF0003920GYD?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": 1299
+        "original_price": ""
       }
     ]
   },
@@ -1240,7 +1240,7 @@ window.__PRODUCT_DATA = [
         "pdp_url": "https://hk.iteshop.com/bit/item/TNTJNPA5P02MQBKX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": 1499
+        "original_price": ""
       },
       {
         "code": "FFXTEF0000220WHX",
@@ -1250,7 +1250,7 @@ window.__PRODUCT_DATA = [
         "pdp_url": "https://hk.iteshop.com/sit/item/FFXTEF0000220WHX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": 359
+        "original_price": ""
       },
       {
         "code": "TNTSTSHTL03MQBKX",
@@ -1260,7 +1260,7 @@ window.__PRODUCT_DATA = [
         "pdp_url": "https://hk.iteshop.com/bit/item/TNTSTSHTL03MQBKX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": 1299
+        "original_price": ""
       }
     ]
   },
@@ -1287,7 +1287,7 @@ window.__PRODUCT_DATA = [
         "pdp_url": "https://hk.iteshop.com/bit/item/AGDSPA0371XXQBLL?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": 1599
+        "original_price": ""
       },
       {
         "code": "DZXDS6203027QNYX",
@@ -1297,7 +1297,7 @@ window.__PRODUCT_DATA = [
         "pdp_url": "https://hk.iteshop.com/sit/item/DZXDS6203027QNYX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": 699
+        "original_price": ""
       }
     ]
   },
@@ -1324,7 +1324,7 @@ window.__PRODUCT_DATA = [
         "pdp_url": "https://hk.iteshop.com/sit/item/AMLTPH151510QGYL?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": 199
+        "original_price": ""
       },
       {
         "code": "CXETES29T17MQBKX",
@@ -1334,7 +1334,7 @@ window.__PRODUCT_DATA = [
         "pdp_url": "https://hk.iteshop.com/bit/item/CXETES29T17MQBKX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": 699
+        "original_price": ""
       }
     ]
   },
@@ -1425,14 +1425,14 @@ window.__PRODUCT_DATA = [
     "brand_matches": [],
     "products": [
       {
-        "code": "EMOST6204502QBKX",
-        "name": "Sheer cropped shirt",
-        "brand": "EMODA",
-        "price": 399,
-        "pdp_url": "https://hk.iteshop.com/sit/item/EMOST6204502QBKX?tscode=affhr_hk10071365",
+        "code": "CMFTE601C10MQBKX",
+        "name": "Graphic tee",
+        "brand": "COMFY OUTDOOR GARMENT",
+        "price": 975,
+        "pdp_url": "https://hk.iteshop.com/bit/item/CMFTE601C10MQBKX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": 499
+        "original_price": ""
       },
       {
         "code": "CMFTE601C19MQBKX",
@@ -1442,7 +1442,7 @@ window.__PRODUCT_DATA = [
         "pdp_url": "https://hk.iteshop.com/bit/item/CMFTE601C19MQBKX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": 999
+        "original_price": ""
       }
     ]
   },
@@ -1470,7 +1470,7 @@ window.__PRODUCT_DATA = [
         "pdp_url": "https://hk.iteshop.com/bit/item/CXETES29T20MQWHX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": 799
+        "original_price": ""
       },
       {
         "code": "XAMST899122MQNYX",
@@ -1480,7 +1480,7 @@ window.__PRODUCT_DATA = [
         "pdp_url": "https://hk.iteshop.com/bit/item/XAMST899122MQNYX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": 4500
+        "original_price": ""
       }
     ]
   },
@@ -1508,7 +1508,7 @@ window.__PRODUCT_DATA = [
         "pdp_url": "https://hk.iteshop.com/sit/item/IZXTEF0000510GYD?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": 299
+        "original_price": ""
       },
       {
         "code": "MGGCD8KN610XQBWX",
@@ -1518,7 +1518,7 @@ window.__PRODUCT_DATA = [
         "pdp_url": "https://hk.iteshop.com/bit/item/MGGCD8KN610XQBWX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": 2599
+        "original_price": ""
       }
     ]
   },
@@ -1546,17 +1546,17 @@ window.__PRODUCT_DATA = [
         "pdp_url": "https://hk.iteshop.com/bit/item/NEDSTSX4856MQBKX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": 1699
+        "original_price": ""
       },
       {
-        "code": "MRRSPWSH18DXQBLX",
-        "name": "Denim shorts",
-        "brand": "MARINE SERRE",
-        "price": 2800,
-        "pdp_url": "https://hk.iteshop.com/bit/item/MRRSPWSH18DXQBLX?tscode=affhr_hk10071365",
+        "code": "PPATE900138MQWHX",
+        "name": "Logo tee",
+        "brand": "PATTA",
+        "price": "HK$390.00",
+        "pdp_url": "https://hk.iteshop.com/bit/item/PPATE900138MQWHX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": 3999
+        "original_price": "HK$599.00"
       },
       {
         "code": "TNTSTSHTL03MQBKX",
@@ -1566,7 +1566,7 @@ window.__PRODUCT_DATA = [
         "pdp_url": "https://hk.iteshop.com/bit/item/TNTSTSHTL03MQBKX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": 1299
+        "original_price": ""
       }
     ]
   },
@@ -1595,7 +1595,7 @@ window.__PRODUCT_DATA = [
         "pdp_url": "https://hk.iteshop.com/bit/item/MRRSPWSH18DXQBLX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": 3999
+        "original_price": ""
       },
       {
         "code": "MRRJNWPA128XQBLL",
@@ -1605,17 +1605,16 @@ window.__PRODUCT_DATA = [
         "pdp_url": "https://hk.iteshop.com/bit/item/MRRJNWPA128XQBLL?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": 4999
+        "original_price": ""
       },
       {
-        "code": "MRRSP3ACWOVMQBKX",
-        "name": "Moon printed shorts",
+        "code": "MRRHAWHA002XQMLX",
+        "name": "Printed hair scrunchie",
         "brand": "MARINE SERRE",
-        "price": "HK$1,625.00",
-        "pdp_url": "https://hk.iteshop.com/bit/item/MRRSP3ACWOVMQBKX?tscode=affhr_hk10071365",
+        "price": "HK$700.00",
+        "pdp_url": "https://hk.iteshop.com/bit/item/MRRHAWHA002XQMLX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": "",
-        "original_price": "HK$2,499.00"
+        "image": ""
       }
     ]
   },
@@ -1646,11 +1645,20 @@ window.__PRODUCT_DATA = [
         "image": ""
       },
       {
-        "code": "FPXCPHW2307MQBKX",
-        "name": "Bold branding canvas cap",
+        "code": "FPXTEM3481XMQCCD",
+        "name": "Oversized tee",
         "brand": "Fred Perry",
-        "price": "HK$630.00",
-        "pdp_url": "https://hk.iteshop.com/sit/item/FPXCPHW2307MQBKX?tscode=affhr_hk10071365",
+        "price": "HK$799.00",
+        "pdp_url": "https://hk.iteshop.com/sit/item/FPXTEM3481XMQCCD?tscode=affhr_hk10071365",
+        "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
+        "image": ""
+      },
+      {
+        "code": "FPXTEM2499XMQNYX",
+        "name": "Cable taped tee",
+        "brand": "Fred Perry",
+        "price": "HK$999.00",
+        "pdp_url": "https://hk.iteshop.com/sit/item/FPXTEM2499XMQNYX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": ""
       }
@@ -1674,20 +1682,29 @@ window.__PRODUCT_DATA = [
     ],
     "products": [
       {
-        "code": "FPXTEM2499XMQNYX",
-        "name": "Cable taped tee",
+        "code": "FPXTEM3481XMQCCD",
+        "name": "Oversized tee",
         "brand": "Fred Perry",
-        "price": "HK$999.00",
-        "pdp_url": "https://hk.iteshop.com/sit/item/FPXTEM2499XMQNYX?tscode=affhr_hk10071365",
+        "price": "HK$799.00",
+        "pdp_url": "https://hk.iteshop.com/sit/item/FPXTEM3481XMQCCD?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": ""
       },
       {
-        "code": "FPXSRM2521XMQBKX",
-        "name": "Diamond-print shirt",
+        "code": "FPXSRM2430XMQNYX",
+        "name": "Striped short-sleeve shirt",
         "brand": "Fred Perry",
-        "price": "HK$1,440.00",
-        "pdp_url": "https://hk.iteshop.com/sit/item/FPXSRM2521XMQBKX?tscode=affhr_hk10071365",
+        "price": "HK$1,445.00",
+        "pdp_url": "https://hk.iteshop.com/sit/item/FPXSRM2430XMQNYX?tscode=affhr_hk10071365",
+        "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
+        "image": ""
+      },
+      {
+        "code": "FPXPOM2465XMQCCD",
+        "name": "Fred perry graphic polo shirt",
+        "brand": "Fred Perry",
+        "price": "HK$910.00",
+        "pdp_url": "https://hk.iteshop.com/sit/item/FPXPOM2465XMQCCD?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": ""
       }
@@ -1710,24 +1727,24 @@ window.__PRODUCT_DATA = [
     "brand_matches": [],
     "products": [
       {
-        "code": "IZXTEF0000250GY2",
-        "name": "Bear graphic tee",
+        "code": "IZXTEF0000620BKX",
+        "name": "Coffee graphic tee",
         "brand": "IZZUE",
-        "price": 99,
-        "pdp_url": "https://hk.iteshop.com/sit/item/IZXTEF0000250GY2?tscode=affhr_hk10071365",
+        "price": 89,
+        "pdp_url": "https://hk.iteshop.com/sit/item/IZXTEF0000620BKX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": 359
+        "original_price": ""
       },
       {
-        "code": "XAMST899122MQNYX",
-        "name": "Denim jacket",
-        "brand": "AMI",
-        "price": 3150,
-        "pdp_url": "https://hk.iteshop.com/bit/item/XAMST899122MQNYX?tscode=affhr_hk10071365",
+        "code": "DZXDS6203027QNYX",
+        "name": "Ruched midi dress",
+        "brand": "DAZZLIN",
+        "price": 629,
+        "pdp_url": "https://hk.iteshop.com/sit/item/DZXDS6203027QNYX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": 4500
+        "original_price": ""
       }
     ]
   },
@@ -1748,24 +1765,34 @@ window.__PRODUCT_DATA = [
     "brand_matches": [],
     "products": [
       {
-        "code": "FEVTE170152MQGYX",
-        "name": "Graphic tee",
-        "brand": "FreshService",
-        "price": 420,
-        "pdp_url": "https://hk.iteshop.com/bit/item/FEVTE170152MQGYX?tscode=affhr_hk10071365",
+        "code": "FFXTEF0000840GY2",
+        "name": "Baseball graphic tee",
+        "brand": "FINGERCROXX",
+        "price": "HK$89.00",
+        "pdp_url": "https://hk.iteshop.com/sit/item/FFXTEF0000840GY2?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": 599
+        "original_price": "HK$329.00"
       },
       {
-        "code": "MRRSR2ARDENMQBLX",
-        "name": "Short sleeve shirt",
-        "brand": "MARINE SERRE",
-        "price": 3575,
-        "pdp_url": "https://hk.iteshop.com/bit/item/MRRSR2ARDENMQBLX?tscode=affhr_hk10071365",
+        "code": "TNTSTSHTL03MQBKX",
+        "name": "Plaid shirt",
+        "brand": "THISISNEVERTHAT",
+        "price": 910,
+        "pdp_url": "https://hk.iteshop.com/bit/item/TNTSTSHTL03MQBKX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": 5499
+        "original_price": ""
+      },
+      {
+        "code": "CXETES29T13MQBKX",
+        "name": "Graphic tee",
+        "brand": "C.E",
+        "price": 630,
+        "pdp_url": "https://hk.iteshop.com/bit/item/CXETES29T13MQBKX?tscode=affhr_hk10071365",
+        "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
+        "image": "",
+        "original_price": ""
       }
     ]
   },
@@ -1961,7 +1988,7 @@ window.__PRODUCT_DATA = [
         "pdp_url": "https://hk.iteshop.com/sit/item/B1XTEF0003920GYD?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": 359
+        "original_price": ""
       },
       {
         "code": "FFXTEF0000220WHX",
@@ -1971,7 +1998,7 @@ window.__PRODUCT_DATA = [
         "pdp_url": "https://hk.iteshop.com/sit/item/FFXTEF0000220WHX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": 359
+        "original_price": ""
       },
       {
         "code": "NEDSTSX4836MQMLX",
@@ -1981,7 +2008,7 @@ window.__PRODUCT_DATA = [
         "pdp_url": "https://hk.iteshop.com/bit/item/NEDSTSX4836MQMLX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": 1699
+        "original_price": ""
       }
     ]
   },
@@ -2001,14 +2028,14 @@ window.__PRODUCT_DATA = [
     "brand_matches": [],
     "products": [
       {
-        "code": "EMOST6204502QBKX",
-        "name": "Sheer cropped shirt",
-        "brand": "EMODA",
-        "price": 399,
-        "pdp_url": "https://hk.iteshop.com/sit/item/EMOST6204502QBKX?tscode=affhr_hk10071365",
+        "code": "MRRSKWSK135XQBLL",
+        "name": "Moon laser panel denim skirt",
+        "brand": "MARINE SERRE",
+        "price": "HK$2,590.00",
+        "pdp_url": "https://hk.iteshop.com/bit/item/MRRSKWSK135XQBLL?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": 499
+        "original_price": "HK$3,699.00"
       },
       {
         "code": "NEDJKSX2176MQBKX",
@@ -2018,7 +2045,7 @@ window.__PRODUCT_DATA = [
         "pdp_url": "https://hk.iteshop.com/bit/item/NEDJKSX2176MQBKX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": 2299
+        "original_price": ""
       },
       {
         "code": "CXETES29T20MQWHX",
@@ -2028,7 +2055,7 @@ window.__PRODUCT_DATA = [
         "pdp_url": "https://hk.iteshop.com/bit/item/CXETES29T20MQWHX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": 799
+        "original_price": ""
       }
     ]
   },
@@ -2055,7 +2082,7 @@ window.__PRODUCT_DATA = [
         "pdp_url": "https://hk.iteshop.com/bit/item/CXETES29T13MQBKX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": 899
+        "original_price": ""
       },
       {
         "code": "TNTTETSST03MQNYX",
@@ -2065,7 +2092,7 @@ window.__PRODUCT_DATA = [
         "pdp_url": "https://hk.iteshop.com/bit/item/TNTTETSST03MQNYX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": 599
+        "original_price": ""
       }
     ]
   },
@@ -2092,7 +2119,7 @@ window.__PRODUCT_DATA = [
         "pdp_url": "https://hk.iteshop.com/bit/item/TNTTETSST44MQWHX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": 599
+        "original_price": ""
       },
       {
         "code": "FEVTE170151MQGYX",
@@ -2102,7 +2129,7 @@ window.__PRODUCT_DATA = [
         "pdp_url": "https://hk.iteshop.com/bit/item/FEVTE170151MQGYX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": 599
+        "original_price": ""
       }
     ]
   },
@@ -2129,7 +2156,7 @@ window.__PRODUCT_DATA = [
         "pdp_url": "https://hk.iteshop.com/bit/item/AJXBO4078028QBWX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": 14699
+        "original_price": ""
       },
       {
         "code": "TNTPTPA5P04MQGYX",
@@ -2139,7 +2166,7 @@ window.__PRODUCT_DATA = [
         "pdp_url": "https://hk.iteshop.com/bit/item/TNTPTPA5P04MQGYX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": 1499
+        "original_price": ""
       }
     ]
   },
@@ -2166,17 +2193,17 @@ window.__PRODUCT_DATA = [
         "pdp_url": "https://hk.iteshop.com/sit/item/IZXTEF0000250GY2?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": 359
+        "original_price": ""
       },
       {
-        "code": "CMFCP01AC04MQBLX",
-        "name": "Perforated cap",
-        "brand": "COMFY OUTDOOR GARMENT",
-        "price": 390,
-        "pdp_url": "https://hk.iteshop.com/bit/item/CMFCP01AC04MQBLX?tscode=affhr_hk10071365",
+        "code": "MRRSKWSK135XQBLL",
+        "name": "Moon laser panel denim skirt",
+        "brand": "MARINE SERRE",
+        "price": "HK$2,590.00",
+        "pdp_url": "https://hk.iteshop.com/bit/item/MRRSKWSK135XQBLL?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": 599
+        "original_price": "HK$3,699.00"
       }
     ]
   },
@@ -2203,7 +2230,7 @@ window.__PRODUCT_DATA = [
         "pdp_url": "https://hk.iteshop.com/bit/item/CMFPT601P04MQBKX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": 1999
+        "original_price": ""
       },
       {
         "code": "MRRJNWPA128XQBLL",
@@ -2213,17 +2240,17 @@ window.__PRODUCT_DATA = [
         "pdp_url": "https://hk.iteshop.com/bit/item/MRRJNWPA128XQBLL?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": 4999
+        "original_price": ""
       },
       {
-        "code": "IZXTEF0000590GYD",
-        "name": "Cross camo tee",
-        "brand": "IZZUE",
-        "price": 79,
-        "pdp_url": "https://hk.iteshop.com/sit/item/IZXTEF0000590GYD?tscode=affhr_hk10071365",
+        "code": "MRRJKWJA076XQBLL",
+        "name": "Denim trucker zipped jacket",
+        "brand": "MARINE SERRE",
+        "price": "HK$4,200.00",
+        "pdp_url": "https://hk.iteshop.com/bit/item/MRRJKWJA076XQBLL?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": 299
+        "original_price": "HK$5,999.00"
       }
     ]
   }
