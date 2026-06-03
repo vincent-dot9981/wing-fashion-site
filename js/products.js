@@ -1,4 +1,4 @@
-// Auto-generated 2026-06-03 21:44:20
+// Auto-generated 2026-06-03 21:53:31
 // Do not edit directly - use campaign_product_map.json
 window.__PRODUCT_DATA = [
   {
@@ -779,7 +779,7 @@ window.__PRODUCT_DATA = [
         "pdp_url": "https://hk.iteshop.com/bit/item/CXETES29T17MQBKX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": ""
+        "original_price": 699
       },
       {
         "code": "FFXTEF0000710GY2",
@@ -849,7 +849,7 @@ window.__PRODUCT_DATA = [
         "pdp_url": "https://hk.iteshop.com/sit/item/B1XTEF0003860GYD?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": ""
+        "original_price": 329
       },
       {
         "code": "CMFCP01AC04MQBLX",
@@ -1113,7 +1113,7 @@ window.__PRODUCT_DATA = [
         "pdp_url": "https://hk.iteshop.com/sit/item/IZXTEF0000190GY2?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": ""
+        "original_price": 359
       },
       {
         "code": "SGESPPSDBLCMQBLX",
@@ -1385,7 +1385,7 @@ window.__PRODUCT_DATA = [
         "pdp_url": "https://hk.iteshop.com/bit/item/MRRSR2ARDENMQBLX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": ""
+        "original_price": 5499
       },
       {
         "code": "IZXTEF0000650BKX",
@@ -2062,7 +2062,7 @@ window.__PRODUCT_DATA = [
         "pdp_url": "https://hk.iteshop.com/bit/item/CXETES29T17MQBKX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": ""
+        "original_price": 699
       },
       {
         "code": "MGGCD8KN101XQGYX",
@@ -2270,10 +2270,11 @@ window.__PRODUCT_DATA = [
         "code": "MRRSP3ACWOVMQBKX",
         "name": "Moon printed shorts",
         "brand": "MARINE SERRE",
-        "price": "HK$1,625.00",
+        "price": 1625,
         "pdp_url": "https://hk.iteshop.com/bit/item/MRRSP3ACWOVMQBKX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
-        "image": ""
+        "image": "",
+        "original_price": 2499
       }
     ]
   },
@@ -2498,7 +2499,7 @@ window.__PRODUCT_DATA = [
         "pdp_url": "https://hk.iteshop.com/sit/item/IZXTEF0000190GY2?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": ""
+        "original_price": 359
       },
       {
         "code": "CXETES29T20MQWHX",
