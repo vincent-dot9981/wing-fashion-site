@@ -1,4 +1,4 @@
-// Auto-generated 2026-06-04 00:47:23
+// Auto-generated 2026-06-04 01:49:08
 // Do not edit directly - use campaign_product_map.json
 window.__PRODUCT_DATA = [
   {
@@ -1142,7 +1142,7 @@ window.__PRODUCT_DATA = [
         "pdp_url": "https://hk.iteshop.com/sit/item/IZXTEF0000490GY2?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": ""
+        "original_price": 359
       },
       {
         "code": "KGLTEMST2827QWHX",
@@ -1829,7 +1829,7 @@ window.__PRODUCT_DATA = [
         "pdp_url": "https://hk.iteshop.com/bit/item/FEVTE170151MQGYX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": ""
+        "original_price": 599
       },
       {
         "code": "TNTTETSST02MQWHX",
@@ -1956,7 +1956,7 @@ window.__PRODUCT_DATA = [
         "pdp_url": "https://hk.iteshop.com/bit/item/FEVTE170151MQGYX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": ""
+        "original_price": 599
       },
       {
         "code": "MRRSR2ARDENMQBLX",
@@ -2449,7 +2449,7 @@ window.__PRODUCT_DATA = [
         "pdp_url": "https://hk.iteshop.com/sit/item/IZXTEF0000490GY2?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": ""
+        "original_price": 359
       },
       {
         "code": "TNTSPSO5S01MQBLX",
@@ -2879,7 +2879,7 @@ window.__PRODUCT_DATA = [
         "pdp_url": "https://hk.iteshop.com/bit/item/FEVTE170151MQGYX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": ""
+        "original_price": 599
       },
       {
         "code": "ZNXTE232JAEMQBKX",
