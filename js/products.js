@@ -1,4 +1,4 @@
-// Auto-generated 2026-06-03 08:51:54
+// Auto-generated 2026-06-03 10:57:44
 // Do not edit directly - use campaign_product_map.json
 window.__PRODUCT_DATA = [
   {
@@ -282,14 +282,14 @@ window.__PRODUCT_DATA = [
         "original_price": "HK$599.00"
       },
       {
-        "code": "PPATE900138MQWHX",
-        "name": "Logo tee",
+        "code": "PPATE980019MQBLX",
+        "name": "Logo jersey tee",
         "brand": "PATTA",
-        "price": "HK$390.00",
-        "pdp_url": "https://hk.iteshop.com/bit/item/PPATE900138MQWHX?tscode=affhr_hk10071365",
-        "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
+        "price": "HK80.00",
+        "pdp_url": "https://hk.iteshop.com/bit/item/PPATE980019MQBLX?tscode=affhr_hk10071365",
+        "source_url": "https://hk.iteshop.com/bit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": "HK$599.00"
+        "original_price": "HK/bin/bash.00"
       }
     ]
   },
