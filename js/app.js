@@ -105,11 +105,20 @@ function renderProducts(products) {
         const prodPrice = prod.price || '';
         const origPrice = prod.original_price || '';
 
+        function formatPrice(val) {
+            if (!val) return '';
+            if (typeof val === 'number') {
+                return 'HK$' + val.toLocaleString('en-US', {minimumFractionDigits: 2, maximumFractionDigits: 2});
+            }
+            // Already has HK$ prefix (e.g. "HK$1,999.00")
+            if (String(val).startsWith('HK$')) return val;
+            return 'HK$' + val;
+        }
         let priceHtml;
         if (origPrice) {
-            priceHtml = `<span class="original-price">${escHtml(origPrice)}</span><span class="sale-price">${escHtml(prodPrice)}</span>`;
+            priceHtml = `<span class="original-price">${escHtml(formatPrice(origPrice))}</span><span class="sale-price">${escHtml(formatPrice(prodPrice))}</span>`;
         } else {
-            priceHtml = `<span class="product-flat-price">${escHtml(prodPrice)}</span>`;
+            priceHtml = `<span class="product-flat-price">${escHtml(formatPrice(prodPrice))}</span>`;
         }
 
         return `
