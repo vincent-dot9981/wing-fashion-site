@@ -1,4 +1,4 @@
-// Auto-generated 2026-06-04 03:52:40
+// Auto-generated 2026-06-04 08:09:30
 // Do not edit directly - use campaign_product_map.json
 window.__PRODUCT_DATA = [
   {
@@ -2981,7 +2981,7 @@ window.__PRODUCT_DATA = [
         "pdp_url": "https://hk.iteshop.com/bit/item/NEDSTSX4836MQMLX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": ""
+        "original_price": 1699
       },
       {
         "code": "CXETES29T13MQBKX",
