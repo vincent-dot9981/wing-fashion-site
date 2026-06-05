@@ -9,13 +9,13 @@ const I18N = {
             nav_home: '首頁',
             nav_about: '關於我們',
             hero_title: '尋寶圖_服裝部',
-            hero_sub: '你的時尚顧問',
-            hero_cta: 'WhatsApp我\n更多隱藏優惠',
+            hero_sub: '你嘅時尚顧問團隊',
+            hero_cta: 'WhatsApp我哋\n更多隱藏優惠',
             sidebar_categories: '類別',
             featured_title: '限時優惠精選',
             no_results: '找不到相關產品，請嘗試其他關鍵字',
             about_title: '關於尋寶圖_服裝部',
-            about_tagline: '你的時尚尋寶地圖',
+            about_tagline: '你嘅時尚顧問團隊',
             about_who_title: '我們的使命',
             about_who_text1: '幫你喺眾多名牌中，快速搵到最適合你身形、風格嘅服裝。唔需要自己逐個品牌慢慢睇，我哋幫你篩選好。',
             about_who_text2: '每日更新 ITeSHOP 最新優惠，獨家折扣連結直接落單，簡單快捷。',
@@ -31,19 +31,19 @@ const I18N = {
             about_cta_btn: 'WhatsApp 查詢',
             footer_brand: '尋寶圖_服裝部',
             footer_tag: '',
-            footer_disclaimer: '使用聯盟連結購物，我會獲得小額佣金，但不會影響你的價格。感謝支持！'
+            footer_disclaimer: '使用聯盟連結購物，我哋會獲得小額佣金，但不會影響你的價格。感謝支持！'
         },
         en: {
             nav_home: 'Home',
             nav_about: 'About Us',
             hero_title: 'Treasure Map_Fashion',
-            hero_sub: 'Your Style Consultant',
-            hero_cta: 'WhatsApp Me\nMore Hidden Deals',
+            hero_sub: 'Your Style Consultant Team',
+            hero_cta: 'WhatsApp Us\nMore Hidden Deals',
             sidebar_categories: 'Categories',
             featured_title: 'Limited Time Offers',
             no_results: 'No products found. Try different keywords.',
             about_title: 'About Treasure Map_Fashion',
-            about_tagline: 'Your Fashion Treasure Map',
+            about_tagline: 'Your Style Consultant Team',
             about_who_title: 'Our Mission',
             about_who_text1: 'We help you find the best-fitting, most stylish pieces across top designer brands — no need to browse every brand yourself. Let us curate for you.',
             about_who_text2: 'Daily updated ITeSHOP deals, exclusive discount links, one-click ordering.',
@@ -59,7 +59,7 @@ const I18N = {
             about_cta_btn: 'Chat with Us',
             footer_brand: "Treasure Map_Fashion",
             footer_tag: '',
-            footer_disclaimer: "Using affiliate links helps support me with a small commission at no extra cost to you. Thanks for your support!"
+            footer_disclaimer: "Using affiliate links helps support us with a small commission at no extra cost to you. Thanks for your support!"
         }
     },
 
