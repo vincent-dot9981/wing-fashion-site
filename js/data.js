@@ -1,5 +1,5 @@
 /**
- * WING Fashion Hub - Data Loader
+ * 尋寶圖_服裝部 — Data Loader
  * Loads product data from campaign_product_map.json or inline products.js
  * Each entry has a 'products' array with specific product PDP links.
  */

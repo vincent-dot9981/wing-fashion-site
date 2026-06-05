@@ -1,5 +1,5 @@
 /**
- * WING Fashion Hub - i18n / 中英雙語
+ * 尋寶圖_服裝部 — i18n / 中英雙語
  */
 
 const I18N = {
