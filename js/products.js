@@ -1,4 +1,4 @@
-// Auto-generated 2026-06-08 09:47:21
+// Auto-generated 2026-06-08 09:55:35
 // Do not edit directly - use campaign_product_map.json
 window.__PRODUCT_DATA = [
   {
@@ -3261,7 +3261,8 @@ window.__PRODUCT_DATA = [
         "brand": "THISISNEVERTHAT",
         "price": 840,
         "original_price": 1199,
-        "image": "https://ithk-pro-itmall-item.oss-cn-hongkong.aliyuncs.com/2/product/TNTSTSHTL02MQWHX/TNTSTSHTL02MQWHX-pdp-1.jpg",
+        "original_image": "https://ithk-pro-itmall-item.oss-cn-hongkong.aliyuncs.com/2/product/TNTSTSHTL02MQWHX/TNTSTSHTL02MQWHX-pdp-1.jpg",
+        "image": "",
         "pdp_url": "https://hk.iteshop.com/bit/item/TNTSTSHTL02MQWHX?tscode=affhr_hk10071365",
         "tags": [
           "sale",
@@ -3274,7 +3275,8 @@ window.__PRODUCT_DATA = [
         "brand": "BEAUTY & YOUTH",
         "price": 863,
         "original_price": 959,
-        "image": "https://ithk-pro-itmall-item.oss-cn-hongkong.aliyuncs.com/2/product/BYUSRM121610QGYZ/BYUSRM121610QGYZ-pdp-1.jpg",
+        "original_image": "https://ithk-pro-itmall-item.oss-cn-hongkong.aliyuncs.com/2/product/BYUSRM121610QGYZ/BYUSRM121610QGYZ-pdp-1.jpg",
+        "image": "",
         "pdp_url": "https://hk.iteshop.com/sit/item/BYUSRM121610QGYZ?tscode=affhr_hk10071365",
         "tags": [
           "sale",
@@ -3287,7 +3289,8 @@ window.__PRODUCT_DATA = [
         "brand": "FRESH",
         "price": 467.6744,
         "original_price": 860,
-        "image": "https://ithk-pro-itmall-item.oss-cn-hongkong.aliyuncs.com/2/product/%2BFRACX0158353MLX/809280158353_1.jpg",
+        "original_image": "https://ithk-pro-itmall-item.oss-cn-hongkong.aliyuncs.com/2/product/%2BFRACX0158353MLX/809280158353_1.jpg",
+        "image": "",
         "pdp_url": "https://hk.iteshop.com/sit/item/FRACX0158353MLX?tscode=affhr_hk10071365",
         "tags": [
           "sale",
@@ -3300,7 +3303,8 @@ window.__PRODUCT_DATA = [
         "brand": "N.HOOLYWOOD",
         "price": 3600,
         "original_price": 4499,
-        "image": "https://ithk-pro-itmall-item.oss-cn-hongkong.aliyuncs.com/2/product/NXXJKK24004MQBGX/NXXJKK24004MQBGX-pdp-1.jpg",
+        "original_image": "https://ithk-pro-itmall-item.oss-cn-hongkong.aliyuncs.com/2/product/NXXJKK24004MQBGX/NXXJKK24004MQBGX-pdp-1.jpg",
+        "image": "",
         "pdp_url": "https://hk.iteshop.com/bit/item/NXXJKK24004MQBGX?tscode=affhr_hk10071365",
         "tags": [
           "sale",
@@ -3313,7 +3317,8 @@ window.__PRODUCT_DATA = [
         "brand": "PALOMA WOOL",
         "price": 1600,
         "original_price": 1999,
-        "image": "https://ithk-pro-itmall-item.oss-cn-hongkong.aliyuncs.com/2/product/PWOBTWL0002XQBKX/PWOBTWL0002XQBKX-pdp-1.jpg",
+        "original_image": "https://ithk-pro-itmall-item.oss-cn-hongkong.aliyuncs.com/2/product/PWOBTWL0002XQBKX/PWOBTWL0002XQBKX-pdp-1.jpg",
+        "image": "",
         "pdp_url": "https://hk.iteshop.com/bit/item/PWOBTWL0002XQBKX?tscode=affhr_hk10071365",
         "tags": [
           "sale",
@@ -3326,7 +3331,8 @@ window.__PRODUCT_DATA = [
         "brand": "BEAUTY & YOUTH",
         "price": 899,
         "original_price": 999,
-        "image": "https://ithk-pro-itmall-item.oss-cn-hongkong.aliyuncs.com/2/product/BYUSRM000028QGRZ/BYUSRM000028QGRZ-pdp-1.jpg",
+        "original_image": "https://ithk-pro-itmall-item.oss-cn-hongkong.aliyuncs.com/2/product/BYUSRM000028QGRZ/BYUSRM000028QGRZ-pdp-1.jpg",
+        "image": "",
         "pdp_url": "https://hk.iteshop.com/sit/item/BYUSRM000028QGRZ?tscode=affhr_hk10071365",
         "tags": [
           "sale",
@@ -3339,7 +3345,8 @@ window.__PRODUCT_DATA = [
         "brand": "BEAUTY & YOUTH",
         "price": 899,
         "original_price": 999,
-        "image": "https://ithk-pro-itmall-item.oss-cn-hongkong.aliyuncs.com/2/product/BYUSRM000002QGYZ/BYUSRM000002QGYZ-pdp-1.jpg",
+        "original_image": "https://ithk-pro-itmall-item.oss-cn-hongkong.aliyuncs.com/2/product/BYUSRM000002QGYZ/BYUSRM000002QGYZ-pdp-1.jpg",
+        "image": "",
         "pdp_url": "https://hk.iteshop.com/sit/item/BYUSRM000002QGYZ?tscode=affhr_hk10071365",
         "tags": [
           "sale",
@@ -3352,7 +3359,8 @@ window.__PRODUCT_DATA = [
         "brand": "FRESH",
         "price": 246.7442,
         "original_price": 580,
-        "image": "https://ithk-pro-itmall-item.oss-cn-hongkong.aliyuncs.com/2/product/%2BFRACX0156625MLX/809280156625_1.jpg",
+        "original_image": "https://ithk-pro-itmall-item.oss-cn-hongkong.aliyuncs.com/2/product/%2BFRACX0156625MLX/809280156625_1.jpg",
+        "image": "",
         "pdp_url": "https://hk.iteshop.com/sit/item/FRACX0156625MLX?tscode=affhr_hk10071365",
         "tags": [
           "sale",
