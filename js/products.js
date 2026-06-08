@@ -1,4 +1,4 @@
-// Auto-generated 2026-06-08 10:56:59
+// Auto-generated 2026-06-08 12:27:10
 // Do not edit directly - use campaign_product_map.json
 window.__PRODUCT_DATA = [
   {
@@ -54,11 +54,11 @@ window.__PRODUCT_DATA = [
         "code": "FFXTEF0000010WHX",
         "name": "Graphic tee",
         "brand": "FINGERCROXX",
-        "price": 99,
+        "price": "HK$99.00",
         "pdp_url": "https://hk.iteshop.com/sit/item/FFXTEF0000010WHX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": null
+        "original_price": "HK$359.00"
       }
     ]
   },
@@ -781,11 +781,11 @@ window.__PRODUCT_DATA = [
         "code": "FFXTEF0000840GY2",
         "name": "Baseball graphic tee",
         "brand": "FINGERCROXX",
-        "price": 89,
+        "price": "HK$89.00",
         "pdp_url": "https://hk.iteshop.com/sit/item/FFXTEF0000840GY2?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": null
+        "original_price": "HK$329.00"
       }
     ]
   },
@@ -3005,11 +3005,11 @@ window.__PRODUCT_DATA = [
         "code": "IZXTEF0000490GY2",
         "name": "Bear graphic tee",
         "brand": "IZZUE",
-        "price": 99,
+        "price": "HK$99.00",
         "pdp_url": "https://hk.iteshop.com/sit/item/IZXTEF0000490GY2?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": null
+        "original_price": "HK$359.00"
       }
     ]
   },
@@ -3062,11 +3062,11 @@ window.__PRODUCT_DATA = [
         "code": "IZXTEF0000620BKX",
         "name": "Coffee graphic tee",
         "brand": "IZZUE",
-        "price": 89,
+        "price": "HK$89.00",
         "pdp_url": "https://hk.iteshop.com/sit/item/IZXTEF0000620BKX?tscode=affhr_hk10071365",
         "source_url": "https://hk.iteshop.com/sit/sale?tscode=affhr_hk10071365",
         "image": "",
-        "original_price": null
+        "original_price": "HK$329.00"
       }
     ]
   },
