@@ -1,4 +1,4 @@
-// Auto-generated 2026-06-08 10:00:38
+// Auto-generated 2026-06-08 10:56:59
 // Do not edit directly - use campaign_product_map.json
 window.__PRODUCT_DATA = [
   {
@@ -3291,7 +3291,7 @@ window.__PRODUCT_DATA = [
         "original_price": 860,
         "original_image": "https://ithk-pro-itmall-item.oss-cn-hongkong.aliyuncs.com/2/product/%2BFRACX0158353MLX/809280158353_1.jpg",
         "image": "",
-        "pdp_url": "https://hk.iteshop.com/bit/item/FRACX0158353MLX?tscode=affhr_hk10071365",
+        "pdp_url": "https://hk.iteshop.com/bit/item/%2BFRACX0158353MLX?tscode=affhr_hk10071365",
         "tags": [
           "sale",
           "特價"
@@ -3361,7 +3361,7 @@ window.__PRODUCT_DATA = [
         "original_price": 580,
         "original_image": "https://ithk-pro-itmall-item.oss-cn-hongkong.aliyuncs.com/2/product/%2BFRACX0156625MLX/809280156625_1.jpg",
         "image": "",
-        "pdp_url": "https://hk.iteshop.com/bit/item/FRACX0156625MLX?tscode=affhr_hk10071365",
+        "pdp_url": "https://hk.iteshop.com/bit/item/%2BFRACX0156625MLX?tscode=affhr_hk10071365",
         "tags": [
           "sale",
           "特價"
