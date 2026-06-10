@@ -3381,7 +3381,7 @@ window.__PRODUCT_DATA = [
         "original_price": 420,
         "original_image": "https://ithk-pro-itmall-item.oss-cn-hongkong.aliyuncs.com/2/product/%2BFRACX0164255MLX/809280164255_1.jpg",
         "image": "",
-        "pdp_url": "https://hk.iteshop.com/sit/item/FRACX0164255MLX?tscode=affhr_hk10071365",
+        "pdp_url": "https://hk.iteshop.com/bit/item/%2BFRACX0164255MLX?tscode=affhr_hk10071365",
         "tags": [
           "sale",
           "特價"
